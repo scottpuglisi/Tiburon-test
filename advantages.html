@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <script src="https://kit.fontawesome.com/a9d33181e5.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://www.gstatic.com/charts/loader.js"></script>
+        <script>
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['', 'Tiburon', 'Competition'],
+          ['2016', 529, 381],
+          ['2017', 594, 281],
+          ['2018', 614, 275]
+        ]);
+
+        var options = {
+          bars: 'vertical',
+          legend: {position: 'none'},
+          vAxis: {format: 'currency'},
+          height: 450,
+          colors: ['#1E90FF', '#9BACBE'],
+          chartArea: {
+            backgroundColor: {
+            fill: '#f7f7f7',
+            fillOpacity: 1},
+      },
+ 
+      backgroundColor: {
+        fill: '#f7f7f7',
+        fillOpacity: 1
+      },
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('chart_div'));
+  chart.draw(data, google.charts.Bar.convertOptions(options));
+  window.addEventListener('resize', drawChart, false);
+        }
+      
+        </script>
+        
+        <title>Tiburon Lockers</title>
+    </head>
+
+    <body>       
+        <header class="header-adv">
+                <nav class="top-sticky"> 
+                        <div class="row">
+                            <a href="../tiburon_web/index.html"><img src="resources/img/tib-logo_blue2019.png" alt="Tiburon Lockers Logo" class="logo-black"></a>
+                            <a href="../tiburon_web/index.html"><img src="resources/img/tib-logo_white2019.png" alt="Tiburon Lockers Logo" class="logo"></a>
+                            <a class="mobile-nav-icon js--nav-icon"><i class="ion-md-reorder"></i></a>
+                                <ul class="main-nav js--main-nav" id="nav-items">
+        
+                                    <li class="no-left-margin">
+                                         <div class="dropdown">
+                                            <div class="dropbtn">
+                                                <a href="index.html">Home</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                
+                                    <li class="no-left-margin">
+                                        <div class="dropdown-ele dropbtn-ele">
+                                            <div id="sticky-ele-nav" class="dropbtn-ele">
+                                                <a href="lockers-ele.html">Lockers</a>
+                                            </div>
+                                        
+                                        <div class="show-hide-div">
+                                            <div id="sticky-nav-bg" class="dropdown-content-ele">
+                                                    <a class="ele-link-space ele-link-space-ext" href="lockers-ele.html">Electronic</a>
+                                                    <a class="ele-link-space mech-link-space" href="lockers-mech.html">Coin</a>
+                                            </div>                                            
+                                        </div>
+                                    </div>
+                                    </li>
+        
+                                    <li class="no-left-margin">
+                                        <div class="dropdown-adv dropbtn-adv">
+                                            <div id="sticky-adv-nav" class="dropbtn-adv">
+                                                <a href="advantages.html" class="this-page">Advantages</a>
+                                            </div>
+                                        
+                                        <div class="show-hide-div">
+                                            <div id="sticky-adv-bg" class="dropdown-content-adv">
+                                                    <a class="ele-link-space" href="advantages.html#rev-share">Earn More</a>
+                                                    <a class="ele-link-space" href="advantages.html#technology">Technology</a>
+                                                    <a class="ele-link-space" href="advantages.html#service">Service</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </li>
+        
+                                    <li>
+                                        <div class="dropdown">
+                                            <div class="dropbtn">
+                                                    <a href="about.html">About</a>
+                                            </div>
+                                        </div>
+                                    </li>
+        
+                                    <li>
+                                        <div class="dropdown">
+                                            <div class="dropbtn">
+                                                    <a href="contact.html">Contact</a>
+                                            </div>
+                                        </div>
+                                    </li>
+        
+                                </ul>
+                        </div>
+                    </nav>
+            
+            <div class="hero-text-box-other">
+                <h1 class="other">Advantages</h1>
+                <h2 class="header-subtext">Outclassing the competition</h2>
+            </div>
+        </header>
+
+<section class="js--section-intro" id="rev-share">
+            <div class="row span-1-of-1">
+            <h2 class="contact-spacer">Earn more with revenue share</h2>
+            </div>
+            <br>
+
+<br>
+            <div class="row">
+                <div class="col span-4-of-7 full-width">
+                    <p class="adv-left-copy">The sports industry is a multibillion-dollar industry and one of the largest generators of concessions based revenue in the world, yet no major franchise manages
+                        their own concessions at their facilities - they leave it to the professionals.
+                    <br><br>
+                    Having our locker service is no different. Sharing doesn't mean you're giving something away, or that the results will be any less. Tiburon has repeatedly demonstrated
+                that our locker systems will earn you the most revenue in any circumstance.
+                </div>
+                <div class="col span-3-of-7 full-width">
+                    <img class="earn-more-pic" alt="Tiburon locker rentals earn more revenue" src="../tiburon_web/resources/img/locker-silo.png">
+                </div>
+        </div>
+
+</section>
+
+<br>
+
+    <section class="everywhere-you-go-adv">
+    <h3 class="adv-header">Case Study #1:<br>Tiburon Lockers Vs. The Competition<br>
+        Head-to-head at the same location</h3>
+    </section>
+
+
+    <section class="section-features"><br>
+            <h3 class="case-study case-study-copy-red2"> At a resort with both Tiburon and a competitor's lockers installed at the same time:</h3>
+        <div class="row">
+            <div class="span-4-of-8">
+                <div class="case-pad">
+                    <ul>
+                        <li class="case-study-copy">Tiburon Lockers earned more revenue per locker door versus the competition every year</li>
+                        <li class="case-study-copy">Tiburon grew locker revenue every year, while the competition's revenue declined every year</li>
+                        <li class="case-study-copy">Tiburon more than doubled the competition's revenue in each of the last two years</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="span-4-of-8">
+                    <div class="case-pad">
+                        <div class="chart">
+                            <div id="chart_div"></div>
+                        </div>
+                    <div class="row">
+                        <div class="col span-1-of-2">
+                            <p class="box-legend-tib">Tiburon</p>
+                        </div>
+                        <div class="col span-1-of-2">
+                            <p class="box-legend-comp">Competition</p>
+                        </div>
+                    <div class="row">
+                        <p class="chart-legend">Average Profit, Yearly Per Door<br>2016-2018</p>
+                    </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <h3 class="case-study case-study-copy-red2">Tiburon paid out more revenue, even though the competition offered a higher revenue share percentage</h3>
+        <br>
+    </section>
+
+    <section class="everywhere-you-go-adv">
+        <h3 class="adv-header">Case Study #2:<br>Tiburon Lockers Vs. Owning lockers</h3>
+    </section>
+
+    <section class="everwhere-you-go-adv adv-yellow-bg">
+            <div>
+                <div class="row b4a-padding">
+                        <div class="col span-3-of-7">
+                                <a><img src="../tiburon_web/resources/img/tib-v-mech/other-mech2.png" class="adv-pic-width" alt="Event Lockers"/></a>
+                        </div>
+
+                        <div class="col span-1-of-7">
+                                <i class="icon ion-md-arrow-forward adv-icon-width icon-adv-big"></i>
+                        </div>
+
+                    <div class="col span-3-of-7">
+                            <a><img src="../tiburon_web/resources/img/tib-v-mech/tib-v-mech2.png" class="adv-pic-width" alt="Event Lockers"/></a>
+                    </div>
+                </div>   
+                
+            </div>
+            <h3 class="case-study case-study-copy-red2">Tiburon is guaranteed to increase locker revenue when venues upgrade to our
+                    premium electronic lockers from any other product or service</h3>   
+        </section>
+
+<div class="hero-triangle">
+
+<section class="section-features">
+    <div class="row">
+        <div class="col span-5-of-7 box-2"><br>
+            <i class="icon ion-md-trophy icon-big"></i>
+                <h3>Tiburon<br>Beats<br>Purchasing</h3>
+                    <p class="intro-copy justify">
+Unhappy with their purchase of stainless steel lockers, a park decided to 
+partner with Tiburon for electronic lockers.
+                    </p>
+                    <p class="intro-copy justify">
+With only 7.5% of the total locker doors, Tiburon generated more than 50% of the total locker revenue,
+averaging over 550% more revenue per locker door.
+                    </p>
+        </div>
+    </div>
+</section>
+
+<section class="section-features">
+    <div class="row">
+        <div class="col span-5-of-7 box-2"><br>
+            <i class="icon ion-md-swap icon-big"></i>
+                <h3>Replacing<br>Electronic<br>Lockers</h3>
+                    <p class="intro-copy justify">
+                    A resort that receives over seven million visitors annually had their own electronic lockers they purchased from another company.
+                    </p>
+                    <p class="intro-copy justify">
+                    A year later they replaced their off the shelf product with Tiburon Lockers; we grew the venue's locker revenue 78%.
+                    </p>
+        </div>
+    </div>
+</section>
+
+  
+<section class="section-features">
+    <div class="row">
+            <div class="col span-5-of-7 box-2"><br>
+                <i class="icon ion-md-trending-up icon-big"></i>
+                <h3>Upgrading<br>From<br>Mechanical</h3>
+                    <p class="intro-copy justify">
+                            A large water park that operated their own extensive key locker service added two small banks of our electronic lockers for comparison.
+                    </p>
+                    <p class="intro-copy justify">
+                        Our lockers constantly sold out, earning more than 6x per door and more overall revenue with less total lockers. 
+                        </p>
+            </div>
+        </div>
+</section>
+</div>
+
+    <section class="everwhere-you-go-adv adv-yellow-bg">
+        <h3 class="case-study case-study-copy-red2">We achieve this by combining the most advanced technology with reliable lockers and service that is always available to you.</h3>    
+            <div>
+                <div class="row b4a-padding">
+                        <div class="col span-3-of-7">
+                                <a><img src="../tiburon_web/resources/img/tib-v-mech/sbm-before.png" class="adv-pic-width" alt="Event Lockers"/></a>
+                        </div>
+
+                        <div class="col span-1-of-7">
+                                <i class="icon ion-md-arrow-forward adv-icon-width icon-adv-big"></i>
+                        </div>
+
+                    <div class="col span-3-of-7">
+                            <a><img src="../tiburon_web/resources/img/tib-v-mech/sbm-after.png" class="adv-pic-width" alt="Event Lockers"/></a>
+                    </div>
+                </div>   
+            </div>
+        </section>   
+
+<section class="row" id="technology">
+    <div>
+<br>
+        <h2 class="contact-spacer">Superior Locker Technology</h2>
+<br>
+        <p class="about-copy">
+Tiburon designs lockers and software that fit you, customizing the system based on the individual business needs of your venue.
+We are the only locker company to have engineered its product from the ground up, and we continue to grow with new technologies to give you
+the highest quality lockers available.
+<br><br>
+Just as your guests are of the utmost importance, we do everything possible to give the best-in-class locker experience for both locker users and venue operators. 
+We continually develop our software to include the latest technology and security updates to keep all systems completely protected.
+        </div>
+        </section>
+
+<section class="section-features hero-triangle">
+        <div class="row">
+                <div class="col span-1-of-2 box-2"><br>
+                    <i class="fa-ruler-combined icon-adv-tech"></i>
+                    <h3>Built<br>Tough</h3>
+                             <p class="intro-copy justify">
+    Lockers are monitored and tech support is always available, allowing you to achieve maximum operational efficiency.
+                            </p>
+        </div>
+    
+                <div class="col span-1-of-2 box-2"><br>
+                        <i class="fa-cogs icon-adv-tech"></i>
+                            <h3>Fully<br>Integratable</h3>
+                                <p class="intro-copy justify">
+Our in-house software development team can integrate the locker systems into your payment and RFID folio systems. 
+                                </p>
+                    </div>
+            </div>
+
+        <div class="row"> 
+            <div class="col span-1-of-2 box-2"><br>
+                <i class="fa-laptop icon-adv-tech"></i>
+                    <h3>Remote<br>Monitoring</h3>
+                         <p class="intro-copy justify">
+Lockers are monitored and tech support is always available, allowing you to achieve maximum operational efficiency.
+                        </p>
+            </div>
+
+            <div class="col span-1-of-2 box-2"><br>
+                <i class="fa-user-lock icon-adv-tech"></i>
+                    <h3>Continuous<br>Updates</h3>
+                        <p class="intro-copy justify">
+All locker systems stay safe and secure by receiving continuous and automatic software updates from Tiburon.
+                        </p>
+        </div>
+    </div>
+
+</section>
+
+
+<section class="everwhere-you-go-adv adv-yellow-bg">
+        <h3 class="case-study case-study-copy-red2">Our robust locker systems can withstand any environment and are proven to countinuously add value to your business for many years</h3>    
+            <div>
+                <div class="row b4a-padding">
+                        <div class="col span-3-of-7">
+                                <a><img src="../tiburon_web/resources/img/tib-v-mech/other-mech.png" class="adv-pic-width" alt="Event Lockers"/></a>
+                        </div>
+
+                        <div class="col span-1-of-7">
+                                <i class="icon ion-md-arrow-forward adv-icon-width icon-adv-big"></i>
+                        </div>
+
+                    <div class="col span-3-of-7">
+                            <a><img src="../tiburon_web/resources/img/tib-v-mech/tib-v-mech.png" class="adv-pic-width" alt="Event Lockers"/></a>
+                    </div>
+                </div>   
+            </div>
+        </section>   
+
+
+
+<section class="section-features banner-cross">
+        <h3 class="banner-pad case-bold-1 title-pad">Tiburon Lockers is an industry leader in locker innovation, continuously integrating new technology
+             to create the perfect locker system</h3>
+</section> 
+
+<section class="row" id="service">
+    <div>
+        <br>
+        <h2 class="contact-spacer">>Service you can depend on</h2>
+<br>
+        <p class="about-copy">
+As pioneers of customer support technology, Tiburon routinely monitors and checks all systems and will proactively respond to events at your venue.
+We take great pride in providing our top-rated customer service to you, and we promise to fully support our product from day one, delivering on all your needs.
+<br><br>
+Our service and repairs are free to all locations for the full duration of partnerships.
+We believe in supporting you and have complete confidence in our locker's ability to produce positive results.
+<br><br>
+It is our passion to help your business operate more efficiently and to allow your guests to safely storage their belongings so they can fully enjoy their time at your venue.
+<br><br>
+        </div>
+</section>
+
+<section class="section-features hero-triangle">
+    <div class="row">
+            <div class="col span-1-of-3 box-2"><br>
+                    <i class="fa-drafting-compass icon-adv-tech"></i>
+                        <h3>Installation</h3>
+                            <p class="intro-copy">
+Our locker professionals travel to you and set up the locker system, also training employees on how to use our software.
+                            </p>
+                </div>
+
+            <div class="col span-1-of-3 box-2"><br>
+                    <i class="fa-toolbox icon-adv-tech"></i>
+                        <h3>Service</h3>
+                            <p class="intro-copy">
+Tiburon gives full and continued support, and we're always available to both your employees and guests for any locker assistance.
+                            </p>
+            </div>
+                    
+        <div class="col span-1-of-3 box-2"><br>
+                <i class=" fa-fw fa-tools icon-adv-tech"></i>
+                <h3>Maintenance</h3>
+                     <p class="intro-copy">
+Always provided, no extra costs. Tiburon will make sure your systems are always functioning and able to rent lockers to guests. 
+                    </p>
+        </div>
+    </div>
+</section>
+
+<section class="section-features adv-banner-2">
+        <h3 class="banner-pad case-bold-1">
+You and your guests deserve the highest quality lockers that exceed all standards, with top rated service to match - Tiburon delivers this to you, and much more!
+        </h3>
+</section>
+
+<section class="section-testimonials">
+    <h2 class="testimonials">What our clients are saying</h2>
+<div class="row">
+    <div class="col span-1-of-3">
+        <blockquote>
+            The lockers are easy to use and very convenient.
+            </blockquote>
+            <cite>Sarah Smith<br>San Francisco, CA</cite>
+    </div> 
+
+    <div class="col span-1-of-3">
+        <blockquote>
+            Tiburon provided an electronic system for us that has far exceeded our expectations and is in keeping with Homex's image as a technological industry leader.
+            They did this at no cost to us and customized the solution for our needs without any hassle on our part. I highly recommend Tiburon's product and their
+            customer service and would have no hesitation in recommending partnering with them.
+        </blockquote>
+            <cite>Gerardo de Nicolas<br>CEO<br>Desarrolladora Homex S.A.B. De C.V.</cite>
+    </div>
+
+    <div class="col span-1-of-3">
+        <blockquote>
+            Our partnership with Tiburon Lockers has been seamless and painless from contract to install to dismantle.
+            We were looking to provide an additional level of property security at the rink while our patrons enjoyed their skating experience.
+            We contacted Tiburon and the partnership worked to perfection. We have just completed our first season and I believe all involved couldn't be more pleased.
+        </blockquote>
+            <cite>Rick Glueckert<br>Owner<br>Ice Guys, LLC</cite>
+    </div>
+</div>
+</section>
+
+<br><br>
+<section class="section-features section-map">
+        <div class="row">
+            <div class="span-2-of-3">
+                <a class="btn-free-eval" href="index.html#form"><h3>Fill out our free locker evaluation</h3></a>                  
+            </div>
+        </div>
+    </section>
+<br><br><br>
+
+<footer>
+        <div class="row">
+            <div class="col span-2-of-3">
+                <ul class="footer-nav">
+                    <li><a href="company-news.html">Company News</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="site-map.html">Site Map</a></li>
+                </ul>
+            </div>
+
+            <div class="col span-1-of-3">
+                    <ul class="social-links">
+                        <li><a href="https://www.facebook.com/pages/category/Company/Tiburon-Lockers-Inc-132229023464036/"><i class="ion-logo-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/tiburonlockers?lang=en"><i class="ion-logo-twitter"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/tiburon-lockers-inc."><i class="ion-logo-linkedin"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UChNvHfEQZyY2wCTgKdgNu2A"><i class="ion-logo-youtube"></i></a></li>
+                    </ul>
+            </div>
+        </div>
+
+        <div class="row span-1-of-1 footer-color">
+            <a href="../tiburon_web/index.html"><img src="../tiburon_web/resources/img/tib-long-logo.png" alt="Tiburon Lockers Logo" class="long-logo"></a>
+        </div>
+
+        <div class="row span-1-of-1 footer-color">
+        <p class="footer-color">
+            Copyright &copy; 2019 by Tiburon Lockers. All rights reserved.
+        </p>
+    </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
+    </body>
+
+</html>
