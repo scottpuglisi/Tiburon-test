@@ -495,7 +495,7 @@ img.center-fin {
     text-align: center;
     padding: 2% 1% 1% 3%;
     box-shadow: 6px 6px 5px rgba(168, 159, 159, 0.8);
-    background: linear-gradient( rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77) ), url('../img/specs-bg.png');
+    background: linear-gradient( rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77) ), url('img/specs-bg.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
