@@ -581,7 +581,7 @@ strong {
 /* Paragraphs */
 /*------------------------------------*/
 
-.adv-header {color: #f7f7f7;
+.advant-header {color: #f7f7f7;
 padding: 50 15%;
 margin: 0 auto;
 line-height: 1.5;
@@ -892,7 +892,7 @@ div.case-pad { padding: 4% 4% 1% 1%;}
     padding-top: 10px;
 }
 
-.icon-adv-tech {
+.icon-advant-tech {
     padding: 10px 0 0 0 ;
     font-size: 200%;
     font-style: normal;
@@ -902,7 +902,7 @@ div.case-pad { padding: 4% 4% 1% 1%;}
     font-family: "Font Awesome 5 Pro";
 }
 
-.icon-adv-big {
+.icon-advant-big {
     font-size: 12vw;
     display: block;
     color: #ff3a22;
@@ -1395,7 +1395,7 @@ input[type=submit]:active {
 /* Header */
 /*------------------------------------*/
 
-.adv-banner-2 {
+.advant-banner-2 {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(img/adv-banner-2.png);
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/adv-banner-2.png);
     background-size: cover;
@@ -1472,7 +1472,7 @@ header {
     height: 60vh;
 }
 
-.header-adv {
+.header-advant {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.69)), to(rgba(0, 0, 0, 0.69))), url(img/lockers-header.png);
     background-image: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69)), url(img/lockers-header.png);
     background-size: cover;
@@ -1805,7 +1805,7 @@ section .locations {
     margin: 0 auto;
 }
 
-.everywhere-you-go-adv {
+.everywhere-you-go-advant {
     color: #f7f7f7;
     padding: 60px 5% 60px 5%;
     margin: 0 auto;
