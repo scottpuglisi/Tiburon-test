@@ -1473,7 +1473,7 @@ header {
 }
 
 .header-adv {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.69)), to(rgba(0, 0, 0, 0.69))), url(img/service-header.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.69)), to(rgba(0, 0, 0, 0.69))), url(img/lockers-header.png);
     background-image: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69)), url(img/lockers-header.png);
     background-size: cover;
     background-position: left;
