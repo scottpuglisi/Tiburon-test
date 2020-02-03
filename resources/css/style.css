@@ -1395,9 +1395,9 @@ input[type=submit]:active {
 /* Header */
 /*------------------------------------*/
 
-.advant-banner-2 {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(img/adv-banner-2.png);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/adv-banner-2.png);
+.advant-banner-2 {git 
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(img/advant-banner-2.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/advant-banner-2.png);
     background-size: cover;
     background-position: center;
     height: 30%;
