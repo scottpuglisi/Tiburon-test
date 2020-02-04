@@ -1345,6 +1345,28 @@ h2.contact-spacer-maps {
     border: 3px solid #ff3;
 }
 
+.btn-ele-sizes:link,
+.btn-ele-sizes:visited {
+    display: inline-block;
+    margin: 16px 4pc;
+    padding: 8px 38px;
+    font-size: 100%;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #f7f7f7;
+    border: 3px solid;
+    -webkit-transition: background-color 0.3s, border 0.3s, color 0.3s;
+    transition: background-color 0.3s, border 0.3s, color 0.3s;
+}
+
+.btn-ele-sizes:hover,
+.btn-ele-sizes:active {
+    background-color: #f7f7f7;
+    color: #ff3a22;
+    border: 3px solid #f7f7f7;
+}
+
 .btn-free-eval:link,
 .btn-free-eval:visited {
     text-transform: uppercase;
