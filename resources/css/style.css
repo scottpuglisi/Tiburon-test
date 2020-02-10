@@ -2,6 +2,14 @@
 /* Made By Scott Puglisi */
 /*------------------------------------*/
 
+.ele-bot-up-large {color: #ff3;
+    text-decoration: underline;
+    font-size: 300%;
+    text-align: center;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    padding: 1% 5%;}
+
 .bottom-sitemap-pad {padding-bottom: 3%}
 
 .lr-padding {padding-left: 5%;
