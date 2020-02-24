@@ -136,6 +136,12 @@ ul.bullets2 h2 {padding: 30px 12px 0 0;
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 768px) {
 
+    .footer-nav li,
+    .social-links li {
+    margin: 8px 6px;
+    margin-bottom: 8px;
+}
+
     .top-mech-lpad {padding-left: 0;}
 
     .show-hide-div {display: none !important;}

@@ -2,6 +2,11 @@
 /* Made By Scott Puglisi */
 /*------------------------------------*/
 
+.date-text {
+    font-style: italic;
+    padding: 2% 0 3% 0;
+}
+
 .top25marg {margin-top: 25px;}
 
 /* Slider */
@@ -1005,16 +1010,16 @@ font-size: 180%;
     font-size: 18px;
     text-align: justify;
     line-height: 140%;
-    width: 76%;
-    margin-left: 12%;
+    width: 70%;
+    margin-left: 15%;
 }
 
 .privacy-copy2 {
     font-size: 18px;
     text-align: center;
     line-height: 140%;
-    width: 76%;
-    margin-left: 12%;
+    width: 70%;
+    margin-left: 15%;
 }
 
 
@@ -1389,6 +1394,16 @@ h2.h3-lockers-intro-alt {
     line-height: 1.5;
 }
 
+h2.h2-privacy {
+    padding: 0 1% 10px 1%;
+    word-spacing: 2px;
+    text-align: center;
+    margin: 0 2% 0 2%;
+    font-size: 130%;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
 h3.h3-lockers-alt {
     text-align: justify;
     text-transform: none;
@@ -1515,8 +1530,29 @@ h2.contact-spacer-maps {
 .btn-read:hover,
 .btn-read:active {
     color: #f7f7f7;
-    border: 1px solid #ff3a22;
-    background-color: #ff3a22;
+    border: 1px solid navy;
+    background-color: navy;
+}
+
+.btn-read-blue:link,
+.btn-read-blue:visited {
+    display: inline-block;
+    padding: 10px 50px;
+    margin: 30px 1% 40px 1%;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: navy;
+    border: 1px solid;
+    -webkit-transition: background-color 0.3s, border 0.3s, color 0.3s;
+    transition: background-color 0.3s, border 0.3s, color 0.3s;
+}
+
+.btn-read-blue:hover,
+.btn-read-blue:active {
+    color: #f7f7f7;
+    border: 1px solid navy;
+    background-color: navy;
 }
 
 .btn-more:link,
@@ -2300,11 +2336,11 @@ footer p {
 .social-links li {
     display: inline-block;
     margin-right: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 
 .footer-nav li:last-child {
-    margin: 0 0 20px 0;
+    margin: 8px 0 20px 0;
 }
 
 .footer-nav li a:link,
