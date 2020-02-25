@@ -32,6 +32,13 @@ ul.bullets2 h2 {padding: 30px 12px 0 0;
 /* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
 
+    .privacy-copy2,
+    .privacy-copy,
+    .about-copy {width: 70%;
+        margin-left: 15%;
+    }
+
+
     .dropdown-content-ele a
     .dropdown-content-adv a
     
@@ -229,7 +236,7 @@ margin: 0 auto 22px auto;
     ul.bullets h2:first-child {margin-top: 0;}
     ul.bullets2 h2:first-child {margin-top: 0;}
 
-    h1 {font-size: 6vw;
+    h1 {
         padding-right: 15%;
         padding-left: 15%;}
     

@@ -2,6 +2,9 @@
 /* Made By Scott Puglisi */
 /*------------------------------------*/
 
+.header2 {color: white;
+margin-bottom: 50px;}
+
 .date-text {
     font-style: italic;
     padding: 2% 0 3% 0;
@@ -916,8 +919,8 @@ font-size: 180%;
 .about-copy {
     text-align: justify;
     line-height: 1.5;
-    width: 62%;
-    margin-left: 19%;
+    width: 50%;
+    margin-left: 25%;
     padding: 50px 0;
 }
 
@@ -1010,8 +1013,8 @@ font-size: 180%;
     font-size: 18px;
     text-align: justify;
     line-height: 140%;
-    width: 70%;
-    margin-left: 15%;
+    width: 50%;
+    margin-left: 25%;
 }
 
 .privacy-copy2 {
