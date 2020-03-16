@@ -315,13 +315,16 @@ margin-bottom: 50px;}
 }
 /* Slider 3 end */
 
-.ele-bot-up-large {color: #ff3;
+.ele-bot-up-large {
+    font-weight: bold;
+    color: #ff3;
     text-decoration: underline;
     font-size: 300%;
     text-align: center;
     line-height: 1.6;
     letter-spacing: 2px;
-    padding: 1% 5%;}
+    padding: 1% 5%;
+}
 
 .bottom-sitemap-pad {padding-bottom: 3%}
 
@@ -814,7 +817,7 @@ img.center-fin {
     border-radius: 20px;
     color: #F7F7F7;
     text-align: center;
-    padding: 2% 1% 1% 3%;
+    padding: 2%;
     box-shadow: 6px 6px 5px rgba(168, 159, 159, 0.8);
     background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55) ), url('img/specs-bg.png');
     background-repeat: no-repeat;
@@ -1708,7 +1711,7 @@ h2.contact-spacer-maps {
     display: inline-block;
     margin-right: 25px;
     margin-top: 25px;
-    padding: 8px 38px;
+    padding: 10px 38px;
     font-size: 100%;
     font-weight: 300;
     text-decoration: none;
@@ -1727,11 +1730,37 @@ h2.contact-spacer-maps {
     text-decoration: underline;
 }
 
+.btn-patent:link,
+.btn-patent:visited {
+    max-width: 75%;
+    display: inline-block;
+    margin: 16px 4px;
+    padding: 10px 58px;
+    font-size: 100%;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #f7f7f7;
+    background-color: #ff3a22;
+    border: 3px solid;
+    -webkit-transition: background-color 0.3s, border 0.3s, color 0.3s;
+    transition: background-color 0.3s, border 0.3s, color 0.3s;
+}
+
+.btn-patent:hover,
+.btn-patent:active {
+    background-color: navy;
+    color: #f7f7f7;
+    border: 3px solid #f7f7f7;
+    text-decoration: underline;
+}
+
 .btn-ele-sizes:link,
 .btn-ele-sizes:visited {
+    max-width: 75%;
     display: inline-block;
-    margin: 16px 4pc;
-    padding: 8px 38px;
+    margin: 16px 4px;
+    padding: 10px 38px;
     font-size: 100%;
     font-weight: 300;
     text-decoration: none;

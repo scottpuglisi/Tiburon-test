@@ -452,7 +452,7 @@ h3 ul li:last-child {margin-bottom: 10px;}
 /* Small phones: from 300px to 480px */
 @media only screen and (max-width: 480px) {
 
-
+    .ele-bot-up-large {font-size: 6.2vw;}
 
     .icon-adv-big {
         font-size: 12vw;
