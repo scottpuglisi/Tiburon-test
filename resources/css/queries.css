@@ -13,27 +13,21 @@ ul.bullets2 h2 {padding: 30px 12px 0 0;
         padding-left: 40px;}
 }
 
-/* Big tablet to 1200px (Widths smaller than the 1140px row) */
-@media only screen and (max-width: 1200px) {
-    .hero-text-box,
-    .hero-text-box-lockers,
-    .hero-text-box-lockers-2,
-    .hero-text-box-other {
-        width: 100%;
-        padding: 0 2%;
-    }
-
-    .case-study li,
-    h3.case-study {line-height: 1.25;}
-
-    .adv-left-copy {margin: 1% 0 0px 8%;}
-}
-
 /* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
 
+    .slider-text {
+        top: 45.5%;
+        left: 1.7px;
+    }
     
-.contact-spacer4:after {margin: 46px auto 20px auto;}
+    .fas-r {padding-left: 20%;
+        font-size: 4vw;}
+
+    .fas-l {padding-right: 15%;
+        font-size: 4vw;}
+
+    .contact-spacer4:after {margin: 46px auto 20px auto;}
 
     .privacy-copy2,
     .privacy-copy,
@@ -119,6 +113,22 @@ ul.bullets2 h2 {padding: 30px 12px 0 0;
 
 }
 
+/* Big tablet to 1200px (Widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box,
+    .hero-text-box-lockers,
+    .hero-text-box-lockers-2,
+    .hero-text-box-other {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .case-study li,
+    h3.case-study {line-height: 1.25;}
+
+    .adv-left-copy {margin: 1% 0 0px 8%;}
+}
+
 /* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 991px) {
     .container.gallery-container {padding: 60px 475px 60px 0px;}
@@ -135,8 +145,14 @@ ul.bullets2 h2 {padding: 30px 12px 0 0;
     .box-2 {margin: 0 0 30px 0;}
 
     h3 ul {  margin: 10px 50px 10px 50px;}
-}
 
+    .fas-r {padding-left: 25%;}
+
+    .fas-l {padding-right: 20%;}
+
+    .slider-text {left: 1.7px;}
+
+    }
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (min-width: 769px) {
@@ -145,6 +161,16 @@ ul.bullets2 h2 {padding: 30px 12px 0 0;
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 768px) {
+
+    .col-768-marg-fix {margin: 0 !important;
+    padding-bottom: 20px;}
+
+    .col-768-marg-fix:first-child {padding-top: 20px;}
+
+    .slider-text {top: 47.5%;}
+
+    .fas-r,
+    .fas-l {font-size: 175%;}
 
     .footer-nav li,
     .social-links li {
@@ -208,7 +234,6 @@ max-width: 25%;
 margin: 0 auto 22px auto;
 }
 
-
     .dropdown-adv {float: none;}
     .navbar a:hover, .dropdown-adv:hover .dropbtn-adv {background-color: #040404;}
 
@@ -218,10 +243,7 @@ margin: 0 auto 22px auto;
         padding: 20px 20px 0 20px;
     }
 
-
-
     .ele-link-space {padding: 50px 37% 30px 37%;}
-
 
     div.case-pad {padding: 4% 1% 1% 1%;}
 
@@ -422,6 +444,8 @@ h3 ul li:last-child {margin-bottom: 10px;}
         margin-bottom: 25px;
         margin-left: 0px;
     }
+
+    .box:last-child {margin-bottom: 0;}
  
     .logo-black { margin-left: -8px; }
  
@@ -434,6 +458,8 @@ h3 ul li:last-child {margin-bottom: 10px;}
 
 /* Small phones: from 300px to 480px */
 @media only screen and (max-width: 610px) {
+
+    .slider-text {top: 46.8%;}
 
 .dropdown-content-adv-sticky a {max-width: 45%;}
 .dropdown-content-ele-sticky a {max-width: 42%;}
@@ -451,6 +477,8 @@ h3 ul li:last-child {margin-bottom: 10px;}
 
 /* Small phones: from 300px to 480px */
 @media only screen and (max-width: 480px) {
+
+        .slider-text {top: 46.25%;}
 
     .ele-bot-up-large {font-size: 6.2vw;}
 
@@ -526,6 +554,8 @@ input[type=submit]:active {padding: 10px 10px;}
 /* Small phones: from 300px to 480px */
 @media only screen and (max-width: 412px) {
 
+    .slider-text {top: 45.3%;}
+
     .indent {margin-left: 20px;}
 
     .lr-padding {padding-left: 13%;
@@ -567,6 +597,8 @@ input[type=submit]:active {padding: 10px 10px;}
     } 
 
     .small-size-text {font-size: 8vw;}
+
+    .slider-text {top: 42.5%;}
 }
 
 /* TINY: from 0px to 269px */

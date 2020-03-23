@@ -53,8 +53,10 @@ margin-bottom: 50px;}
 .slider-text {
     color: #f7f7f7;
     position: inherit;
-    top: 46.2%;
+    top: 46.3%;
     z-index: 9990;
+    size: 90%;
+    left: 1.2px;
 }
 
 .ba-slider {
