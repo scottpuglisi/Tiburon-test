@@ -5,11 +5,17 @@ $message = $_POST ['message']
 
 $email_from = 'spuglisi@tiburonlockers.com';
 
-$email_subject = "New Web Form Submission";
+$email_subject = "New Lead - Web Form Submission";
 
-$email_body = "User Name: $name.\n".
-	"User Email: $visitor_email.\n".
-		"User Message: $message.\n";
+$email_body = "Name: $name.\n".
+			"Email: $email.\n".
+			"Phone Numer: $phone.\n".
+			"Company: $company.\n".
+			"Industry: $industry.\n".
+			"Location: $location.\n".
+			"Annual Visitors: $visitors.\n".
+			"Current Lockers: $currentlockers.\n".
+			"Comments: $comments.\n";
 
 $to = "lockmeup@tiburonlockers.com
 
