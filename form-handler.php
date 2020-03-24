@@ -1,7 +1,13 @@
 <?php
 $name = $_POST['name'];
-$visitor_email = $_POST['email'];
-$message = $_POST ['message']
+$email = $_POST['email'];
+$phone = $_POST['phone'];
+$company = $_POST['company'];
+$industry = $_POST['industry'];
+$location = $_POST['location'];
+$visitors = $_POST['visitors'];
+$currentlockers = $_POST['currentlockers'];
+$comments = $_POST ['comments']
 
 $email_from = 'spuglisi@tiburonlockers.com';
 
