@@ -2292,6 +2292,11 @@ section .locations {
 /* Testimonials */
 /*------------------------------------*/
 
+.testimonial-logo {
+    max-height: 35%;
+    text-align: left !important;
+}
+
 .section-testimonials { 
     background: #74ebd5;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
