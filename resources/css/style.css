@@ -1929,6 +1929,16 @@ input[type=submit]:active {
     padding: 200px 0;
 }
 
+.coin-banner {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url(img/coin-banner.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/coin-banner.png);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    height: 30%;
+    padding: 300px 0;
+}
+
 .contact-banner {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url(img/contact-banner.png);
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/contact-banner.png);
