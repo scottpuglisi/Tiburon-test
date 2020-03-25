@@ -352,7 +352,7 @@ margin-bottom: 50px;}
     font-weight: bold;
     color: #ff3;
     text-decoration: underline;
-    font-size: 300%;
+    font-size: 275%;
     text-align: center;
     line-height: 1.6;
     letter-spacing: 2px;
@@ -364,7 +364,7 @@ margin-bottom: 50px;}
 .lr-padding {padding-left: 5%;
 padding-right: 5%;}
 
-ul.site-map li {padding-bottom: 3%;}
+ul.site-map li {padding-top: 5%;}
 
 .indent {margin-left: 40px;}
 
@@ -2483,6 +2483,8 @@ footer p {
     margin-right: 20px;
     margin-bottom: 8px;
 }
+
+.social-links li:last-child {margin-right: 0;}
 
 .footer-nav li:last-child {
     margin: 8px 0 20px 0;
