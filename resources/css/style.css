@@ -2292,16 +2292,25 @@ section .locations {
 /* Testimonials */
 /*------------------------------------*/
 
+.testimonial-divider {
+    left: calc(50% - 1px);
+    height: 100%;
+    border-left: 1px solid #ff3a22;
+    border-right: 1px solid #ff3a22;
+    padding: 0 25px;
+}
+
 .testimonial-logo {
-    max-height: 35%;
-    text-align: left !important;
+
+    height : 95px;
+    float: left !important
 }
 
 .section-testimonials { 
     background: #74ebd5;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    padding: 30px;
 }
 
 .everywhere-you-go {
@@ -2368,14 +2377,13 @@ blockquote {
     font-weight: 150%;
 }
 
-
-
 cite {
     font-size: 85%;
     display: block;
     text-align: right;
     margin-bottom: 20px;
     font-weight: bold;
+    padding-right: 3%;
 }
 
 /*------------------------------------*/
