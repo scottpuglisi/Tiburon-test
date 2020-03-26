@@ -1,7 +1,20 @@
-/* Sticky Navigation */
-
 $(document).ready(function() {
 
+/* Scrolling Effect */
+$('.js--scroll-to-intro').click(function () {
+  $('html, body').animate({scrollTop: $('.js--section-intro').offset().top}, 1000);
+});
+
+$('.js--scroll-to-form').click(function () {
+  $('html, body').animate({scrollTop: $('.js--section-form').offset().top}, 2750);
+});
+
+$('.js--scroll-to-locker').click(function () {
+  $('html, body').animate({scrollTop: $('.js--section-intro').offset().top}, 1000);
+});
+
+
+/* Sticky Navigation */
     $('.js--section-intro').waypoint(function(direction) {
         if (direction == "down")
         {  $('nav').addClass('sticky');
