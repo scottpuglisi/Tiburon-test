@@ -6,7 +6,7 @@ $('.js--scroll-to-intro').click(function () {
 });
 
 $('.js--scroll-to-form').click(function () {
-  $('html, body').animate({scrollTop: $('.js--section-form').offset().top}, 2750);
+  $('html, body').animate({scrollTop: $('.js--section-form').offset().top}, 2000);
 });
 
 $('.js--scroll-to-locker').click(function () {

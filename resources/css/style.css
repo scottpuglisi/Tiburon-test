@@ -730,9 +730,10 @@ p.center-text {text-align: center;}
    }
 
 ul.bullets h2 { text-align: justify;
-    font-size: 1.5vw;
+    font-size: 1.45vw;
     padding: 40px 115px 0px 70px;
     margin-top: 35px;
+    margin-bottom: 50px;
     line-height: 110%;
     text-transform: capitalize;
 }
@@ -744,9 +745,10 @@ ul.bullets h2:first-child {margin-top: 15px;}
 }
 
 ul.bullets2 h2 { text-align: justify;
-    font-size: 1.5vw;
+    font-size: 1.45vw;
     padding: 40px 70px 0px 70px;
     margin-top: 35px;
+    margin-bottom: 50px;
     line-height: 110%;
     text-transform: capitalize;}
 
@@ -1364,13 +1366,31 @@ h1.other {
 }
 
 h2 {
-    font-size: 235%;
+    font-size: 220%;
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 60px;
     margin-top: 90px;
     padding: 0 8%;
 }
+
+h2.h2-testimonials {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-bottom: -5px;
+}
+
+.h2-testimonials:after {
+    display: block;
+    height: 2px;
+    background-color: #ff3a22;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+
 
 h2.h2-title {margin-bottom: -50px;
 margin-top: 50px;
@@ -1382,7 +1402,7 @@ h2.h2-adv-title {margin: 25px 0 0 0;
 
 h2.h2-home-title {
     margin-top: 5px;
-    margin-bottom: 0;
+    margin-bottom: -15px;
     padding: 70px 18%;
 }
 
@@ -1671,7 +1691,8 @@ h2.contact-spacer-maps {
     background-color: #ff3;
     color: black;
     border: 3px solid #ff3;
-    text-decoration: underline;
+    box-shadow: inset 0 0 11px 0 rgba(0, 0, 0, 0.95);
+    transition: box-shadow 500ms;
 }
 
 
@@ -1689,14 +1710,29 @@ h2.contact-spacer-maps {
     border: 3px solid #ff3;
     -webkit-transition: background-color 0.3s, border 0.3s, color 0.3s;
     transition: background-color 0.3s, border 0.3s, color 0.3s;
+    box-shadow: inset 0 0 11px 0 rgba(0, 0, 0, 0.0);
+    transition: box-shadow 500ms;
 }
 
 .btn-get-lockers:hover,
 .btn-get-lockers:active {
-    background-color: rgba(0, 0, 0, 0);
-    color: #ff3;
-    border: 3px solid #ff3;
-    text-decoration: underline;
+    box-shadow: inset 0 0 14px 0 rgba(0, 0, 0, 0.92);
+    transition: box-shadow 500ms;
+}
+
+p.btn-border-trans {
+    padding: 2px;
+    border: 2px solid rgba(255, 255, 51, 0);
+}
+
+.btn-border-trans:link,
+.btn-border-trans:visited {border-bottom: 3px solid rgba(255, 255, 51, 0);}
+
+.btn-border-trans:hover,
+.btn-border-trans:active {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.9);
+    -webkit-transition: border-bottom .5s;
+    transition: border-bottom .5s;
 }
 
 
@@ -1952,7 +1988,7 @@ input[type=submit]:active {
 }
 
 header {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.69)), to(rgba(0, 0, 0, 0.65))), url(img/hero.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url(img/hero.png);
     background-image: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69)), url(img/hero.png);
     background-size: cover;
     background-position: left;
@@ -1961,16 +1997,16 @@ header {
 }
 
 .header-lockers {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.69)), to(rgba(0, 0, 0, 0.65))), url(img/service-header.png);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69)), url(img/service-header.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url(img/service-header.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(img/service-header.png);
     background-size: cover;
     background-position: left;
     background-attachment: inherit;
     height: 60vh;
 }
 .header-ele-lockers {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.69)), to(rgba(0, 0, 0, 0.65))), url(img/pp-headon-header.png);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69)), url(img/pp-headon-header.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url(img/pp-headon-header.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(img/pp-headon-header.png);
     background-size: cover;
     background-position: center top; 
     background-attachment: inherit;
@@ -1978,8 +2014,8 @@ header {
 }
 
 .header-advant {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.69)), to(rgba(0, 0, 0, 0.65))), url(img/lockers-header.png);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69)), url(img/lockers-header.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url(img/lockers-header.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(img/lockers-header.png);
     background-size: cover;
     background-position: left;
     background-attachment: inherit;
@@ -1987,8 +2023,8 @@ header {
 }
 
 .header-contact {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.69)), to(rgba(0, 0, 0, 0.65))), url(img/contact-hero.png);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69)), url(img/contact-header.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url(img/contact-hero.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(img/contact-header.png);
     background-size: cover;
     background-position: bottom;
     background-attachment: inherit;
@@ -1996,8 +2032,8 @@ header {
 }
 
 .header-about {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.69)), to(rgba(0, 0, 0, 0.65))), url(img/about-header.png);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69)), url(img/about-header.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url(img/about-header.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(img/about-header.png);
     background-size: cover;
     background-position: left;
     background-attachment: inherit;
@@ -2299,7 +2335,7 @@ section .locations {
     height: 80%;
     border-left: 1px solid #ff3a22;
     border-right: 1px solid #ff3a22;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .testimonial-logo {
