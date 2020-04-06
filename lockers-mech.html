@@ -8,7 +8,6 @@
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
-
 <link rel="icon" href="resources/img/favicons/favicon-32.png" sizes="32x32">
 <link rel="icon" href="resources/img/favicons//path/to/favicon-128.png" sizes="128x128">
 <link rel="icon" href="resources/img/favicons//path/to/favicon-192.png" sizes="192x192">
@@ -20,6 +19,7 @@
         <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <script src="https://kit.fontawesome.com/a9d33181e5.js"></script>
+            <link href="vendors/css/lightbox.css" rel="stylesheet" />
         <title>Tiburon Lockers - Coin Lockers</title>
     </head>
 
@@ -150,12 +150,12 @@
 </section>
 
 <div class="gallery">
-    <a><img src="resources/img/mech-gallery/8.png" alt="Event Lockers"/></a>
-    <a><img src="resources/img/mech-gallery/2.png" alt="Family Lockers"/></a>
-    <a><img src="resources/img/mech-gallery/3.png" alt="Locker Kiosk, Rapid Rental Rail"/></a>
-    <a><img src="resources/img/mech-gallery/4.png" alt="Waterpark Lockers"/></a>
-    <a><img src="resources/img/mech-gallery/1.png" alt="FEC Lockers"/></a>
-    <a><img src="resources/img/mech-gallery/6.png" alt="Locker Handle"/></a>
+    <a href ="resources/img/mech-gallery/8.png" data-lightbox="coin"><img src="resources/img/mech-gallery/8.png" alt="Event Lockers"/></a>
+    <a href ="resources/img/mech-gallery/2.png" data-lightbox="coin"><img src="resources/img/mech-gallery/2.png" alt="Family Lockers"/></a>
+    <a href ="resources/img/mech-gallery/3.png" data-lightbox="coin"><img src="resources/img/mech-gallery/3.png" alt="Locker Kiosk, Rapid Rental Rail"/></a>
+    <a href ="resources/img/mech-gallery/4.png" data-lightbox="coin"><img src="resources/img/mech-gallery/4.png" alt="Waterpark Lockers"/></a>
+    <a href ="resources/img/mech-gallery/1.png" data-lightbox="coin"><img src="resources/img/mech-gallery/1.png" alt="FEC Lockers"/></a>
+    <a href ="resources/img/mech-gallery/6.png" data-lightbox="coin"><img src="resources/img/mech-gallery/6.png" alt="Locker Handle"/></a>
 </div>
 
 <h2 class="contact-spacer h2-home-title" id="locker-info">Tiburon's full-service coin offerings gets you lockers with lifetime maintenance and service, all at no cost to you</h2>
@@ -329,6 +329,17 @@ Available in all sizes and payment types - Get a solution that won't rust and wi
     <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
     <script src="vendors/js/jquery.waypoints.min.js"></script>
     <script src="resources/js/script.js"></script>
+    <script src="vendors/js/lightbox.js"></script>
+    <script>
+        lightbox.option({
+          'resizeDuration': 350,
+          'alwaysShowNavOnTouchDevices': true,
+          'disableScrolling': true,
+          'wrapAround':	true,
+          'maxWidth': 800,
+          'maxHeight': 600
+        })
+    </script>
     </body>
 </html>
 

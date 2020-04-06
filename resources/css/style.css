@@ -1122,8 +1122,9 @@ font-size: 180%;
 p.intro {
     text-align: justify;
     line-height: 1.5;
-    width: 50%;
-    margin-left: 25%;
+    width: 45%;
+    margin-left: 27.5%;
+    text-align-last: center;
 }
 
 p.p-lockers {
@@ -1259,6 +1260,16 @@ div.case-pad { padding: 4% 4% 1% 1%;}
     display: block;
     color: #ff3a22;
     padding-top: 10px;
+}
+
+.icon-flag {
+    padding: 10px 0 0 0 ;
+    font-size: 175%;
+    font-style: normal;
+    color: #ff3a22;
+    padding-top: 10px;
+    font-weight: 900;
+    margin-bottom: 25px;
 }
 
 .icon-advant-tech {
@@ -1693,6 +1704,8 @@ h2.contact-spacer-maps {
     border: 3px solid #ff3;
     box-shadow: inset 0 0 11px 0 rgba(0, 0, 0, 0.95);
     transition: box-shadow 500ms;
+    border:  3px solid rgba(0, 0, 0, 0.6);
+    transition: border 500ms;
 }
 
 
@@ -1718,6 +1731,8 @@ h2.contact-spacer-maps {
 .btn-get-lockers:active {
     box-shadow: inset 0 0 14px 0 rgba(0, 0, 0, 0.92);
     transition: box-shadow 500ms;
+    border:  3px solid rgba(0, 0, 0, 0.6);
+    transition: border 500ms;
 }
 
 p.btn-border-trans {
