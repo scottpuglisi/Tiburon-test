@@ -28,7 +28,6 @@ $('.js--scroll-to-locker').click(function () {
         {   offset: '59px;'}
         );
 
-
     $('.js--section-intro').waypoint(function(direction) {
         if (direction == "down")
         {  $('#sticky-nav-bg').addClass('dropdown-content-ele-sticky');
@@ -80,6 +79,33 @@ $('.js--scroll-to-locker').click(function () {
         },
         {   offset: '59px;'}
         );
+
+      $('.js--section-intro').waypoint(function(direction) {
+        if (direction == "down")
+        {  $('#js--sticky-get-locker-btn').addClass('btn-get-lockers-nav-sticky');
+        $('#js--sticky-get-locker-btn').removeClass('btn-get-lockers-nav');}
+        
+        else
+        {   $('#js--sticky-get-locker-btn').removeClass('btn-get-lockers-nav-sticky');
+        $('#js--sticky-get-locker-btn').addClass('btn-get-lockers-nav');}
+        
+        },
+        {   offset: '59px;'}
+        );
+
+      $('.js--section-intro').waypoint(function(direction) {
+        if (direction == "down")
+        {  $('#js--sticky-get-locker-btn2').addClass('btn-border-trans2');
+        $('#js--sticky-get-locker-btn2').removeClass('btn-border-trans');}
+        
+        else
+        {   $('#js--sticky-get-locker-btn2').removeClass('btn-border-trans2');
+        $('#js--sticky-get-locker-btn2').addClass('btn-border-trans');}
+        
+        },
+        {   offset: '59px;'}
+        );
+        
 });
 
 

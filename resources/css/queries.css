@@ -13,8 +13,24 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
         padding-left: 40px;}
 }
 
+
+/* Big tablet to 1200px (Widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    nav {font-size: 17px;}
+
+    .sticky-ele-nav    {
+        padding: 14px 26.75px;}
+
+        .dropdown-ele .dropbtn-ele {padding: 30px 26.25px 14px 27.25px;}
+
+        }
+
 /* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
+
+    nav {font-size: 14px;}
+
+    .main-nav {padding-top: 7px;}
 
     .slider-text {
         top: 45.5%;
@@ -39,8 +55,8 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
     .dropdown-content-ele a
     .dropdown-content-adv a
     
-    .dropdown-ele .dropbtn-ele {padding: 20px 29.5px 15px 29.5px;}
-    .dropdown-adv .dropbtn-adv {padding: 20px 16.5px 15px 16.5px;}
+    .dropdown-ele .dropbtn-ele {padding: 18px 29.5px 14px 29.5px;}
+    .dropdown-adv .dropbtn-adv {padding: 18px 16.5px 14px 16.5px;}
 
     ul.bullets h2 {margin-top: 20px;
     margin-bottom: 15px;}
@@ -303,8 +319,8 @@ margin: 0 auto 22px auto;
         margin-left: 10%;
     }
 
-    .logo {height: 50px;
-        margin-left: -8px;
+    .logo {height: 45px;
+        margin-left: 6px;
         margin-top: 5px;
     }
 
@@ -397,8 +413,8 @@ h3 ul li:last-child {margin-bottom: 10px;}
     
     .mobile-nav-icon {
     display: inline-block;
-    font-size: 170%;
-    margin-top: 0px;
+    font-size: 200%;
+    margin-top: 5px;
     }
 
     .main-nav li {
@@ -429,10 +445,7 @@ h3 ul li:last-child {margin-bottom: 10px;}
         margin: 3px 0 0 0;
         }
 
-    .sticky .mobile-nav-icon i {
-        color: navy;
-        font-size: 140%;
-    }
+    .sticky .mobile-nav-icon i {color: navy;}
     
     .sticky .main-nav li a:link,
     .sticky .main-nav li a:visited { padding: 10px 0;}
@@ -454,7 +467,11 @@ h3 ul li:last-child {margin-bottom: 10px;}
 
     .box-top-fix {margin-top: 25px;}
  
-    .logo-black { margin-left: -8px; }
+    .logo-black {
+        margin-left: 6px;
+        height: 45px;
+        margin-top: 7px;
+    }
  
     .form-question { padding-bottom: 15px; }
     
