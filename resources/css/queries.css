@@ -16,21 +16,48 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
 
 /* Big tablet to 1200px (Widths smaller than the 1140px row) */
 @media only screen and (max-width: 1200px) {
-    nav {font-size: 17px;}
+    nav {font-size: 16px;}
 
-    .sticky-ele-nav    {
-        padding: 14px 26.75px;}
+    .dropdown-adv .dropbtn-adv {padding: 30px 16px 14px 16px;}
 
-        .dropdown-ele .dropbtn-ele {padding: 30px 26.25px 14px 27.25px;}
+    .dropdown-ele .dropbtn-ele {padding: 30px 26px 14px 26px;}
 
-        }
+    .dropdown .dropbtn {padding: 0 12px 14px 12px;}
 
+    .dropbtn-ele-sticky {padding: 15px 26px 14px 26px;}
+
+    .dropbtn-adv-sticky {padding: 15px 16px 14px 16px;}
+
+    .main-nav li {margin-left: 0;}
+
+    }
+
+
+    
 /* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
 
-    nav {font-size: 14px;}
+    nav {font-size: 12px;}
 
-    .main-nav {padding-top: 7px;}
+    .dropdown-adv .dropbtn-adv {padding: 30px 16px 14px 15px;}
+    .dropdown-ele .dropbtn-ele {padding: 30px 22px 14px 22px;}
+
+    .dropbtn-ele-sticky {padding: 15px 22px 14px 22px;}
+    .dropbtn-adv-sticky {padding: 15px 15px 14px 15px;}
+
+    .logo-black,
+    .logo {
+    height: 58px;
+    margin-left: 8px;
+    }
+    
+    nav:link,
+    .btn-get-lockers-nav:link,
+    .btn-get-lockers-nav:visited {
+    padding: 5px 8px !important;
+    }
+    
+    .main-nav {padding: 0 0 25px 5px;}
 
     .slider-text {
         top: 45.5%;
@@ -50,13 +77,7 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
     .about-copy {width: 70%;
         margin-left: 15%;
     }
-
-
-    .dropdown-content-ele a
-    .dropdown-content-adv a
     
-    .dropdown-ele .dropbtn-ele {padding: 18px 29.5px 14px 29.5px;}
-    .dropdown-adv .dropbtn-adv {padding: 18px 16.5px 14px 16.5px;}
 
     ul.bullets h2 {margin-top: 20px;
     margin-bottom: 15px;}
@@ -64,8 +85,6 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
     ul.bullets2 h2 {margin-top: 20px;
         margin-bottom: 15px;
     }
-
-    .main-nav li {margin-left: 10px;}
 
         .box-specs.col:first-child {
         width: 38%;
@@ -178,6 +197,21 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 768px) {
 
+    .main-nav li:first-child {margin-top: 10px;}
+
+    .nav-margin-fix {margin-bottom: 0;}
+
+    .dropdown .dropbtn {padding: 0 0px 25px 0px;}
+
+    .dropdown-adv .dropbtn-adv {padding: 0 0 25px 0;}
+    .dropdown-ele .dropbtn-ele  {padding: 0 0 25px 0;}
+
+    .dropbtn-ele-sticky {padding: 0 0 25px 0;}
+    .dropbtn-adv-sticky {padding: 0 0 25px 0;}
+
+    .dropdown
+
+
     .reverse-coin {
         display: flex;
         flex-direction: column-reverse;
@@ -223,8 +257,6 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
     .dropdown {float: none;}
     .dropdown-ele {float: none;}
     .navbar a:hover, .dropdown-ele:hover .dropbtn-ele {background-color: #040404;}
-
-    .dropdown-ele .dropbtn-ele {padding: 20px 34px 15px 34px;}
 
     .dropdown-content-ele {background-color: #00000000;
         position: inherit;
@@ -306,13 +338,6 @@ margin: 0 auto 22px auto;
     .feat-list {text-align: center;}
     .feat-title {text-align: center;
         margin: 10px 0 5px 0;
-    }
-
-    .main-nav {
-    display: none;
-    float: left;
-    margin-right: 0;
-    padding: 25px 15px 0 15px;
     }
 
     p.intro {    width: 80%;
@@ -421,7 +446,13 @@ h3 ul li:last-child {margin-bottom: 10px;}
         display: block;
         font-size: 125%;
         margin-left: 0;
-       margin-bottom: 10px;
+    }
+
+    .main-nav {
+    display: none;
+    float: left;
+    margin-right: 0;
+    padding: 25px 15px 0 15px;
     }
 
     .main li a:link,
@@ -470,7 +501,7 @@ h3 ul li:last-child {margin-bottom: 10px;}
     .logo-black {
         margin-left: 6px;
         height: 45px;
-        margin-top: 7px;
+        margin-top: 2px;
     }
  
     .form-question { padding-bottom: 15px; }
@@ -635,6 +666,13 @@ input[type=submit]:active {padding: 10px 10px;}
     .small-size-text {font-size: 8vw;}
 
     .slider-text {top: 42.5%;}
+
+    .logo,
+    .logo-black {
+    height: 20px;
+    margin-top: 17px;
+}
+
 }
 
 /* TINY: from 0px to 269px */

@@ -27,6 +27,10 @@ margin-bottom: 40px;}
 
 /* Slider */
 
+.slider-max-w {max-width: 1400px;
+    float: center;
+    padding-left: auto;}
+
 .slider-arrow-l {
     display: initial !important;
     color: #ff1e00;
@@ -53,7 +57,7 @@ margin-bottom: 40px;}
 .slider-text {
     color: #f7f7f7;
     position: inherit;
-    top: 46.3%;
+    top: 43.1%;
     z-index: 9990;
     size: 90%;
     left: 1.2px;
@@ -61,13 +65,14 @@ margin-bottom: 40px;}
 
 .ba-slider {
     position: relative;
+    float: right;
     overflow: hidden;
 }
  
 .ba-slider img {
     width: 100%;
     display:block;
-    max-width:none;
+    max-width: 600px;
 }
  
 .ba-slider .resize {
@@ -153,8 +158,8 @@ margin-bottom: 40px;}
  
 .ba-slider-1 img {
     width: 100%;
-    display:block;
-    max-width:none;
+    display: block;
+    max-width: 600px;
 }
  
 .ba-slider-1 .resize {
@@ -216,13 +221,14 @@ margin-bottom: 40px;}
 /* Slider 2 */
 .ba-slider-2 {
     position: relative;
+    float: right;
     overflow: hidden;
 }
  
 .ba-slider-2 img {
     width: 100%;
     display:block;
-    max-width:none;
+    max-width: 600px;
 }
  
 .ba-slider-2 .resize {
@@ -289,7 +295,7 @@ margin-bottom: 40px;}
 .ba-slider-3 img {
     width: 100%;
     display:block;
-    max-width:none;
+    max-width: 600px;
 }
  
 .ba-slider-3 .resize {
@@ -601,7 +607,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     position: absolute;
     background-color: #f7f7f7;
     z-index: 1;
-    padding: 12px 17px 12px 17px;
+    padding: 12px 17px;
   }
   
   .dropdown-content-adv-sticky a {
@@ -636,7 +642,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   .dropdown .dropbtn {
     border: none;
     outline: none;
-    padding: 0 16px 14px 16px;
+    padding: 0 16.25px 14px 16.25px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -646,8 +652,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   
   .nav-margin-fix {margin-bottom: 15px;}
 
+  .no-left-pad {padding-left: 0 !important;}
 
-  
 /*------------------------------------*/
 /* Basic Set up */
 /*------------------------------------*/
@@ -1122,11 +1128,11 @@ font-size: 180%;
     h3.case-study li:last-child {padding-bottom: 40px;}
 
 p.intro {
+    text-align-last: center;
     text-align: justify;
     line-height: 1.5;
     width: 45%;
     margin-left: 27.5%;
-    text-align-last: center;
 }
 
 p.p-lockers {
@@ -1154,9 +1160,11 @@ p.lockers-intro-alt-2 {
 }
 
 .intro-copy {
-    text-align: center;
+    text-align-last: center;
+    text-align: justify;
     margin-bottom: 20px;
     line-height: 1.5;
+    padding: 0 4px;
 }
 
 .new-acnt-copy {
@@ -1384,7 +1392,7 @@ h2 {
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 60px;
-    margin-top: 90px;
+    margin-top: 60px;
     padding: 0 8%;
 }
 
@@ -1721,7 +1729,7 @@ h2.contact-spacer-maps {
 
     color: navy;
     display: inline-block;
-    padding: 6px 20px !important;
+    padding: 6px 14px !important;
     font-weight: 300;
     text-decoration: none;
     border-radius: 200px;
@@ -2203,20 +2211,20 @@ header {
 }
 
 .logo {
-    height: 78px;
+    height: 70px;
     width: auto;
     float: left;
-    margin-left: 25px;
-    margin-top: 4px;
+    margin-left: 15px;
+    margin-top: 9px;
 }
 
 .logo-black {
     display: none;
-    height: 78px;
+    height: 70px;
     width: auto;
     float: left;
-    margin-left: 25px;
-    margin-top: 4px;
+    margin-left: 13px;
+    margin-top: 9px;
 }
 
 .title-long-logo {max-width: 50%;
@@ -2238,7 +2246,7 @@ nav {
 .main-nav {
     float: right;
     list-style: none;
-    padding: 0 10px 25px 25px;
+    padding: 0 0 25px 15px;
 }
 
 .main-nav li {
@@ -2469,13 +2477,23 @@ section .locations {
     background: #0082c8;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding: 60px 5% 60px 5%;
+    padding: 60px 5%;
+    margin: 0 auto;
+}
+
+.protech-update-banner {
+    font-size: 80%;
+    color: #f7f7f7;
+    background: #0082c8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff3a22, #ff5d49, #ff5d49, #ff3a22);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff3a22, #ff5d49, #ff5d49, #ff3a22); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 0 5% 30px 5%;
     margin: 0 auto;
 }
 
 .everywhere-you-go-advant {
     color: #f7f7f7;
-    padding: 60px 5% 60px 5%;
+    padding: 60px 5%;
     margin: 0 auto;
     background: #0082c8;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
@@ -2485,7 +2503,7 @@ section .locations {
 
 .adv-bg {
     color: navy;
-    padding: 60px 5% 60px 5%;
+    padding: 60px 5%;
     margin: 0 auto;
     background: #ff3;
     background: -webkit-linear-gradient(to right, #E1F5C4, rgba(255, 255, 51, 0.5));
@@ -2493,7 +2511,7 @@ section .locations {
 }
 
 .everywhere-you-go-2 {
-padding: 5px 5% 5px 5%;
+padding: 5px 5%;
 margin: 0 auto;
 background: #00c6ff;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
@@ -2501,7 +2519,7 @@ background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, F
 }
 
 .everywhere-you-go-3 {
-    padding: 5px 5% 5px 5%;
+    padding: 5px 5%;
     margin: 0 auto;
     height: 50vh;
     background: #00c6ff;  /* fallback for old browsers */
