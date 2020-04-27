@@ -509,7 +509,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   .dropdown-ele .dropbtn-ele {
     border: none;
     outline: none;
-    padding: 30px 29.25px 14px 29.25px;
+    padding: 15px 31.5px 14px 31.5px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -728,7 +728,7 @@ p.center-text {text-align: center;}
     background: -webkit-linear-gradient(to right, #E1F5C4, rgba(255, 255, 51, 0.5));  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #E1F5C4, rgba(255, 255, 51, 0.5)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
    }
-   
+
    
    .gallery2 img {
      width: 100%;
@@ -806,7 +806,7 @@ img.center-pic {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 45px;
+    padding-top: 60px;
     max-width: 60%;
     height: auto;
 }
@@ -870,7 +870,15 @@ img.center-fin {
     background-size: 100% 100%;
 }
 
+.box .read-flex-box {
+    justify-content: flex-start;
+    display: inline-block;}
+
 .box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
     position: relative;
     background-color: #f7f7f7;
     border-radius: 20px;
@@ -1308,6 +1316,13 @@ div.case-pad { padding: 4% 4% 1% 1%;}
     vertical-align: middle;
 }
 
+.fas-health {
+    font-size: 500%;
+    text-align: center;
+    padding: 0;
+    margin: 60px 2% 0 2%;
+    vertical-align: middle;
+}
 
 .fas-2 {
     font-size: 3vw;
@@ -1396,10 +1411,15 @@ h2 {
     padding: 0 8%;
 }
 
+.protech-update-banner h2 {
+    font-size: 150%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
 h2.h2-testimonials {
     margin-top: 50px;
     margin-bottom: 20px;
-    padding-bottom: -5px;
 }
 
 .h2-testimonials:after {
@@ -1659,7 +1679,7 @@ h2.contact-spacer-maps {
     text-decoration: none;
     border-radius: 200px;
     color: #ff3a22;
-    border: 1px solid;
+    border: 2px solid;
     -webkit-transition: background-color 0.3s, border 0.3s, color 0.3s;
     transition: background-color 0.3s, border 0.3s, color 0.3s;
 }
@@ -1668,9 +1688,32 @@ h2.contact-spacer-maps {
 .btn-read:active {
     text-decoration: underline;
     color: #f7f7f7;
-    border: 1px solid navy;
+    border: 2px solid navy;
     background-color: navy;
 }
+
+.btn-read-wh:link,
+.btn-read-wh:visited {
+    display: inline-block;
+    padding: 10px 50px;
+    margin-bottom: 60px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #f7f7f7;
+    border: 2px solid;
+    -webkit-transition: background-color 0.3s, border 0.3s, color 0.3s;
+    transition: background-color 0.3s, border 0.3s, color 0.3s;
+}
+
+.btn-read-wh:hover,
+.btn-read-wh:active {
+    text-decoration: underline;
+    color: #ff3a22;
+    border: 2px solid #f7f7f7;
+    background-color: #f7f7f7;
+}
+
 
 .btn-read-blue:link,
 .btn-read-blue:visited {
@@ -1681,7 +1724,7 @@ h2.contact-spacer-maps {
     text-decoration: none;
     border-radius: 200px;
     color: navy;
-    border: 1px solid;
+    border: 2px solid;
     -webkit-transition: background-color 0.3s, border 0.3s, color 0.3s;
     transition: background-color 0.3s, border 0.3s, color 0.3s;
 }
@@ -1689,7 +1732,7 @@ h2.contact-spacer-maps {
 .btn-read-blue:hover,
 .btn-read-blue:active {
     color: #f7f7f7;
-    border: 1px solid navy;
+    border: 2px solid navy;
     background-color: navy;
 }
 
@@ -1726,10 +1769,9 @@ h2.contact-spacer-maps {
 
 .btn-get-lockers-nav-sticky:link,
 .btn-get-lockers-nav-sticky:visited {
-
     color: navy;
     display: inline-block;
-    padding: 6px 14px !important;
+    padding: 6px 20px;
     font-weight: 300;
     text-decoration: none;
     border-radius: 200px;
@@ -1763,7 +1805,7 @@ h2.contact-spacer-maps {
 .btn-get-lockers-nav:visited {
     z-index: -1;
     display: inline-block;
-    padding: 6px 20px !important;
+    padding: 6px 20px;
     font-weight: 300;
     text-decoration: none;
     border-radius: 200px;
@@ -2024,7 +2066,7 @@ input[type=submit] {
     text-transform: uppercase;
     background-color: #F7F7F7;
     display: inline-block;
-    padding: 15px 50px;
+    padding: 18px 50px;
     font-weight: bold;
     text-decoration: none;
     border-radius: 200px;
@@ -2256,7 +2298,6 @@ nav {
 
 .main-nav li a:link,
 .main-nav li a:visited {
-    padding: 10px 0;
     color: #F7F7F7;
     text-decoration: none;
     text-transform: uppercase;
@@ -2278,7 +2319,6 @@ nav {
 
 .main-nav li a.this-page:link,
 .main-nav li a.this-page:visited {
-    padding: 10px 0;
     color: #ff3;
     text-decoration: none;
     text-transform: uppercase;
@@ -2359,10 +2399,7 @@ nav {
 .sticky .logo-black { display: block; }
 
 .sticky .main-nav li a:link,
-.sticky .main-nav li a:visited {
-    padding: 10px 0;
-    color: navy;
-}
+.sticky .main-nav li a:visited {color: navy;}
 
 .sticky .main-nav li a:hover,
 .sticky .main-nav li a:active {
@@ -2371,10 +2408,7 @@ nav {
 }
 
 .sticky .main-nav li a.this-page:link,
-.sticky .main-nav li a.this-page:visited {
-    padding: 20px 0;
-    color: #ff3a22;
-}
+.sticky .main-nav li a.this-page:visited {color: #ff3a22;}
 
 .sticky .main-nav li a.this-page:hover,
 .sticky .main-nav li a.this-page:active {
@@ -2463,6 +2497,7 @@ section .locations {
 .testimonial-logo {
     height : 95px;
     margin-top: 20px;
+    margin-bottom: 20px;
     }
 
 .section-testimonials { 
@@ -2482,13 +2517,11 @@ section .locations {
 }
 
 .protech-update-banner {
-    font-size: 80%;
     color: #f7f7f7;
-    background: #0082c8;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ff3a22, #ff5d49, #ff5d49, #ff3a22);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ff3a22, #ff5d49, #ff5d49, #ff3a22); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding: 0 5% 30px 5%;
-    margin: 0 auto;
+    background: #ff3a22;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e46958, #ff3a22, #ff3a22, #e46958);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e46958, #ff3a22, #ff3a22, #e46958); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 0 5%;
 }
 
 .everywhere-you-go-advant {
@@ -2500,6 +2533,7 @@ section .locations {
     background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.read-btn-pad-top {padding-top: 50px;}
 
 .adv-bg {
     color: navy;
