@@ -11,6 +11,8 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
 
     .top-mech-lpad {
         padding-left: 40px;}
+
+        ul.bullets h2:first-child {margin-top: 30px;}
 }
 
 
@@ -36,6 +38,8 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
     
 /* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
+
+    ul.bullets h2:first-child {margin-top: 20px;}
 
     nav {font-size: 12px;}
 
@@ -200,6 +204,8 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 768px) {
 
+    h2.h2-ele-subtext {font-size: 4.5vw;}
+
     .h2-testimonials:after {margin-bottom: 60px;}
 
     .sticky .sticky-mobile-fc {margin-top: 30px !important; }
@@ -334,15 +340,15 @@ margin: 0 auto 22px auto;
         padding-right: 15%;
         padding-left: 15%;}
     
-        h1.other {font-size: 5vw;
+        h1.other {font-size: 6vw;
             padding-right: 5%;
             padding-left: 5%;}
 
-            h1.other-lockers {font-size: 5vw;
+            h1.other-lockers {font-size: 6vw;
                 padding-right: 5%;
                 padding-left: 5%;}
 
-    h2 {font-size: 5vw;
+    h2 {font-size: 6vw;
         padding-right: 10%;
         padding-left: 10%;}  
 
@@ -547,6 +553,22 @@ h3 ul li:last-child {margin-bottom: 10px;}
 /* Small phones: from 300px to 480px */
 @media only screen and (max-width: 480px) {
 
+    div .btn-patent:link,
+    div .btn-patent:visited {
+        max-width: 100%;
+        font-size: 6vw;
+        padding-left: 12vw;
+        padding-right: 12vw;
+    }
+
+        div .btn-ele-sizes:link,
+        div .btn-ele-sizes:visited {
+            max-width: 100%;
+            font-size: 6vw;
+            padding-left: 6vw;
+            padding-right: 6vw;
+        }
+
         .slider-text {top: 46.25%;}
 
     .ele-bot-up-large {font-size: 6.2vw;}
@@ -581,7 +603,7 @@ h3 ul li:last-child {margin-bottom: 10px;}
     .btn-coin-stat:link,
     .btn-coin-stat:visited,
     .btn-read:link,
-    .btn-read:visited { padding: 10px 12vw;
+    .btn-read:visited { padding: 10px 9vw;
         font-size: 6vw;
         white-space: nowrap;}
 
@@ -594,7 +616,7 @@ h3 ul li:last-child {margin-bottom: 10px;}
     .btn-ele-lockers-hov:visited, 
     .btn-ele-lockers-stat:link,
     .btn-ele-lockers-stat:visited { padding: 10px 6.1vw;
-        font-size: 5vw;
+        font-size: 6vw;
         white-space: nowrap;}
         
     h1 {font-size: 9vw;}
@@ -631,10 +653,16 @@ input[type=submit]:active {
 .btn-read-wh p,
 .btn-read-wh p {font-size: 5vw;}
 
+.plastic-text3,
+.plastic-text2  {font-size: 5.5vw;}
+
 }
 
 /* Small phones: from 300px to 480px */
 @media only screen and (max-width: 412px) {
+
+    div.feat-title,
+    div.feat-list {font-size: 5vw;}
 
     .slider-text {top: 45.3%;}
 
@@ -644,6 +672,17 @@ input[type=submit]:active {
         padding-right: 13%;}
 
     ul.bullets h2:last-child {margin-bottom: 15px;}
+
+    ul.bullets h2 {
+        margin-left: 0;
+        padding-left: 1%;
+    }
+
+    ul.bullets li {
+        font-size: 5vw;
+        vertical-align: middle;
+    }
+
 
     .btn-margin {margin-top: -40px;}
 
@@ -706,7 +745,9 @@ input[type=submit]:active {
 /* TINY: from 0px to 269px */
 @media only screen and (max-width: 215px) {
 
+    .plastic-text2 {margin: 0 9%;}
 
+    .icon-advant-tech {font-size: 17vw;}
 
     .mobile-nav-icon i {
         font-size: 105%;
