@@ -2,41 +2,39 @@
 /* Made By Scott Puglisi */
 /*------------------------------------*/
 
-.faq-bot {margin-bottom: 0 !important;
-    padding-bottom: 25px;}
+.faq-pad {padding: 50px;}
 
-.faq-top {margin-top: 0 !important;
-padding-top: 25px;}
+.no-margins {
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
 
-.faq-q,
-.faq-a {padding: 1%;}
-
-.faq-q1 {margin-top: 57px;
-    font-weight: bold;}
+.faq-q1 {font-weight: bold;}
 
 .faq-q {font-weight: bold;}
 
-.faq-pad {padding-bottom: 2%;}
-
 .faq-divider2 {
     left: calc(50% - 1px);
-    border-top: 2px solid #ff3a22;
-    padding: 10px;
+    border-top: 1px solid #ff3a22;
     padding-top: 0;
 }
 
 .faq-divider {
     left: calc(50% - 1px);
-    border-left: 2px solid #ff3a22;
-    padding: 50px;
+    border-left: 1px solid #ff3a22;
 }
 
 .opacity-100 {opacity: 1 !important;
     pointer-events: none;
 }
 
-.text-box-constrict {font-size: 150%;
+.text-box-constrict {
+    font-size: 125%;
     font-weight: bold;
+    margin: 0;
+    padding: 0;
 }
 
 .img-container {
@@ -58,7 +56,7 @@ padding-top: 25px;}
     background-position: center;
     opacity: .125;
     z-index: 2;
-    padding-left: 35%;
+    padding: 5px 0 5px 35%;
 }
 
 div .box-need-pic:hover,
@@ -76,6 +74,7 @@ div .box-need-pic:hover,
     text-align: center;
     padding: .5%;
     border: 3px solid #f7f7f7;
+    font-size: 22px;
 }
 
 .box-need2 {
@@ -101,7 +100,6 @@ img.shark-mask-pic {
     height: auto;
 }
 
-
 .arrow-btn {
     transform: rotate(180deg);
     font-size: 80%;
@@ -115,8 +113,11 @@ img.shark-mask-pic {
     background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox='0 0 100 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21.184 20c.357-.13.72-.264 1.088-.402l1.768-.661C33.64 15.347 39.647 14 50 14c10.271 0 15.362 1.222 24.629 4.928.955.383 1.869.74 2.75 1.072h6.225c-2.51-.73-5.139-1.691-8.233-2.928C65.888 13.278 60.562 12 50 12c-10.626 0-16.855 1.397-26.66 5.063l-1.767.662c-2.475.923-4.66 1.674-6.724 2.275h6.335zm0-20C13.258 2.892 8.077 4 0 4V2c5.744 0 9.951-.574 14.85-2h6.334zM77.38 0C85.239 2.966 90.502 4 100 4V2c-6.842 0-11.386-.542-16.396-2h-6.225zM0 14c8.44 0 13.718-1.21 22.272-4.402l1.768-.661C33.64 5.347 39.647 4 50 4c10.271 0 15.362 1.222 24.629 4.928C84.112 12.722 89.438 14 100 14v-2c-10.271 0-15.362-1.222-24.629-4.928C65.888 3.278 60.562 2 50 2 39.374 2 33.145 3.397 23.34 7.063l-1.767.662C13.223 10.84 8.163 12 0 12v2z' fill='%23ffff33' fill-opacity='0.27' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
 
-.header2 {color: white;
-margin-bottom: 40px;}
+.header2 {
+    color: white;
+    margin-bottom: 18px;
+    margin-top: 3px;
+}
 
 .date-text {
     font-style: italic;
@@ -457,7 +458,7 @@ margin-bottom: 40px;}
     font-weight: bold;
     color: #ff3;
     text-decoration: underline;
-    font-size: 275%;
+    font-size: 260%;
     text-align: center;
     line-height: 1.6;
     letter-spacing: 2px;
@@ -487,6 +488,7 @@ ul.site-map li {padding-top: 5%;}
     padding-bottom: 3%;}
 
 .find-tib-text {margin-top: 27%;}
+.find-tib-text2 {margin-top: 30%;}
 
 .chart-pad {padding: 50px 0px;}
 
@@ -563,8 +565,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     margin: 0;
     max-height: 400px;
     max-width: 400px;
-    min-height: 200px;
-    min-width: 200px;
     border: 3px solid #1e90ff;
     border-radius: 20px;
 }
@@ -874,6 +874,12 @@ ul.bullets2 h2:first-child {margin-top: 0px;}
     justify-content: space-around;
 }
 
+.everything-need .row {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+
 .section-form { padding-bottom: 40px; }
 .form-question { padding-bottom: 6px; }
 
@@ -1067,8 +1073,8 @@ strong {
 /* Paragraphs */
 /*------------------------------------*/
 
-.advant-header {color: #f7f7f7;
-padding: 50 15%;
+.advant-header {
+color: #f7f7f7;
 margin: 0 auto;
 line-height: 1.5;
 font-size: 180%;
@@ -1373,7 +1379,12 @@ div.case-pad { padding: 4% 4% 1% 1%;}
     padding-top: 10px;
 }
 
-.icon-big-wh {color: #f7f7f7 !important;}
+.icon-big-wh {
+    padding: 0;
+    color: #f7f7f7 !important;
+    font-size: 200%;
+    display: block;
+}
 
 .icon-big {
     font-size: 200%;
@@ -1481,7 +1492,8 @@ h3 {
 }
 
 h1 {
-    margin-top: 150px;
+    margin-top: 115px;
+    margin-bottom: 0;
     font-size: 325%;
     text-align: center;
     color: #f7f7f7;
@@ -1490,8 +1502,8 @@ h1 {
 h1.other-lockers {
     font-size: 300%;
     text-align: center;
-    margin-top: 8%;
-    margin-bottom: 15px;
+    margin-top: 10.5%;
+    margin-bottom: 6px;
     color: #f7f7f7;
 }
 
@@ -1512,7 +1524,7 @@ h1.protech-text-head {
 }
 
 h2 {
-    font-size: 220%;
+    font-size: 225%;
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 60px;
@@ -1524,7 +1536,7 @@ h2.h2-ele-subtext{
     color: #f7f7f7;
     margin-top: 0;
     font-size: 120%;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .protech-update-banner h2 {
@@ -1548,20 +1560,27 @@ h2.h2-testimonials {
     margin-top: 60px;
 }
 
-
-
 h2.h2-title {margin-bottom: -50px;
 margin-top: 50px;
 padding: 0 15% 10px 15%;
 }
 
-h2.h2-adv-title {margin: 25px 0 0 0;
-    padding: 2% 12%;}
 
-h2.h2-home-title {
+h2.h2-adv-title {
+    margin: 0;
+    padding: 80px 18% 40px 18%;
+}
+
+h2.h2-ele-title {
     margin-top: 5px;
     margin-bottom: -50px;
-    padding: 85px 18%;
+    padding: 80px 18%;
+}
+
+h2.h2-ele2-title {
+    margin-top: 5px;
+    margin-bottom: -50px;
+    padding: 80px 18%;
 }
 
 h2.about-pad { padding: 0 15%;}
@@ -1739,6 +1758,16 @@ h4 {
     margin-top: 60px;
 }
 
+.ele2-spacer:after {
+    display: block;
+    height: 2px;
+    background-color: #ff3a22;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
 .contact-spacer-ele-header:after {
     display: block;
     height: 2px;
@@ -1799,7 +1828,7 @@ h2.contact-spacer-maps {
 .btn-read:link,
 .btn-read:visited {
     display: inline-block;
-    padding: 10px 50px;
+    padding: 8px 50px;
     margin-bottom: 15px;
     font-weight: 300;
     text-decoration: none;
@@ -1845,7 +1874,7 @@ h2.contact-spacer-maps {
 .btn-read-blue:link,
 .btn-read-blue:visited {
     display: inline-block;
-    padding: 10px 50px;
+    padding: 8px 50px;
     margin: 30px 1% 40px 1%;
     font-weight: 300;
     text-decoration: none;
@@ -1867,7 +1896,7 @@ h2.contact-spacer-maps {
 .btn-more:visited {
     display: inline-block;
     margin-right: 25px;
-    padding: 10px 25px;
+    padding: 8px 25px;
     font-size: 120%;
     font-weight: 300;
     text-decoration: none;
@@ -1918,10 +1947,10 @@ h2.contact-spacer-maps {
     transition: box-shadow 500ms !important;
     -webkit-transition: background-color 0.3s, border 0.3s, color 0.3s  !important;
     transition: background-color 0.3s, border 0.3s, color 0.3s  !important;
-    border:  3px solid #ff3a22 !important;
+    border:  3px solid #9c1200 !important;
     transition: border 500ms !important;
     background-color: #ff3a22 !important;
-    border-bottom: 3px solid #ff3a22 !important;
+    border-bottom: 3px solid #9c1200 !important;
     -webkit-transition: border-bottom .3s;
     transition: border-bottom .3s;
 }
@@ -1960,7 +1989,7 @@ h2.contact-spacer-maps {
 .btn-get-lockers:visited {
     display: inline-block;
     margin-left: 25px;
-    padding: 10px 40px;
+    padding: 8px 40px;
     font-size: 120%;
     font-weight: 300;
     text-decoration: none;
@@ -2020,7 +2049,7 @@ p.btn-border-trans2 {
 .btn-ele-lockers-stat:visited {
     display: inline-block;
     margin-right: 20px;
-    padding: 10px 16px;
+    padding: 8px 14px;
     font-size: 100%;
     font-weight: 300;
     text-decoration: none;
@@ -2044,7 +2073,7 @@ p.btn-border-trans2 {
 .btn-ele-lockers-hov:visited {
     display: inline-block;
     margin-right: 25px;
-    padding: 10px 5px;
+    padding: 8px 5px;
     font-size: 100%;
     font-weight: 300;
     text-decoration: none;
@@ -2069,7 +2098,7 @@ p.btn-border-trans2 {
     display: inline-block;
     margin-right: 25px;
     margin-top: 25px;
-    padding: 10px 38px;
+    padding: 8px 38px;
     font-size: 100%;
     font-weight: 300;
     text-decoration: none;
@@ -2088,7 +2117,7 @@ p.btn-border-trans2 {
 .btn-coin:visited {
     display: inline-block;
     margin-left: 20px;
-    padding: 10px 24px;
+    padding: 8px 22.3px;
     font-size: 100%;
     font-weight: 300;
     text-decoration: none;
@@ -2298,15 +2327,15 @@ header {
     background-size: cover;
     background-position: left;
     background-attachment: inherit;
-    height: 60vh;
+    height: 80vh;
 }
 .header-ele-lockers {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url(img/pp-headon-header.png);
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(img/pp-headon-header.png);
     background-size: cover;
-    background-position: center top; 
+    background-position: center; 
     background-attachment: inherit;
-    height: 60vh;
+    height: 80vh;
 }
 
 .header-advant {
@@ -2350,7 +2379,7 @@ header {
 
 .hero-text-box {
     position: absolute;
-    width: 1140px;
+    width: 98%;
     top: 42%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -2719,8 +2748,13 @@ background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, F
 }
 
 .testimonials {
+    margin-top: 9%;
+    margin-bottom: 9%;
+}
+
+.faq-h2 {
     margin-top: 40px;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
 
 blockquote {

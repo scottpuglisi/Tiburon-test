@@ -1,6 +1,14 @@
 /* Small phones to small tablets: from 481px to 767px */
-@media only screen and (min-width: 2100px) {.icon-adv-big {padding: 30% 0 0 0;}}
+@media only screen and (min-width: 2560px) {
 
+    ul.bullets h2 {font-size: 40px;}
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (min-width: 1201px) {
+.main-header {font-size: 92px;}
+.header2 {font-size: 45px;}
+}
 
 /* Big tablet to 1200px (Widths smaller than the 1140px row) */
 @media only screen and (max-width: 1500px) {
@@ -12,12 +20,15 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
     .top-mech-lpad {
         padding-left: 40px;}
 
-        ul.bullets h2:first-child {margin-top: 30px;}
-}
+    ul.bullets h2:first-child {margin-top: 30px;}
 
+    .header2 {font-size: 3.5vw;}
+    .main-header {font-size: 5.9vw;}
+    }
 
 /* Big tablet to 1200px (Widths smaller than the 1140px row) */
 @media only screen and (max-width: 1200px) {
+
     nav {font-size: 16px;}
 
     .dropdown-adv .dropbtn-adv {padding: 30px 16px 14px 16px;}
@@ -32,12 +43,29 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
 
     .main-nav li {margin-left: 0;}
 
+    .hero-text-box,
+    .hero-text-box-lockers,
+    .hero-text-box-lockers-2,
+    .hero-text-box-other {
+        width: 100%;
+        padding: 0 2%;
     }
 
+    .case-study li,
+    h3.case-study {line-height: 1.25;}
 
-    
+    .adv-left-copy {margin: 1% 0 0px 8%;}
+    }
+
 /* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
+
+    h2.h2-ele-subtext {
+        margin-bottom: 0;
+        font-size: 110%;
+    }
+
+    .box-need {font-size: 18px;}
 
     ul.bullets h2:first-child {margin-top: 20px;}
 
@@ -84,16 +112,12 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
     .about-copy {width: 70%;
         margin-left: 15%;
     }
-    
-
-    ul.bullets h2 {margin-top: 20px;
-    margin-bottom: 15px;}
 
     ul.bullets2 h2 {margin-top: 20px;
         margin-bottom: 15px;
     }
 
-        .box-specs.col:first-child {
+    .box-specs.col:first-child {
         width: 38%;
         margin-left: 1%;
     }
@@ -107,9 +131,7 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
 
     h3.h3-lockers {padding-left: 5%;}
 
-    h2.contact-spacer-maps {
-        display: block;
-    }
+    h2.contact-spacer-maps {display: block;}
 
     body {font-size: 18px;}
 
@@ -137,7 +159,7 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
     .btn-more:link,
     .btn-more:visited,
     .btn-get-lockers:link,
-    .btn-get-lockers:visited {margin: 20px 2%;}
+    .btn-get-lockers:visited {margin: 8px 2%;}
     
     .btn-coin-stat:link,
     .btn-coin-stat:visited,
@@ -146,7 +168,7 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
     .btn-ele-lockers-hov:link,
     .btn-ele-lockers-hov:visited,
     .btn-coin:link,
-    .btn-coin:visited {margin: 20px 2% 0 2%;}
+    .btn-coin:visited {margin: 8px 2%;}
 
 
     input[type=submit], 
@@ -155,21 +177,6 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
 
 }
 
-/* Big tablet to 1200px (Widths smaller than the 1140px row) */
-@media only screen and (max-width: 1200px) {
-    .hero-text-box,
-    .hero-text-box-lockers,
-    .hero-text-box-lockers-2,
-    .hero-text-box-other {
-        width: 100%;
-        padding: 0 2%;
-    }
-
-    .case-study li,
-    h3.case-study {line-height: 1.25;}
-
-    .adv-left-copy {margin: 1% 0 0px 8%;}
-}
 
 /* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 991px) {
@@ -180,9 +187,8 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
 
 /* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 865px) {
-    h1.other-lockers {font-size: 250%;}
     h1.other {font-size: 250%;}
-    h1 {font-size: 275%}
+    h1 {font-size: 260%}
 
     .box-2 {margin: 0 0 30px 0;}
 
@@ -204,15 +210,64 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 768px) {
 
-    h2.h2-ele-subtext {font-size: 4.5vw;}
+    .contact-spacer-ele-header:after {margin-top: 8%;}
+
+    h2.h2-ele-title {
+        margin-top: 1px;
+        margin-bottom: -50px;
+        padding: 9% 5% 12% 5%;
+    }
+
+    h2.h2-ele2-title {
+        margin-top: 1px;
+        margin-bottom: -50px;
+        padding: 8% 5% 13% 5%;
+    }
+    
+    .no-bot-mar {margin-bottom: 0 !important;}
+
+    .main-header {margin-top: 105px;}
+    .header2 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+    .everything-need {font-size: 4.5vw;}
+
+    .sneed-box-pad {padding-bottom: 15px;}
+
+    .faq-q {
+        padding-top: 5%;
+        font-size: 4vw;}
+
+    .faq-q1,
+    .faq-a {
+        padding-bottom: 5%;
+        font-size: 4vw;
+    }
+
+    .faq-q1 {
+        margin-top: 0;
+        padding-top: 3%;
+    }
+
+    .resize-spacer {
+        width: 80%;
+        border-bottom: 1px solid #ff3a22;
+    }
+
+    .faq-divider2 {border-top: 0px}
+    
+    .faq-divider {border-left: 0px;}
+
+    h2.h2-ele-subtext {font-size: 3.5vw;}
 
     .h2-testimonials:after {margin-bottom: 60px;}
 
-    .sticky .sticky-mobile-fc {margin-top: 30px !important; }
+    .sticky .sticky-mobile-fc {margin-top: 17px !important; }
 
     .nav-margin-fix {margin-bottom: 0;}
 
-    .dropdown .dropbtn {padding: 0 0px 25px 0px;}
+    .dropdown .dropbtn {padding: 0 0px 22px 0px;}
 
     .dropdown-adv .dropbtn-adv {padding: 0 0 25px 0;}
     .dropdown-ele .dropbtn-ele  {padding: 0 0 25px 0;}
@@ -229,7 +284,7 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
         float: left;
         list-style: none;
         width: 100%;
-        margin-top: 5px;
+        margin-top: 2px;
     }
 
     .reverse-coin {
@@ -337,20 +392,23 @@ margin: 0 auto 22px auto;
     ul.bullets2 h2:first-child {margin-top: 15px;}
 
     h1 {
-        padding-right: 15%;
-        padding-left: 15%;}
-    
-        h1.other {font-size: 6vw;
-            padding-right: 5%;
-            padding-left: 5%;}
+        padding-right: 0;
+        padding-left: 0;}
 
-            h1.other-lockers {font-size: 6vw;
-                padding-right: 5%;
-                padding-left: 5%;}
+    h1.other {font-size: 5.9vw;
+        padding-right: 5%;
+        padding-left: 5%;}
 
-    h2 {font-size: 6vw;
-        padding-right: 10%;
-        padding-left: 10%;}  
+    h1.other-lockers {font-size: 5.9vw;
+        padding-right: 5%;
+        padding-left: 5%;
+        margin-top: 16%;
+            }
+
+    h2 {font-size: 5.5vw;
+        padding-right: 5%;
+        padding-left: 5%;
+    }  
 
     iframe {height: 400px;
         width: 80vw;}
@@ -391,11 +449,14 @@ h3 ul li:last-child {margin-bottom: 10px;}
         text-align: center;}
         
     h2.h3-lockers-intro-alt {text-align: center;
-        margin: 0 3% 0 3%;
+        margin: 0 3%;
         padding: 0 0 10px 0;
     }
 
-    h2.h2-adv-title {margin: 25px 0 25px 0;}
+    h2.h2-adv-title {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 
     .lockers-intro-alt:last-child {padding-bottom: 50px;}
 
@@ -411,35 +472,32 @@ h3 ul li:last-child {margin-bottom: 10px;}
 
     div.footer-color {width: 100%;}
 
-    .box-specs.col:first-child {
-        width: 100%;
-    }
+    .box-specs.col:first-child {width: 100%;}
 
-    .box-specs-r.col:last-child {
-        width: 100%;
-        }
+    .box-specs-r.col:last-child {width: 100%;}
 
     .wrapper {
         display: flex;
         flex-direction: column;
       }
 
-      .wrapper div:first-child {
-        order: 1;
-      }
+      .wrapper div:first-child {order: 1;}
 
-    .box-specs {width: 100%;}
+    .box-specs {
+    width: 100%;
+    margin-bottom: 25px;
+}
 
     .box-100-wide {width: 100%;}
 
     .container.gallery-container { padding: 60px 440px 60px 0px;}
 
-    .contact-form { width: 80%; }
+    .contact-form { width: 80%;}
 
     .social-links {text-align: center;
         float: none;}
 
-    .footer-contact { height: auto; }
+    .footer-contact { height: auto;}
 
     .footer-nav {text-align: center;
     float: none;
@@ -461,7 +519,7 @@ h3 ul li:last-child {margin-bottom: 10px;}
     display: none;
     float: left;
     margin-right: 0;
-    padding: 25px 15px 0 15px;
+    padding: 20px 15px 0 15px;
     }
 
     .main li a:link,
@@ -504,8 +562,6 @@ h3 ul li:last-child {margin-bottom: 10px;}
         margin-bottom: 25px;
         margin-left: 0px;
     }
-
-    .box-top-fix {margin-top: 25px;}
  
     .logo-black {
         margin: 4px 0 4px 6px;
@@ -521,6 +577,12 @@ h3 ul li:last-child {margin-bottom: 10px;}
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
+    .box-need {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 5px;
+        font-size: 4vw;
+    }
 
 .testimonial-divider {
     border-top: 1px solid #ff3a22;
@@ -529,10 +591,20 @@ h3 ul li:last-child {margin-bottom: 10px;}
     border-right: none;
     }
 
+    .no-top-mar2 {margin-top: 0 !important;}
+    .no-bot-mar2 {margin-bottom: 0 !important;}
+
 }
 
 /* Small phones: from 300px to 480px */
 @media only screen and (max-width: 610px) {
+
+    .contact-cross,
+    .banner-adv-tech {padding: 75px 0;}
+
+    p.lockers-intro-alt {padding-bottom: 35px;}
+
+    h2.h3-lockers-intro-alt {font-size: 4vw;}
 
     .slider-text {top: 46.8%;}
 
@@ -548,10 +620,31 @@ h3 ul li:last-child {margin-bottom: 10px;}
     width: 100%;
     height: 100%;
 }
+
+h2.everywhere-you-go {padding: 7%}
+
+h2.h2-sm-margin {
+margin-top: 9%;
+margin-bottom: 6%;
+}
+
 }
 
 /* Small phones: from 300px to 480px */
 @media only screen and (max-width: 480px) {
+
+    h2.ele2-spacer:after {
+        width: 60%;
+        margin-top: 6%;
+    }
+
+    .contact-spacer-ele-header:after {margin-top: 6%;}
+
+    h2.h2-ele-title {padding: 7% 5% 60px 5%;}
+
+    h2.h2-ele2-title {padding: 7% 5% 13% 5%;}
+
+    .faq-pad {padding: 40px 15px;}
 
     div .btn-patent:link,
     div .btn-patent:visited {
@@ -588,40 +681,39 @@ h3 ul li:last-child {margin-bottom: 10px;}
     p.intro {font-size: 5vw;}
 
     .btn-read:link,
-    .btn-read:visited {padding: 8px 20px;}
+    .btn-read:visited {padding: 6px 20px;}
 
     .btn-more:link,
-    .btn-more:visited
-    { padding: 10px 8vw;
-        font-size: 6vw;
-        white-space: nowrap;}
+    .btn-more:visited{
+        padding: 6px 4.3vw;
+        font-size: 5.5vw;
+        white-space: nowrap;
+    }
 
-    .btn-coin:link,
-    .btn-coin:visited,
     .btn-stat:link,
     .btn-stat:visited,
     .btn-coin-stat:link,
     .btn-coin-stat:visited,
     .btn-read:link,
-    .btn-read:visited { padding: 10px 9vw;
-        font-size: 6vw;
+    .btn-read:visited {padding: 6px 7.7vw;
+        font-size: 5vw;
         white-space: nowrap;}
 
     .btn-get-lockers:link,
-    .btn-get-lockers:visited { padding: 10px 11.1vw;
-        font-size: 6vw;
+    .btn-get-lockers:visited {padding: 6px 7.7vw;
+        font-size: 5.5vw;
         white-space: nowrap;}
 
     .btn-ele-lockers-hov:link,
-    .btn-ele-lockers-hov:visited, 
-    .btn-ele-lockers-stat:link,
-    .btn-ele-lockers-stat:visited { padding: 10px 6.1vw;
-        font-size: 6vw;
+    .btn-ele-lockers-hov:visited {
+        padding: 6px 5.5vw;
+        font-size: 5vw;
         white-space: nowrap;}
         
     h1 {font-size: 9vw;}
-    h2 {font-size: 6vw;}
-    h3 {font-size: 5.5vw;}
+    h2 {font-size: 8vw;}
+    h3 {font-size: 6vw;}
+    h4 {font-size: 2vw;}
     h1.other {font-size: 10vw;}
     .header-subtext {font-size: 4vw;}
 
@@ -643,7 +735,6 @@ input[type=submit]:active {
     font-size: 6vw;
 }
 
-
 .icon-big {font-size: 9vw;}
 
 .fas-health {font-size: 14vw !important;}
@@ -656,10 +747,31 @@ input[type=submit]:active {
 .plastic-text3,
 .plastic-text2  {font-size: 5.5vw;}
 
+.faq-pad {padding: 4px;}
+
 }
 
 /* Small phones: from 300px to 480px */
 @media only screen and (max-width: 412px) {
+
+    .btn-ele-lockers-stat:link,
+    .btn-ele-lockers-stat:visited {
+        padding: 6px 6%;
+        font-size: 5vw;
+        white-space: nowrap;
+        margin-top: 10px;
+    }
+
+    .btn-coin:link,
+    .btn-coin:visited {
+        padding: 6px 8%;
+        font-size: 5vw;
+        white-space: nowrap;
+        margin-top: 10px;
+    }
+
+
+    h1.other-lockers {margin-top: 30%;}
 
     div.feat-title,
     div.feat-list {font-size: 5vw;}
@@ -671,11 +783,12 @@ input[type=submit]:active {
     .lr-padding {padding-left: 13%;
         padding-right: 13%;}
 
-    ul.bullets h2:last-child {margin-bottom: 15px;}
+    ul.bullets h2:last-child {margin-bottom: 20px;}
 
     ul.bullets h2 {
         margin-left: 0;
         padding-left: 1%;
+        font-size: 4.2vw;
     }
 
     ul.bullets li {
@@ -683,12 +796,11 @@ input[type=submit]:active {
         vertical-align: middle;
     }
 
-
     .btn-margin {margin-top: -40px;}
 
     .btn-free-eval:link,
     .btn-free-eval:visited {font-size: 5.5vw;
-    padding: 25px 5%; }
+    padding: 0 5%; }
 
     h2.h3-lockers-intro {
         padding: 30px 2% 30px 2%;
@@ -699,9 +811,7 @@ input[type=submit]:active {
         font-size: 7vw;
         margin: 0;}
     
-    h2.h3-lockers-intro-alt {font-size: 7vw;}
     h3.h3-lockers-alt {font-size: 7vw;}
-
     
     blockquote,
     cite,
@@ -718,6 +828,11 @@ input[type=submit]:active {
 /* TINY: from 0px to 269px */
 @media only screen and (max-width: 269px) {
 
+    h2.h2-ele2-title {padding: 6% 5% 18% 5%;}
+
+    p.lockers-intro-alt:last-child {padding-bottom: 20px;}
+
+    .mobile-nav-icon i.ion-md-close,
     .mobile-nav-icon i {
     font-size: 140%;
     padding: 12px 5px;
@@ -745,14 +860,14 @@ input[type=submit]:active {
 /* TINY: from 0px to 269px */
 @media only screen and (max-width: 215px) {
 
+    h2.h2-ele2-title {padding-bottom: 35px;}
+
     .plastic-text2 {margin: 0 9%;}
 
     .icon-advant-tech {font-size: 17vw;}
 
-    .mobile-nav-icon i {
-        font-size: 105%;
-        padding: 12px 5px;
-        }
+    .mobile-nav-icon i.ion-md-close,
+    .mobile-nav-icon i {font-size: 105%;}
 
     .logo,
     .logo-black {height: 15px;;
@@ -760,6 +875,7 @@ input[type=submit]:active {
 
     .testimonial-resize {height: 30px;}
 
+    .contact-spacer-ele-header:after {width: 80%;}
     .contact-spacer:after {width: 80%;}
     .h2-testimonials:after {width: 80%;}
 
