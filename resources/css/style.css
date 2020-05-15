@@ -158,10 +158,9 @@ img.shark-mask-pic {
 .slider-text {
     color: #f7f7f7;
     position: inherit;
-    top: 43.1%;
+    top: 190px;
     z-index: 9990;
-    size: 90%;
-    left: 1.2px;
+    left: 1px;
 }
 
 .ba-slider {
@@ -255,6 +254,7 @@ img.shark-mask-pic {
 .ba-slider-1 {
     position: relative;
     overflow: hidden;
+    float: left;
 }
  
 .ba-slider-1 img {
@@ -391,6 +391,7 @@ img.shark-mask-pic {
 .ba-slider-3 {
     position: relative;
     overflow: hidden;
+    float: left;
 }
  
 .ba-slider-3 img {
@@ -1108,6 +1109,14 @@ font-size: 180%;
     padding: 50px 0;
 }
 
+.adv-copy {
+    text-align: justify;
+    line-height: 1.5;
+    width: 50%;
+    margin-left: 25%;
+    padding-bottom: 25px;
+}
+
 .adv-left-copy {
     text-align: justify;
     line-height: 1.5;
@@ -1213,11 +1222,13 @@ font-size: 180%;
 .case-study-copy {
     word-spacing: 2px;
     text-align: justify;
-    margin: 15px 90px 75px 90px;
+    margin: 15px 90px 85px 70px;
     line-height: 1.5;
     text-transform: initial;
     font-weight: bold;
 }
+
+.case-study-copy:first-child {margin-top: 75px;}
 
 .case-bottom-box {padding-bottom: 55px;}
 
@@ -1452,7 +1463,7 @@ div.case-pad { padding: 4% 4% 1% 1%;}
     display: inline;
     position: relative;
     top: -25%;
-    font-size: 3vw;
+    font-size: 77px;
     text-align: center;
     margin-left: -92%;
     vertical-align: middle;
@@ -1463,7 +1474,7 @@ div.case-pad { padding: 4% 4% 1% 1%;}
     display:  inline;
     position: relative;
     top: -40%;
-    font-size: 3vw;
+    font-size: 77px;
     text-align: center;
     margin-left: 0px;
     vertical-align: middle;
@@ -1746,7 +1757,17 @@ h4 {
     line-height: 125%;
 }
 
+.adv-spacer {margin-top: 30px;}
 
+.adv-spacer:after {
+    display: block;
+    height: 2px;
+    background-color: #ff3a22;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
 
 .contact-spacer:after {
     display: block;
