@@ -2,12 +2,22 @@
 /* Made By Scott Puglisi */
 /*------------------------------------*/
 
-.faq-pad {padding: 50px;}
+.c2ontact-align {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
 
-.no-margins {
+.partner-margin {}
+
+.faq-pad {
+    margin-left: .5%;
+    padding: 50px;
+}
+
+.faq-margins {
     margin-bottom: 0 !important;
     margin-top: 0 !important;
-    margin-left: 0 !important;
     margin-right: 0 !important;
 }
 
@@ -40,7 +50,7 @@
 .img-container {
     position: relative;
     text-align: center;
-    color: white;
+    color: #f7f7f7;
   }
 
 .needs-text-center {  position: absolute;
@@ -106,15 +116,17 @@ img.shark-mask-pic {
     padding-left: 3px;
 }
 
+.underline {text-decoration: none;}
 .underline:hover {text-decoration: underline;}
 
+.cust-svc-bg2,
 .cust-svc-bg {
     background-color: #f7f7f7;
     background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox='0 0 100 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21.184 20c.357-.13.72-.264 1.088-.402l1.768-.661C33.64 15.347 39.647 14 50 14c10.271 0 15.362 1.222 24.629 4.928.955.383 1.869.74 2.75 1.072h6.225c-2.51-.73-5.139-1.691-8.233-2.928C65.888 13.278 60.562 12 50 12c-10.626 0-16.855 1.397-26.66 5.063l-1.767.662c-2.475.923-4.66 1.674-6.724 2.275h6.335zm0-20C13.258 2.892 8.077 4 0 4V2c5.744 0 9.951-.574 14.85-2h6.334zM77.38 0C85.239 2.966 90.502 4 100 4V2c-6.842 0-11.386-.542-16.396-2h-6.225zM0 14c8.44 0 13.718-1.21 22.272-4.402l1.768-.661C33.64 5.347 39.647 4 50 4c10.271 0 15.362 1.222 24.629 4.928C84.112 12.722 89.438 14 100 14v-2c-10.271 0-15.362-1.222-24.629-4.928C65.888 3.278 60.562 2 50 2 39.374 2 33.145 3.397 23.34 7.063l-1.767.662C13.223 10.84 8.163 12 0 12v2z' fill='%23ffff33' fill-opacity='0.27' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
 
 .header2 {
-    color: white;
+    color: #f7f7f7;
     margin-bottom: 18px;
     margin-top: 3px;
 }
@@ -205,7 +217,7 @@ img.shark-mask-pic {
     margin: -32px 0 0 -32px;
  
     content:'\21d4';
-    color:white;
+    color:#f7f7f7;
     font-weight:bold;
     font-size: 0;
     text-align:center;
@@ -235,7 +247,7 @@ img.shark-mask-pic {
 }
  
 .handle-imprt:after { 
-    color:white;
+    color:#f7f7f7;
     font-weight:bold;
     font-size:36px;
     text-align:center;
@@ -293,7 +305,7 @@ img.shark-mask-pic {
     margin: -32px 0 0 -32px;
  
     content:'\21d4';
-    color:white;
+    color:#f7f7f7;
     font-weight:bold;
     font-size:0;
     text-align:center;
@@ -362,7 +374,7 @@ img.shark-mask-pic {
     margin: -32px 0 0 -32px;
  
     content:'\21d4';
-    color:white;
+    color:#f7f7f7;
     font-weight:bold;
     font-size:0px;
     text-align:center;
@@ -430,7 +442,7 @@ img.shark-mask-pic {
     margin: -32px 0 0 -32px;
  
     content:'\21d4';
-    color:white;
+    color:#f7f7f7;
     font-weight:bold;
     font-size:0;
     text-align:center;
@@ -495,7 +507,7 @@ ul.site-map li {padding-top: 5%;}
 
 .collapsible {
   background-color: #777;
-  color: white;
+  color: #f7f7f7;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -729,7 +741,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .navbar a {
     float: left;
     font-size: 16px;
-    color: white;
+    color: #f7f7f7;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -869,12 +881,8 @@ ul.bullets2 h2:first-child {margin-top: 0px;}
     width: 100%;
 }
 
-.section-features .row {
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: space-around;
-}
-
+.section-contact .row,
+.section-features .row,
 .everything-need .row {
     flex-wrap: wrap;
     display: flex;
@@ -889,6 +897,8 @@ section {
 }
 
 .section-lockers {padding-top: 20px;}
+
+.section-contact {text-align: center;}
 
 .section-features {
     text-align: center;
@@ -1038,22 +1048,43 @@ img.center-fin {
     -webkit-transition: background-color 0.3s, border 0.3s, color 0.3s;
     transition: background-color 0.3s, border 0.3s, color 0.3s;
 }
+
+.box-6 {
+    margin: 1% !important;
+    position: relative;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px .5% 20px .5%;
+    border: 3px solid #ff3a22;
+    color: #0000ee;
+}
+
+.box-3:hover,
+.box-6:hover,
+.box-5:hover {
+    background-color: rgb(240, 240, 240);
+    -webkit-transition: background-color 0.3s, border 0.3s, color 0.3s;
+    transition: background-color 0.3s, border 0.3s, color 0.3s;
+    }
+
 .box-3 {
     position: relative;
     border-radius: 20px;
     text-align: center;
     padding: 10px .5% 20px .5%;
     border: 3px solid #ff3a22;
-
 }
 
-.box-33 {
+.box-5 {
+    margin: 1% 0 1% 1% !important;
+    width: 48.4%;
     position: relative;
     border-radius: 20px;
     text-align: center;
     padding: 10px .5% 20px .5%;
     border: 3px solid #ff3a22;
     background-color: #f7f7f7;
+    color: #0000ee;
 }
 
 .box:hover {
@@ -1106,7 +1137,7 @@ font-size: 180%;
     line-height: 1.5;
     width: 50%;
     margin-left: 25%;
-    padding: 50px 0;
+    padding: 0 0 40px 0;
 }
 
 .adv-copy {
@@ -1409,7 +1440,6 @@ div.case-pad { padding: 4% 4% 1% 1%;}
     font-size: 175%;
     font-style: normal;
     color: #ff3a22;
-    padding-top: 10px;
     font-weight: 900;
     margin-bottom: 25px;
 }
@@ -1419,7 +1449,15 @@ div.case-pad { padding: 4% 4% 1% 1%;}
     font-size: 200%;
     font-style: normal;
     color: #ff3a22;
-    padding-top: 10px;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Pro";
+}
+
+.icon-contact {
+    margin-top: 50px;
+    font-size: 200%;
+    font-style: normal;
+    color: #ff3a22;
     font-weight: 900;
     font-family: "Font Awesome 5 Pro";
 }
@@ -1627,7 +1665,8 @@ h2.h3-lockers {
     
 }
 
-h2 li {    font-weight: 300;
+h2 li {
+    font-weight: 300;
     text-transform: capitalize;
     letter-spacing: 1px;
     word-spacing: 4px;
@@ -1741,7 +1780,6 @@ h5.about-copy {
 
 h4 {
     font-size: 1.7vw;
-    margin-top: 9vh;
     text-transform: uppercase;
 }
 
@@ -1755,6 +1793,25 @@ h4 {
     font-size: 120%;
     margin-top: 25px;
     line-height: 125%;
+}
+
+.h4-contact2 {
+    font-size: 120%;
+    margin-top: 25px;
+    line-height: 125%;
+    margin: 3%;
+}
+
+.about-spacer {margin-top: 30px;}
+
+.about-spacer:after {
+    display: block;
+    height: 2px;
+    background-color: #ff3a22;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 60px;
 }
 
 .adv-spacer {margin-top: 30px;}
@@ -1778,6 +1835,17 @@ h4 {
     margin: 0 auto;
     margin-top: 60px;
 }
+
+.intro-spacer:after {
+    display: block;
+    height: 2px;
+    background-color: #ff3a22;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
 
 .ele2-spacer:after {
     display: block;
@@ -2672,9 +2740,9 @@ section .locations {
 .testimonial-divider {
     left: calc(50% - 1px);
     height: 80%;
-    border-left: 1px solid #ff3a22;
-    border-right: 1px solid #ff3a22;
-    padding: 0 10px;
+    border-left: 2px solid #ff3a22;
+    border-right: 2px solid #ff3a22;
+    padding: 0 1%;
 }
 
 .testimonial-logo {
@@ -2704,7 +2772,7 @@ section .locations {
     background: #0082c8;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding: 60px 3%;
+    padding: 30px 3%;
     margin: 0 auto;
 }
 
@@ -2768,9 +2836,14 @@ background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, F
     justify-content: space-around;
 }
 
+.faq-head {
+    margin-top: .5%;
+    margin-bottom: 4%;
+}
+
 .testimonials {
-    margin-top: 9%;
-    margin-bottom: 9%;
+    margin-top: 2.5%;
+    margin-bottom: 4.5%;
 }
 
 .faq-h2 {
@@ -2778,15 +2851,21 @@ background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, F
     margin-bottom: 40px;
 }
 
+.bq-left {padding-left: 0;}
+
+.bq-middle {padding: 6% 9%;}
+
+.bq-right {padding-right: 0;}
+
+
 blockquote {
-    padding: 2%;
+    padding: 6%;
     font-style: italic;
     line-height: 150%;
     margin-bottom: 40px;
     text-align: justify;
     position: relative;
     margin-top: 10px;
-    font-weight: 150%;
 }
 
 cite {
@@ -2795,7 +2874,14 @@ cite {
     text-align: right;
     margin-bottom: 20px;
     font-weight: bold;
-    padding-right: 3%;
+    padding-right: 5%;
+}
+
+.cite-pad {padding-right: 6%;
+padding-left: 6%;}
+
+.cite-pad2 {padding-right: 10%;
+    padding-left: 10%;
 }
 
 /*------------------------------------*/

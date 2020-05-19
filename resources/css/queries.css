@@ -235,6 +235,27 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 768px) {
 
+    .h4-contact {font-size: 3.6vw;}
+    
+    .box-5 {width: 100%;}
+
+    h2.h2-testimonials {margin-top: 40px;}
+
+    .bq-left,
+    .bq-middle,
+    .bq-right,
+    .cite-pad,
+    .cite-pad2 {padding: 6% 0;}
+
+    .testimonials {
+        margin-top: 7%;
+        margin-bottom: 10%;
+    }
+
+    .faq-head {
+        margin-top: 6%;
+        margin-bottom: 6%;
+    }
 
     .adv-spacer {margin-top: 60px;}
 
@@ -367,11 +388,16 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
     .study-red2-b-pad {padding: 0 0 40px 0;}
 
     .adv-copy,
-    .about-copy,
     .adv-left-copy {
         width: 90%;
         margin-left: 5%;
         margin-bottom: 50px;
+    }
+
+    .about-copy {
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 0;
     }
 
     .dropdown {float: none;}
@@ -582,7 +608,7 @@ h3 ul li:last-child {margin-bottom: 10px;}
         margin: 3px 0 0 0;
         }
 
-    .sticky .mobile-nav-icon i {color: navy;}
+    .sticky .mobile-nav-icon i {color: #000080;}
     
     .sticky .main-nav li a:link,
     .sticky .main-nav li a:visited { padding: 10px 0;}
@@ -612,6 +638,12 @@ h3 ul li:last-child {margin-bottom: 10px;}
     .long-logo {max-width: 46%;
         margin: 0 27% 0 27%; 
     }
+
+    .all-around {padding: 0 0 0 15px;}
+
+    .contact-p-pad {margin-top: 0;
+    padding-top: 2%;}
+
 }
 
 /* Small phones to small tablets: from 481px to 767px */
@@ -630,8 +662,14 @@ h3 ul li:last-child {margin-bottom: 10px;}
     border-right: none;
     }
 
-    .no-top-mar2 {margin-top: 0 !important;}
-    .no-bot-mar2 {margin-bottom: 0 !important;}
+    .everything-top-mar {
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+    .everything-bot-mar {
+    margin-top: 45px;
+    margin-bottom: 25px;
+    }
 
 }
 
@@ -643,6 +681,7 @@ h3 ul li:last-child {margin-bottom: 10px;}
     h3.case-study,
     .advant-header {font-size: 5.5vw;}
 
+    .contact-banner,
     .banner-cross,
     .advant-banner-2,
     .contact-cross,
@@ -679,6 +718,14 @@ margin-bottom: 6%;
 /* Small phones: from 300px to 480px */
 @media only screen and (max-width: 480px) {
 
+    .about-copy {padding: 0 0 15px 0;}
+
+    .about-spacer {margin: 0 0 9% 0;}
+
+    .about-spacer:after {margin-top: 7%;}
+
+    h3.case-bold-1 {margin: 0px 5%;}
+
     .no-bot-mar-480 {margin-bottom: 0 !important;}
 
     h2.h2-adv-title {padding: 40px 5%;}
@@ -689,8 +736,12 @@ margin-bottom: 6%;
         padding-bottom: 25px;
     }
 
-    .contact-spacer-ele-header:after {width: 80%;}
-    .contact-spacer:after {width: 80%;}
+    .contact-spacer4:after,
+    .intro-spacer:after,
+    .contact-spacer2:after,
+    .about-spacer:after,
+    .contact-spacer-ele-header:after,
+    .contact-spacer:after,
     .h2-testimonials:after {width: 80%;}
 
     .advant-header {font-size: 7.5vw;}
@@ -699,10 +750,13 @@ margin-bottom: 6%;
 
     .case-study-copy:last-child {margin-bottom: 25px;}
 
+    .adv-spacer::after,
     h2.ele2-spacer:after {
-        width: 60%;
+        width: 80%;
         margin-top: 6%;
     }
+
+    .adv-spacer {margin-top: 6%;}
 
     h2.h2-ele-title {padding: 9% 5% 80px 5%;}
 
@@ -821,13 +875,46 @@ ul.bullets h2 {
 
 h2.h2-testimonials {margin-top: 30px;}
 
+.chart-legend {font-size: 5vw;}
+
+.h4-contact {font-size: 4vw;}
+
+.contact-p-pad {
+    margin-top: 7%;
+    margin-bottom: 2%;
+}
+
+.icon-contact {font-size: 9vw;}
+
+.h4-contact2 {font-size: 6.7vw;}
+
+.contact-copy {font-size: 4.8vw;}
+
 }
 
 /* Small phones: from 300px to 480px */
 @media only screen and (max-width: 412px) {
 
+    .cust-svc-bg2,
+    .section-contact {padding: 15px 0 0 0;}
+    
+    .intro-spacer {margin-bottom: 40px;}
+
+    h5 {font-size: 7vw;}
+
+    .adv-spaver {margin-top: 30px;}
+
+    .flex-container img {
+        margin: 6px;
+        padding: 12px;
+    }
+
+    img.center-pic {padding-top: 45px;}
+    h2 {margin: 9% 0 6% 0;}
+
     .h2-testimonials:after {margin-bottom: 60px;}
 
+    .contact-banner,
     .banner-cross,
     .advant-banner-2,
     .contact-cross,
@@ -906,11 +993,23 @@ h2.h2-testimonials {margin-top: 30px;}
 
      .btn-read-wh:link,
      .btn-read-wh:visited {padding: 6px 20px;}
+     
+     .intro-spacer:after {margin-top: 40px;}
 
+     .contact-spacer:after {margin-top: 7%;}
 }
 
 /* TINY: from 0px to 269px */
 @media only screen and (max-width: 269px) {
+    
+    .yn-resize {font-size: 5vw !important;}
+
+    .h2-testimonials:after {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    h2.h2-testimonials {margin-top: 0;}
 
     h2.h2-ele2-title {padding: 6% 5% 18% 5%;}
 
@@ -944,11 +1043,45 @@ h2.h2-testimonials {margin-top: 30px;}
 /* TINY: from 0px to 269px */
 @media only screen and (max-width: 215px) {
 
+    img.center-pic {padding-top: 20px;}
+    
+    .intro-spacer:after {margin-top: 20px;}
+
+    .intro-spacer {margin-bottom: 20px;}
+
+    .about-copy {padding-bottom: 0;}
+
+    section {padding: 15px 0;}
+
+    .box-legend-comp,
+    .box-legend-tib {font-size: 8vw;}
+
+    .adv-spacer,
+    h2.h2-adv-title {padding: 15px 2% 10px 2%;}
+
+    .everything-top-mar {
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+    .everything-bot-mar {
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+
+    h2.h2-ele-title {padding-bottom: 60px;}
+
     ul.bullets h2:last-child {margin-bottom: 25px;}
 
+
+    .adv-copy {padding-bottom: 5px;
+    }
     .adv-copy,
     .about-copy,
-    .adv-left-copy {font-size: 7.5vw;}
+    .adv-left-copy {
+        font-size: 7.5vw;
+        margin-bottom: 15px;
+    }
 
     h2.h2-ele2-title {padding-bottom: 35px;}
 
