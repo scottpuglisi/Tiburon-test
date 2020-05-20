@@ -1,15 +1,7 @@
 /*------------------------------------*/
 /* Made By Scott Puglisi */
 /*------------------------------------*/
-
-.c2ontact-align {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
-
-.partner-margin {}
-
+ 
 .faq-pad {
     margin-left: .5%;
     padding: 50px;
@@ -593,7 +585,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     overflow: hidden;
   }
 
-  .dropdown-adv {
+  .dropdown-advant {
     float: left;
     overflow: hidden;
   }
@@ -601,7 +593,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .ele-link-space {margin-bottom: 15px;}
 
 
-.dropdown-adv .dropbtn-adv{
+.dropdown-advant .dropbtn-advant{
     border: none;
     outline: none;
     padding: 30px 16.75px 14px 16.75px;
@@ -644,8 +636,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   .navbar div a:hover, .dropdown-ele:hover .dropbtn-ele-sticky {background-color: #f7f7f7;}
 
 
-  .navbar div a:hover, .dropdown-adv:hover .dropbtn-adv {background-color: #1f1f1f;}
-  .navbar div a:hover, .dropdown-adv:hover .dropbtn-advant-sticky {background-color: #f7f7f7;}
+  .navbar div a:hover, .dropdown-advant:hover .dropbtn-advant {background-color: #1f1f1f;}
+  .navbar div a:hover, .dropdown-advant:hover .dropbtn-advant-sticky {background-color: #f7f7f7;}
 
   
   .dropdown-content-ele {
@@ -689,7 +681,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   
   .dropdown-ele:hover .dropdown-content-ele-sticky  {display: block;}
 
-    .dropdown-content-adv {
+    .dropdown-content-advant {
     display: none;
     position: absolute;
     background-color: #1f1f1f;
@@ -697,7 +689,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     padding: 9px 13.5px;
   }
 
-  .dropdown-content-adv a {
+  .dropdown-content-advant a {
     float: none;
     color: #1f1f1f;
     padding: 10px 0;
@@ -707,13 +699,13 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   }
 
   .dropdown-content-ele a:last-child { margin: 0 auto;}
-  .dropdown-content-adv a:last-child { margin: 0 auto;}
+  .dropdown-content-advant a:last-child { margin: 0 auto;}
   .dropdown-content-ele-sticky a:last-child { margin: 0 auto;}
   .dropdown-content-advant-sticky a:last-child { margin: 0 auto;}
   
-  .dropdown-content-adv a:hover {background-color: #1f1f1f;}
+  .dropdown-content-advant a:hover {background-color: #1f1f1f;}
   
-  .dropdown-adv:hover .dropdown-content-adv  {display: block;}
+  .dropdown-advant:hover .dropdown-content-advant  {display: block;}
 
   .dropdown-content-advant-sticky {
     display: none;
@@ -733,7 +725,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   
   .dropdown-content-advant-sticky a:hover {background-color: #F7F7F7;}
   
-  .dropdown-adv:hover .dropdown-content-advant-sticky  {display: block;}
+  .dropdown-advant:hover .dropdown-content-advant-sticky  {display: block;}
 
 .main-nav {overflow: hidden;}
 .main-nav li.no-left-margin {margin-left: 0}
@@ -1617,7 +1609,7 @@ padding: 0 15% 10px 15%;
 
 h2.h2-advant-title {
     margin: 0;
-    padding: 80px 18% 40px 18%;
+    padding: 100px 18% 40px 18%;
 }
 
 h2.h2-ele-title {

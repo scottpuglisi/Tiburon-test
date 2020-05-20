@@ -97,7 +97,7 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
     .btn-get-lockers-nav-sticky:link,
     .btn-get-lockers-nav-sticky:visited {padding: 5px 8px !important;}
 
-    .dropdown-adv .dropbtn-adv {padding: 30px 16px 14px 15px;}
+    .dropdown-advant .dropbtn-advant {padding: 30px 16px 14px 15px;}
     .dropdown-ele .dropbtn-ele {padding: 30px 22px 14px 22px;}
 
     .dropbtn-ele-sticky {padding: 15px 22px 14px 22px;}
@@ -435,8 +435,8 @@ max-width: 25%;
 margin: 0 auto 22px auto;
 }
 
-    .dropdown-adv {float: none;}
-    .navbar a:hover, .dropdown-adv:hover .dropbtn-adv {background-color: #040404;}
+    .dropdown-advant {float: none;}
+    .navbar a:hover, .dropdown-advant:hover .dropbtn-advant {background-color: #040404;}
 
 
     .dropdown-content-advant {background-color: #00000000;
