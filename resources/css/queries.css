@@ -54,7 +54,7 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
 
     nav {font-size: 16px;}
 
-    .dropdown-adv .dropbtn-adv {padding: 30px 16px 14px 16px;}
+    .dropdown-advant .dropbtn-advant {padding: 30px 16px 14px 16px;}
 
     .dropdown-ele .dropbtn-ele {padding: 30px 26px 14px 26px;}
 
@@ -62,7 +62,7 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
 
     .dropbtn-ele-sticky {padding: 15px 26px 14px 26px;}
 
-    .dropbtn-adv-sticky {padding: 15px 16px 14px 16px;}
+    .dropbtn-advant-sticky {padding: 15px 16px 14px 16px;}
 
     .main-nav li {margin-left: 0;}
 
@@ -77,7 +77,7 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
     .case-study li,
     h3.case-study {line-height: 1.25;}
 
-    .adv-left-copy {margin: 1% 0 0px 8%;}
+    .advant-left-copy {margin: 1% 0 0px 8%;}
     }
 
 /* Small tablet to big tablet: from 768px to 1023px */
@@ -101,7 +101,7 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
     .dropdown-ele .dropbtn-ele {padding: 30px 22px 14px 22px;}
 
     .dropbtn-ele-sticky {padding: 15px 22px 14px 22px;}
-    .dropbtn-adv-sticky {padding: 15px 15px 14px 15px;}
+    .dropbtn-advant-sticky {padding: 15px 15px 14px 15px;}
 
     .logo-black,
     .logo {
@@ -257,7 +257,7 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
         margin-bottom: 6%;
     }
 
-    .adv-spacer {margin-top: 60px;}
+    .advant-spacer {margin-top: 60px;}
 
     .slider-div-pad {
     padding-top: 35px;
@@ -325,11 +325,11 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
 
     .dropdown .dropbtn {padding: 0 0px 22px 0px;}
 
-    .dropdown-adv .dropbtn-adv {padding: 0 0 25px 0;}
+    .dropdown-advant .dropbtn-advant {padding: 0 0 25px 0;}
     .dropdown-ele .dropbtn-ele  {padding: 0 0 25px 0;}
 
     .dropbtn-ele-sticky {padding: 0 0 25px 0;}
-    .dropbtn-adv-sticky {padding: 0 0 25px 0;}
+    .dropbtn-advant-sticky {padding: 0 0 25px 0;}
 
     .logo {height: 45px;
         margin-left: 6px;
@@ -387,8 +387,8 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
     .study-red2-t-pad {padding: 50px 0 0 0;}
     .study-red2-b-pad {padding: 0 0 40px 0;}
 
-    .adv-copy,
-    .adv-left-copy {
+    .advant-copy,
+    .advant-left-copy {
         width: 90%;
         margin-left: 5%;
         margin-bottom: 50px;
@@ -414,18 +414,18 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
         padding: 20px 20px 0 20px;
     }
 
-    .dropdown-content-adv-sticky {background-color: #00000000;
+    .dropdown-content-advant-sticky {background-color: #00000000;
         position: inherit;
         padding: 20px 20px 0 20px;
     }
 
-    .dropdown-content-adv a {margin: 0 1% 25px 1%}
+    .dropdown-content-advant a {margin: 0 1% 25px 1%}
 
 .dropdown-content-ele a {
     margin: 0 auto 22px auto;
 }
 
-.dropdown-content-adv-sticky a {
+.dropdown-content-advant-sticky a {
     margin: 0 auto 25px auto;
 max-width: 33%;
 }
@@ -439,7 +439,7 @@ margin: 0 auto 22px auto;
     .navbar a:hover, .dropdown-adv:hover .dropbtn-adv {background-color: #040404;}
 
 
-    .dropdown-content-adv {background-color: #00000000;
+    .dropdown-content-advant {background-color: #00000000;
         position: inherit;
         padding: 20px 20px 0 20px;
     }
@@ -635,8 +635,9 @@ h3 ul li:last-child {margin-bottom: 10px;}
  
     .form-question { padding-bottom: 15px; }
     
-    .long-logo {max-width: 46%;
-        margin: 0 27% 0 27%; 
+    .long-logo {
+        max-width: 60%;
+        margin: 0 20%; 
     }
 
     .all-around {padding: 0 0 0 15px;}
@@ -685,7 +686,7 @@ h3 ul li:last-child {margin-bottom: 10px;}
     .banner-cross,
     .advant-banner-2,
     .contact-cross,
-    .banner-adv-tech {padding: 75px 0;}
+    .banner-advant-tech {padding: 75px 0;}
 
     p.lockers-intro-alt {padding-bottom: 35px;}
 
@@ -693,7 +694,7 @@ h3 ul li:last-child {margin-bottom: 10px;}
 
     .slider-text {top: 46.8%;}
 
-.dropdown-content-adv-sticky a {max-width: 45%;}
+.dropdown-content-advant-sticky a {max-width: 45%;}
 .dropdown-content-ele-sticky a {max-width: 42%;}
 
 .flex-container img {
@@ -728,7 +729,7 @@ margin-bottom: 6%;
 
     .no-bot-mar-480 {margin-bottom: 0 !important;}
 
-    h2.h2-adv-title {padding: 40px 5%;}
+    h2.h2-advant-title {padding: 40px 5%;}
     .contact-spacer:after {margin-top: 40px;}
 
     .slider-div-pad {
@@ -750,13 +751,13 @@ margin-bottom: 6%;
 
     .case-study-copy:last-child {margin-bottom: 25px;}
 
-    .adv-spacer::after,
+    .advant-spacer::after,
     h2.ele2-spacer:after {
         width: 80%;
         margin-top: 6%;
     }
 
-    .adv-spacer {margin-top: 6%;}
+    .advant-spacer {margin-top: 6%;}
 
     h2.h2-ele-title {padding: 9% 5% 80px 5%;}
 
@@ -784,13 +785,13 @@ margin-bottom: 6%;
 
     .ele-bot-up-large {font-size: 6.2vw;}
 
-    .icon-adv-big {
+    .icon-advant-big {
         font-size: 12vw;
         padding: 0;
         transform: rotate(90deg);
     }
     
-    .dropdown-content-adv-sticky a {max-width: 75%;}
+    .dropdown-content-advant-sticky a {max-width: 75%;}
     .dropdown-content-ele-sticky a {max-width: 72%;}
 
     .title-long-logo {
@@ -842,8 +843,9 @@ margin-bottom: 6%;
     section { padding: 25px 0; }
     .contact-form { width: 90%; }
 
-    .long-logo {max-width: 60%;
-        margin: 0 20% 0 20%; 
+    .long-logo {
+        max-width: 86%;
+        margin: 0 7%;
     }
 
 input[type=submit], 
@@ -902,7 +904,7 @@ h2.h2-testimonials {margin-top: 30px;}
 
     h5 {font-size: 7vw;}
 
-    .adv-spaver {margin-top: 30px;}
+    .advant-spaver {margin-top: 30px;}
 
     .flex-container img {
         margin: 6px;
@@ -918,7 +920,7 @@ h2.h2-testimonials {margin-top: 30px;}
     .banner-cross,
     .advant-banner-2,
     .contact-cross,
-    .banner-adv-tech {padding: 20% 0;}
+    .banner-advant-tech {padding: 20% 0;}
 
     h3.case-bold-1 {margin: 0px 5%;}
 
@@ -1021,8 +1023,9 @@ h2.h2-testimonials {margin-top: 30px;}
     padding: 12px 5px;
     }
 
-    .long-logo {max-width: 80%;
-        margin: 0 10% 0 10%; 
+    .long-logo {
+        max-width: 80%;
+        margin: 0 10%; 
     }
 
     .testimonial-resize {height: 50px;}
@@ -1056,8 +1059,8 @@ h2.h2-testimonials {margin-top: 30px;}
     .box-legend-comp,
     .box-legend-tib {font-size: 8vw;}
 
-    .adv-spacer,
-    h2.h2-adv-title {padding: 15px 2% 10px 2%;}
+    .advant-spacer,
+    h2.h2-advant-title {padding: 15px 2% 10px 2%;}
 
     .everything-top-mar {
         margin-top: 15px;
@@ -1074,11 +1077,11 @@ h2.h2-testimonials {margin-top: 30px;}
     ul.bullets h2:last-child {margin-bottom: 25px;}
 
 
-    .adv-copy {padding-bottom: 5px;
+    .advant-copy {padding-bottom: 5px;
     }
-    .adv-copy,
+    .advant-copy,
     .about-copy,
-    .adv-left-copy {
+    .advant-left-copy {
         font-size: 7.5vw;
         margin-bottom: 15px;
     }

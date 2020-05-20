@@ -610,7 +610,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     margin: 0;
   }
   
-  .dropbtn-adv-sticky {
+  .dropbtn-advant-sticky {
     border: none;
     outline: none;
     padding: 15px 17px 14px 17px;
@@ -645,7 +645,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 
   .navbar div a:hover, .dropdown-adv:hover .dropbtn-adv {background-color: #1f1f1f;}
-  .navbar div a:hover, .dropdown-adv:hover .dropbtn-adv-sticky {background-color: #f7f7f7;}
+  .navbar div a:hover, .dropdown-adv:hover .dropbtn-advant-sticky {background-color: #f7f7f7;}
 
   
   .dropdown-content-ele {
@@ -709,13 +709,13 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   .dropdown-content-ele a:last-child { margin: 0 auto;}
   .dropdown-content-adv a:last-child { margin: 0 auto;}
   .dropdown-content-ele-sticky a:last-child { margin: 0 auto;}
-  .dropdown-content-adv-sticky a:last-child { margin: 0 auto;}
+  .dropdown-content-advant-sticky a:last-child { margin: 0 auto;}
   
   .dropdown-content-adv a:hover {background-color: #1f1f1f;}
   
   .dropdown-adv:hover .dropdown-content-adv  {display: block;}
 
-  .dropdown-content-adv-sticky {
+  .dropdown-content-advant-sticky {
     display: none;
     position: absolute;
     background-color: #f7f7f7;
@@ -723,7 +723,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     padding: 9px 17px;
   }
   
-  .dropdown-content-adv-sticky a {
+  .dropdown-content-advant-sticky a {
     float: none;
     padding: 10px 0;
     text-decoration: none;
@@ -731,9 +731,9 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     text-align: center;
   }
   
-  .dropdown-content-adv-sticky a:hover {background-color: #F7F7F7;}
+  .dropdown-content-advant-sticky a:hover {background-color: #F7F7F7;}
   
-  .dropdown-adv:hover .dropdown-content-adv-sticky  {display: block;}
+  .dropdown-adv:hover .dropdown-content-advant-sticky  {display: block;}
 
 .main-nav {overflow: hidden;}
 .main-nav li.no-left-margin {margin-left: 0}
@@ -1112,7 +1112,7 @@ line-height: 1.5;
 font-size: 180%;
 }
 
-.adv-yellow-bg {
+.advant-yellow-bg {
     background: #ff3;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #E1F5C4, rgba(255, 255, 51, 0.5));  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #E1F5C4, rgba(255, 255, 51, 0.5)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -1125,7 +1125,7 @@ font-size: 180%;
     font-size: 150%;
     }
 
-.adv-header-2 {color: #000080;
+.advant-header-2 {color: #000080;
     padding: 0 5% 0 5%;
     margin: 0 auto;
     line-height: 1.5;
@@ -1140,7 +1140,7 @@ font-size: 180%;
     padding: 0 0 40px 0;
 }
 
-.adv-copy {
+.advant-copy {
     text-align: justify;
     line-height: 1.5;
     width: 50%;
@@ -1148,7 +1148,7 @@ font-size: 180%;
     padding-bottom: 25px;
 }
 
-.adv-left-copy {
+.advant-left-copy {
     text-align: justify;
     line-height: 1.5;
     width: 84%;
@@ -1226,7 +1226,7 @@ font-size: 180%;
     color: #ff3a22;
 }
 
-.adv-cent-copy {
+.advant-cent-copy {
     text-align: justify;
     line-height: 1.5;
     width: 66%;
@@ -1373,7 +1373,7 @@ h3.banner-pad {
     text-transform: uppercase;
     }
 
-.adv-bottom-uppercase {
+.advant-bottom-uppercase {
     text-transform: uppercase;
     color: #ff3;
 }
@@ -1615,7 +1615,7 @@ padding: 0 15% 10px 15%;
 }
 
 
-h2.h2-adv-title {
+h2.h2-advant-title {
     margin: 0;
     padding: 80px 18% 40px 18%;
 }
@@ -1814,9 +1814,9 @@ h4 {
     margin-top: 60px;
 }
 
-.adv-spacer {margin-top: 30px;}
+.advant-spacer {margin-top: 30px;}
 
-.adv-spacer:after {
+.advant-spacer:after {
     display: block;
     height: 2px;
     background-color: #ff3a22;
@@ -2351,7 +2351,7 @@ input[type=submit]:active {
     padding: 200px 0;
 }
 
-.banner-adv-tech {
+.banner-advant-tech {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url(img/pl_banner.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/pl_banner.jpg);
     background-size: auto;
@@ -2524,8 +2524,9 @@ header {
     margin: 10px 30% -35px 30%; 
 }
 
-.long-logo {max-width: 34%;
-    margin: 0 33% 0 33%; 
+.long-logo {
+    max-width: 40%;
+    margin: 0 30%; 
 }
 
 /*------------------------------------*/
@@ -2804,7 +2805,7 @@ section .locations {
 
 .read-btn-pad-top {padding-top: 50px;}
 
-.adv-bg {
+.advant-bg {
     color: #000080;
     padding: 60px 5%;
     margin: 0 auto;
