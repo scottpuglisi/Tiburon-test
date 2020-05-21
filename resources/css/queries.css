@@ -235,11 +235,9 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 768px) {
 
-    .h4-contact {font-size: 3.6vw;}
-    
     .box-5 {width: 100%;}
 
-    h2.h2-testimonials {margin-top: 40px;}
+    h2.h2-form {margin-top: 40px;}
 
     .bq-left,
     .bq-middle,
@@ -317,7 +315,7 @@ ul.bullets2 h2 {padding: 20px 12px 0 0;
 
     h2.h2-ele-subtext {font-size: 3.5vw;}
 
-    .h2-testimonials:after {margin-bottom: 60px;}
+    .h2-form:after {margin-bottom: 60px;}
 
     .sticky .sticky-mobile-fc {margin-top: 17px !important; }
 
@@ -535,8 +533,6 @@ h3 ul li:last-child {margin-bottom: 10px;}
         margin-top: 15px;
         font-size: 3.2vw;}
 
-    div.footer-color {width: 100%;}
-
     .box-specs.col:first-child {width: 100%;}
 
     .box-specs-r.col:last-child {width: 100%;}
@@ -743,7 +739,7 @@ margin-bottom: 6%;
     .about-spacer:after,
     .contact-spacer-ele-header:after,
     .contact-spacer:after,
-    .h2-testimonials:after {width: 80%;}
+    .h2-form:after {width: 80%;}
 
     .advant-header {font-size: 7.5vw;}
 
@@ -875,7 +871,7 @@ ul.bullets h2 {
     font-size: 4.2vw;
 }
 
-h2.h2-testimonials {margin-top: 30px;}
+h2.h2-form {margin-top: 30px;}
 
 .chart-legend {font-size: 5vw;}
 
@@ -914,7 +910,7 @@ h2.h2-testimonials {margin-top: 30px;}
     img.center-pic {padding-top: 45px;}
     h2 {margin: 9% 0 6% 0;}
 
-    .h2-testimonials:after {margin-bottom: 60px;}
+    .h2-form:after {margin-bottom: 60px;}
 
     .contact-banner,
     .banner-cross,
@@ -1006,12 +1002,12 @@ h2.h2-testimonials {margin-top: 30px;}
     
     .yn-resize {font-size: 5vw !important;}
 
-    .h2-testimonials:after {
+    .h2-form:after {
         margin-top: 25px;
         margin-bottom: 25px;
     }
 
-    h2.h2-testimonials {margin-top: 0;}
+    h2.h2-form {margin-top: 0;}
 
     h2.h2-ele2-title {padding: 6% 5% 18% 5%;}
 
