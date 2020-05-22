@@ -2,6 +2,10 @@
 /* Made By Scott Puglisi */
 /*------------------------------------*/
 
+.kiosk-feat {height: 99vh;}
+
+.partner-margin {margin-top: 80px;}
+
     ul.nav.nav-tabs > li{
         display: inline-block;
         line-height: 50px;
@@ -54,6 +58,10 @@
     margin-left: .5%;
     padding: 50px;
 }
+
+.faq-btn-imp {font-size: 150% !IMPORTANT;
+    margin-bottom: 20px !IMPORTANT;
+    margin-top: 20px !IMPORTANT;}
 
 .faq-margins {
     margin-bottom: 0 !important;
@@ -649,7 +657,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .dropdown-advant .dropbtn-advant{
     border: none;
     outline: none;
-    padding: 30px 16.75px 14px 16.75px;
+    padding: 30px 16.75px 7px 16.75px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -658,7 +666,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   .dropbtn-advant-sticky {
     border: none;
     outline: none;
-    padding: 15px 17px 14px 17px;
+    padding: 15px 17px 7px 17px;
     background-color: #00000000;
     font-family: inherit;
     margin: 0;
@@ -667,7 +675,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   .dropdown-ele .dropbtn-ele {
     border: none;
     outline: none;
-    padding: 30px 29.5px 14px 29.5px;
+    padding: 30px 29.5px 7px 29.5px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -676,7 +684,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   .dropbtn-ele-sticky {
     border: none;
     outline: none;
-    padding: 15px 29.5px 14px 29.5px;
+    padding: 15px 29.5px 7px 29.5px;
     background-color: #00000000;
     font-family: inherit;
     margin: 0;
@@ -800,7 +808,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   .dropdown .dropbtn {
     border: none;
     outline: none;
-    padding: 0 16.25px 14px 16.25px;
+    padding: 0 16.25px 7px 16.25px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -1453,6 +1461,8 @@ div.case-pad { padding: 4% 4% 1% 1%;}
 /* Icons */
 /*------------------------------------*/
 
+.locker-icon {height: 50px;}
+
 .icon {
     text-align: center;
 }
@@ -1493,6 +1503,15 @@ div.case-pad { padding: 4% 4% 1% 1%;}
     font-size: 200%;
     font-style: normal;
     color: #ff3a22;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Pro";
+}
+
+.icon-need {
+    padding: 10px 0 0 0 ;
+    font-size: 200%;
+    font-style: normal;
+    color: #f7f7f7;
     font-weight: 900;
     font-family: "Font Awesome 5 Pro";
 }
@@ -2146,7 +2165,7 @@ h2.contact-spacer-maps {
 
 p.btn-border-trans {
     z-index: 9999;
-    margin-top: 3px;
+    margin-top: 4px;
     margin-bottom: 3px;
     padding: 3px;
     border-bottom: 3px solid rgba(255, 255, 51, 0);
@@ -2164,7 +2183,7 @@ p.btn-border-trans {
 
 p.btn-border-trans2 {
     z-index: 9999;
-    margin-top: 3px;
+    margin-top: 4px;
     margin-bottom: 3px;
     padding: 3px;
     border-bottom: 3px solid #00000000;
@@ -2239,7 +2258,7 @@ p.btn-border-trans2 {
     text-decoration: none;
     border-radius: 200px;
     background-color: #ff3; 
-    color: #ff3;
+    color: black;
     border: 3px solid #ff3;
     -webkit-transition: background-color 0.3s, border 0.3s, color 0.3s;
     transition: background-color 0.3s, border 0.3s, color 0.3s;
@@ -2554,7 +2573,7 @@ header {
     width: auto;
     float: left;
     margin-left: 15px;
-    margin-top: 9px;
+    margin-top: 3px;
 }
 
 .logo-black {
@@ -2563,7 +2582,7 @@ header {
     width: auto;
     float: left;
     margin-left: 13px;
-    margin-top: 9px;
+    margin-top: 3px;
 }
 
 .title-long-logo {max-width: 50%;
@@ -2636,8 +2655,6 @@ nav {
     transition: border-bottom .3s;
 }
 
-
-
 /*------------------------------------*/
 /* Mobile Nav */
 /*------------------------------------*/
@@ -2690,8 +2707,9 @@ nav {
 .sticky .main-nav {
     float: right;
     list-style: none;
-    padding-top: 17px;
+    padding-top: 10px;
     padding-bottom: 0;
+    margin-bottom: 0;
 } 
 
 .sticky .logo { display: none; }
@@ -2805,12 +2823,21 @@ section .locations {
     padding: 30px;
 }
 
+.home-shark-banner {
+    color: #f7f7f7;
+    background: #0082c8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 75px 10%;
+    margin: 0 auto;
+}
+
 .everywhere-you-go {
     color: #f7f7f7;
     background: #0082c8;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding: 60px 10%;
+    padding: 75px 15%;
     margin: 0 auto;
 }
 

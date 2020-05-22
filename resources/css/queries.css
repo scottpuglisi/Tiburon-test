@@ -641,6 +641,8 @@ h3 ul li:last-child {margin-bottom: 10px;}
     .contact-p-pad {margin-top: 0;
     padding-top: 2%;}
 
+    .home-shark-banner {padding: 5%;}
+
 }
 
 /* Small phones to small tablets: from 481px to 767px */
@@ -1041,6 +1043,8 @@ h2.h2-form {margin-top: 30px;}
 
 /* TINY: from 0px to 269px */
 @media only screen and (max-width: 215px) {
+
+    .home-shark-banner {padding: 2%;}
 
     img.center-pic {padding-top: 20px;}
     
