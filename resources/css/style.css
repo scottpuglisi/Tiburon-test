@@ -2,7 +2,17 @@
 /* Made By Scott Puglisi */
 /*------------------------------------*/
 
-.kiosk-feat {height: 99vh;}
+.new-feats-head {
+    color:#ff3a22;
+    margin-top: 0;
+}
+
+.new-specs-yel {color: #ff3;}
+
+.kiosk-feat {
+    max-width: 100%;
+    max-height: 100%;
+}
 
 .partner-margin {margin-top: 80px;}
 
@@ -47,12 +57,20 @@
         right: 0;
     }
 
+.susp-style {
+    color: #0000ee !important;
+    text-decoration: none !important;
+}
 
 .susp-link,
 .susp-link:hover,
 .susp-link:active,
 .susp-link:link,
-.susp-link:visited {color: #0000ee !important;}
+.susp-link:visited {
+    color: #0000ee !important;
+    text-decoration: none;
+    border-bottom: 2px solid #0000ee;
+}
  
 .faq-pad {
     margin-left: .5%;
@@ -657,7 +675,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .dropdown-advant .dropbtn-advant{
     border: none;
     outline: none;
-    padding: 30px 16.75px 7px 16.75px;
+    padding: 31px 16.25px 7px 16.25px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -675,7 +693,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   .dropdown-ele .dropbtn-ele {
     border: none;
     outline: none;
-    padding: 30px 29.5px 7px 29.5px;
+    padding: 31px 29px 7px 29px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -971,6 +989,15 @@ margin-top: 0;}
     padding-bottom: 0;}
 
 .contact-spacing { padding: 0;}
+
+img.center-pic-intro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 72px;
+    max-width: 60%;
+    height: auto;
+}
 
 img.center-pic {
     display: block;
@@ -1624,6 +1651,14 @@ h1.other {
     text-align: center;
     margin-top: 10%;
     margin-bottom: 5px;
+    color: #f7f7f7;
+}
+
+h1.other-faq {
+    font-size: 300%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
     color: #f7f7f7;
 }
 
@@ -2396,6 +2431,15 @@ input[type=submit]:active {
 /* Header */
 /*------------------------------------*/
 
+
+
+.locker-specs-bg {
+    background-image: url(../img/kiosk-feat.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
 .advant-banner-2 {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url(img/advant-banner-2.png);
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/advant-banner-2.png);
@@ -2569,20 +2613,20 @@ header {
 }
 
 .logo {
-    height: 70px;
+    height: 65px;
     width: auto;
     float: left;
-    margin-left: 15px;
-    margin-top: 3px;
+    margin-left: 5px;
+    margin-top: 7px;
 }
 
 .logo-black {
     display: none;
-    height: 70px;
+    height: 65px;
     width: auto;
     float: left;
-    margin-left: 13px;
-    margin-top: 3px;
+    margin-left: 5px;
+    margin-top: 7px;
 }
 
 .title-long-logo {max-width: 50%;
@@ -2841,6 +2885,32 @@ section .locations {
     margin: 0 auto;
 }
 
+.everywhere-you-go-2 {
+    padding: 5px 5%;
+    margin: 0 auto;
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+.everywhere-you-go-3 {
+    padding: 5px 5%;
+    margin: 0 auto;
+    height: 35vh;
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #000080);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #000080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    
+.faq-header {
+    padding: 5px 5%;
+    margin: 0 auto;
+    height: 35vh;
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #000080);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #000080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
 .everything-need {
     color: #f7f7f7;
     background: #0082c8;  /* fallback for old browsers */
@@ -2886,23 +2956,6 @@ section .locations {
     background: -webkit-linear-gradient(to right, #E1F5C4, rgba(255, 255, 51, 0.5));
     background: linear-gradient(to right, #E1F5C4, rgba(255, 255, 51, 0.5));
 }
-
-.everywhere-you-go-2 {
-padding: 5px 5%;
-margin: 0 auto;
-background: #00c6ff;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.everywhere-you-go-3 {
-    padding: 5px 5%;
-    margin: 0 auto;
-    height: 50vh;
-    background: #00c6ff;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0072ff, #000080);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0072ff, #000080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    }
 
 .section-testimonials .row {
     flex-wrap: wrap;
@@ -3106,3 +3159,12 @@ footer p {
     width: 100%; 
     margin-top: 15px;
   }
+
+
+/*------------------------------------*/
+/* Animations */
+/*------------------------------------*/
+
+.js--fade-in-1 {opacity: 0;}
+
+.js--fade-in-1.animated {opacity: 1;}

@@ -109,7 +109,6 @@ $('.js--scroll-to-locker').click(function () {
 });
 
 
-
 /* Mobile Nav */
 $('.js--nav-icon').click(function() {
   var nav = $('.js--main-nav');
@@ -141,3 +140,11 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+/* Animation */
+$('.js--fade-in-1').waypoint(function(direction)  {
+  $('.js--fade-in-1').addClass('animate__fadeIn');
+}, {
+  offset: '55%'
+});
+
