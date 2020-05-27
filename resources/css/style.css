@@ -2,20 +2,31 @@
 /* Made By Scott Puglisi */
 /*------------------------------------*/
 
+.new-feats-num {
+    padding: 0 2.5%;
+    font-size: 225%;
+    color:#ff3a22;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.new-feat-height {height: 85vh;
+    position: relative;}
+
 .new-feats-h5 {
+    padding: 0 2.5%;
     margin-bottom: 5px;
 }
 
-.new-feats-par {
-    margin-bottom: 25px;
-}
+.new-feats-par {padding-bottom: 15%;}
 
 .new-feats-head {
+    padding: 0 2.5%;
     font-size: 190%;
     color:#ff3a22;
     margin-top: 0;
     font-weight: bold;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
 }
 
 .new-specs-yel {color: #ff3;}
@@ -72,6 +83,8 @@
     color: #0000ee !important;
     text-decoration: none !important;
 }
+
+.susp-link-top {margin-top: 50px;}
 
 .susp-link,
 .susp-link:hover,
@@ -932,20 +945,19 @@ p.center-text {text-align: center;}
      border: 3px solid #ff3a22;
    }
 
-ul.bullets h2 { text-align: justify;
+ul.bullets h2 {
+    text-align: justify;
     font-size: 1.45vw;
-    padding: 40px 115px 0px 70px;
+    padding: 40px 90px 0px 70px;
     margin-top: 35px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     line-height: 130%;
     text-transform: capitalize;
 }
 
 ul.bullets h2:first-child {margin-top: 20px;}
 
-.bullets2 {
-    margin-left: 10%;
-}
+.bullets2 {margin-left: 10%;}
 
 ul.bullets2 h2 { text-align: justify;
     font-size: 1.45vw;
@@ -1650,9 +1662,8 @@ h1 {
 }
 
 h1.other-lockers {
-    font-size: 300%;
     text-align: center;
-    margin-top: 10.5%;
+    margin-top: 15%;
     margin-bottom: 6px;
     color: #f7f7f7;
 }
@@ -2471,7 +2482,7 @@ input[type=submit]:active {
 
 .locker-specs-bg {
     background-image: url(../img/kiosk-feat.png);
-    height: 80vh;
+    height: 85vh;
     background-attachment: inherit;
     background-size: contain;
     background-repeat: no-repeat;
@@ -2558,8 +2569,8 @@ header {
 }
 
 .header-lockers {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url(img/service-header.png);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(img/service-header.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url(img/coin-header.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(img/coin-header.png);
     background-size: cover;
     background-position: left;
     background-attachment: inherit;
@@ -2943,11 +2954,12 @@ section .locations {
 .faq-header {
     padding: 5px 5%;
     margin: 0 auto;
-    height: 35vh;
-    background: #00c6ff;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0072ff, #000080);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0072ff, #000080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    }
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url(img/faq-hero.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(img/faq-header.png);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: inherit;
+    height: 50vh;    }
 
 .everything-need {
     color: #f7f7f7;
