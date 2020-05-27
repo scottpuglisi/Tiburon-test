@@ -145,6 +145,41 @@ for (i = 0; i < coll.length; i++) {
 $('.js--fade-in-1').waypoint(function(direction)  {
   $('.js--fade-in-1').addClass('animate__fadeIn');
 }, {
-  offset: '55%'
+  offset: '60%'
 });
 
+$('.js--zoom-in-1').waypoint(function(direction)  {
+  $('.js--zoom-in-1').addClass('animate__zoomInDown');
+}, {
+  offset: '100%'
+});
+
+$('.js--back-in-up-1').waypoint(function(direction)  {
+  $('.js--back-in-up-1').addClass('animate__backInUp');
+}, {
+  offset: '100%'
+});
+
+$('.js--back-in-up-2').waypoint(function(direction)  {
+  $('.js--back-in-up-2').addClass('animate__backInUp');
+}, {
+  offset: '100%'
+});
+
+$('.js--fade-in-up-1').waypoint(function(direction)  {
+  $('.js--fade-in-up-1').addClass('animate__fadeInUp');
+}, {
+  offset: '80%'
+});
+
+$('.js--fade-in-up-2').waypoint(function(direction)  {
+  $('.js--fade-in-up-2').addClass('animate__fadeInUp');
+}, {
+  offset: '50%'
+});
+
+$('.js--fade-in-up-3').waypoint(function(direction)  {
+  $('.js--fade-in-up-3').addClass('animate__fadeInUp');
+}, {
+  offset: '10%'
+});

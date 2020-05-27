@@ -2,9 +2,20 @@
 /* Made By Scott Puglisi */
 /*------------------------------------*/
 
+.new-feats-h5 {
+    margin-bottom: 5px;
+}
+
+.new-feats-par {
+    margin-bottom: 25px;
+}
+
 .new-feats-head {
+    font-size: 190%;
     color:#ff3a22;
     margin-top: 0;
+    font-weight: bold;
+    margin-bottom: 50px;
 }
 
 .new-specs-yel {color: #ff3;}
@@ -1952,7 +1963,7 @@ h4 {
     content: " ";
     width: 100px;
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 90px;
 }
 
 .contact-spacer-ele-header:after {
@@ -2354,12 +2365,37 @@ p.btn-border-trans2 {
     text-decoration: underline;
 }
 
+.btn-faq:link,
+.btn-faq:visited {
+    max-width: 75%;
+    display: inline-block;
+    margin: 16px 4px;
+    padding: 10px 70px;
+    font-size: 100%;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #f7f7f7;
+    background-color: #ff3a22;
+    border: 3px solid;
+    -webkit-transition: background-color 0.3s, border 0.3s, color 0.3s;
+    transition: background-color 0.3s, border 0.3s, color 0.3s;
+}
+
+.btn-faq:hover,
+.btn-faq:active {
+    background-color: #000080;
+    color: #f7f7f7;
+    border: 3px solid #f7f7f7;
+    text-decoration: underline;
+}
+
 .btn-ele-sizes:link,
 .btn-ele-sizes:visited {
     max-width: 75%;
     display: inline-block;
     margin: 16px 4px;
-    padding: 10px 38px;
+    padding: 10px 37px;
     font-size: 100%;
     font-weight: 300;
     text-decoration: none;
@@ -2435,9 +2471,11 @@ input[type=submit]:active {
 
 .locker-specs-bg {
     background-image: url(../img/kiosk-feat.png);
-    background-attachment: fixed;
+    height: 80vh;
+    background-attachment: inherit;
+    background-size: contain;
     background-repeat: no-repeat;
-    height: 100%;
+    background-position: center;
 }
 
 .advant-banner-2 {
@@ -3056,9 +3094,11 @@ textarea {
     margin-bottom: 40px;
 }
 
-iframe {height: 500px;
-width: 28vw;
-border: 0;}
+iframe {
+    height: 500px;
+    width: 28vw;
+    border: 0;
+}
 
 /*------------------------------------*/
 /* Table / Features list*/
@@ -3072,16 +3112,18 @@ border: 0;}
     line-height: 2;
 }
 
-.feat-title {text-align: left;
+.feat-title {
+    text-align: left;
     font-weight: bold;
-    margin: 10px 0 20px 0;
-    line-height: 1.25;
+    margin: 10px 0;
+    line-height: 1.33;
 }
 
-.feat-list {text-align: right;
-    line-height: 1.45;
-    margin-bottom: 10px;}
-
+.feat-list {
+    text-align: right;
+    line-height: 1.33;
+    margin: 10px 0 20px 0;
+}
 
 /*------------------------------------*/
 /* Footer */
@@ -3165,6 +3207,12 @@ footer p {
 /* Animations */
 /*------------------------------------*/
 
+.js--fade-in-up-1,
+.js--fade-in-up-2,
+.js--fade-in-up-3,
 .js--fade-in-1 {opacity: 0;}
 
+.js--fade-in-up-1.animated,
+.js--fade-in-up-2.animated,
+.js--fade-in-up-3.animated,
 .js--fade-in-1.animated {opacity: 1;}
