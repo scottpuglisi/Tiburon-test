@@ -2,31 +2,65 @@
 /* Made By Scott Puglisi */
 /*------------------------------------*/
 
+.nav-underline:hover {text-decoration: underline;}
+
+.nav-update-link {text-decoration: none;}
+
+.nav-update-link {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.nav-update-text:hover {}
+
+.nav-update-text:hover,
+.nav-update-link:hover,
+.nav-update:hover {
+    color: #0000ee;
+    background-color: #f7f7f7;}
+
+.nav-update-text {
+    height: 60px;
+    border-bottom: 3px solid #ff3a22;
+    border-top: 3px solid #ff3a22;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    color: #f7f7f7;
+    display: flex;
+    width: 100%;
+}
+
 .new-feats-num {
     padding: 0 2.5%;
-    font-size: 225%;
+    font-size: 4vh;
     color:#ff3a22;
     margin-top: 0;
     font-weight: bold;
 }
 
-.new-feat-height {height: 85vh;
+.new-feat-div {height: 85vh;
     position: relative;}
 
 .new-feats-h5 {
-    padding: 0 2.5%;
     margin-bottom: 5px;
+    font-size: 2vh;
 }
 
-.new-feats-par {padding-bottom: 15%;}
+.new-feats-par2 {font-size: 2vh;}
+
+.new-feats-par {
+    padding-bottom: 11vh;
+    font-size: 2vh;
+}
 
 .new-feats-head {
-    padding: 0 2.5%;
-    font-size: 190%;
+    font-size: 4vh;
     color:#ff3a22;
     margin-top: 0;
     font-weight: bold;
-    margin-bottom: 75px;
+    margin-bottom: 0;
 }
 
 .new-specs-yel {color: #ff3;}
@@ -1082,7 +1116,7 @@ img.center-fin {
     border-radius: 20px;
     color: #F7F7F7;
     text-align: center;
-    padding: 2%;
+    padding: 3%;
     box-shadow: 6px 6px 5px rgba(168, 159, 159, 0.8);
     background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55) ), url('img/specs-bg.png');
     background-repeat: no-repeat;
@@ -2483,6 +2517,7 @@ input[type=submit]:active {
 .locker-specs-bg {
     background-image: url(../img/kiosk-feat.png);
     height: 85vh;
+    max-height: 1224px;
     background-attachment: inherit;
     background-size: contain;
     background-repeat: no-repeat;
@@ -2698,7 +2733,7 @@ nav {
 .main-nav {
     float: right;
     list-style: none;
-    padding: 0 0 25px 15px;
+    padding: 0 0 0 15px;
 }
 
 .main-nav li {
@@ -3219,11 +3254,16 @@ footer p {
 /* Animations */
 /*------------------------------------*/
 
+.js--in-down-big-1,
 .js--fade-in-up-1,
 .js--fade-in-up-2,
 .js--fade-in-up-3,
-.js--fade-in-1 {opacity: 0;}
+.js--fade-in-1,
+.js--fade-in-2,
+.js--fade-in-right-1,
+.js--fade-in-left-1 {opacity: 0;}
 
+.js--in-down-big-1.animated,
 .js--fade-in-up-1.animated,
 .js--fade-in-up-2.animated,
 .js--fade-in-up-3.animated,
