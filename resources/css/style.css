@@ -92,20 +92,34 @@ nav .js--nav-update {padding: 0;}
 
 /* FAQ */
 
+.faq-bottom-text {width: 40%;}
+
 .faq-bottom-text,
 .card-body {color: #000080 !important;}
 
 .card-body {
-    padding-left: 8% !important;
-    padding-right: 8% !important;
+    padding-left: 7% !important;
+    padding-right: 7% !important;
     text-align: justify;
     text-align-last: center;
+    line-height: 1.3;
 }
 
-a .faq-questions {
+.card-header a {
     font-weight: bold;
     color: #ff3a22 !important;
-    text-decoration: none !important;
+}
+
+
+.card-header:link,
+.card-header:visited,
+.card-header:active,
+.card-header:hover {background-color: rgb(230,230,230,0.6);}
+
+a .faq-questions {
+    line-height: 1.5;
+    font-weight: bold;
+    color: #ff3a22 !important;
 }
 
 ul.nav.nav-tabs > li{
@@ -131,8 +145,9 @@ ul.nav.nav-tabs > li a.active{
     text-decoration: none!important;
 }
 .card-header {
-    background-color: rgb(245,245,245,0.8)!important;
+    background-color: rgb(245,245,245,0.8);
     border-radius:0!important;
+    border-bottom: none !important;
 }
 
 .card{border-radius:0!important;}
@@ -157,13 +172,18 @@ ul.nav.nav-tabs > li a.active{
 
 .susp-link-top {margin-top: 50px;}
 
+.blue-link,
+.blue-link:hover,
+.blue-link:active,
+.blue-link:link,
+.blue-link:visited
 .susp-link,
 .susp-link:hover,
 .susp-link:active,
 .susp-link:link,
 .susp-link:visited {
     color: #0000ee !important;
-    text-decoration: none;
+    text-decoration: none !important;
     border-bottom: 2px solid #0000ee;
 }
  
@@ -3106,9 +3126,12 @@ section .locations {
 
 .faq-copy {
     font-size: 18px;
+    text-align-last: center;
     text-align: justify;
-    line-height: 140%;
-    width: 100%;
+    line-height: 150%;
+    width: 44%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bq-left {padding-left: 0;}
