@@ -2,7 +2,19 @@
 /* Made By Scott Puglisi */
 /*------------------------------------*/
 
-.about-anni {margin-bottom: 0;}
+.about-banner-header,
+.about-anni {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.about-anni {padding: 0 25%}
+
+.about-banner-header {
+    font-size: 60px;
+    padding-bottom: 1%;
+    padding-top: 2%;
+}
 
 .addt-q-icon {margin-bottom: 2%}
 
@@ -13,8 +25,8 @@
     background-color: #f7f7f7;
 }
 
-.sticky .nav-update-text,
-.sticky .nav-update-text {display: none;}
+.sticky div .nav-update-text-2,
+.sticky .nav-update-text-2 {display: none !important;}
 
 nav .js--nav-update {padding: 0;}
 
@@ -2023,7 +2035,7 @@ h5 {
 
 h6 {
     text-align: center;
-    margin-top: 9px;
+    margin-top: 1%;
 }
 
 h5.about-copy {

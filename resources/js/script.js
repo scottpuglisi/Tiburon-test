@@ -357,3 +357,9 @@ $('.js--flip-in-x-1').waypoint(function(direction)  {
 }, {
   offset: '85%'
 });
+
+$('.js--tada-1').waypoint(function(direction)  {
+  $('.js--tada-1').addClass('animate__tada');
+}, {
+  offset: '85%'
+});
