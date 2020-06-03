@@ -2,6 +2,17 @@
 /* Made By Scott Puglisi */
 /*------------------------------------*/
 
+.about-anni {margin-bottom: 0;}
+
+.addt-q-icon {margin-bottom: 2%}
+
+.faq-h5-spacer {margin: 2%;}
+
+.faq-section {
+    padding: 50px;
+    background-color: #f7f7f7;
+}
+
 .sticky .nav-update-text,
 .sticky .nav-update-text {display: none;}
 
@@ -91,8 +102,6 @@ nav .js--nav-update {padding: 0;}
 .partner-margin {margin-top: 80px;}
 
 /* FAQ */
-
-.faq-bottom-text {width: 40%;}
 
 .faq-bottom-text,
 .card-body {color: #000080 !important;}
@@ -286,7 +295,7 @@ img.shark-mask-pic {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 250px;
+    padding-top: 90px;
     max-width: 40%;
     height: auto;
 }
@@ -300,9 +309,13 @@ img.shark-mask-pic {
 .underline {text-decoration: none;}
 .underline:hover {text-decoration: underline;}
 
+.faq-wave-bg {
+background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox='0 0 100 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21.184 20c.357-.13.72-.264 1.088-.402l1.768-.661C33.64 15.347 39.647 14 50 14c10.271 0 15.362 1.222 24.629 4.928.955.383 1.869.74 2.75 1.072h6.225c-2.51-.73-5.139-1.691-8.233-2.928C65.888 13.278 60.562 12 50 12c-10.626 0-16.855 1.397-26.66 5.063l-1.767.662c-2.475.923-4.66 1.674-6.724 2.275h6.335zm0-20C13.258 2.892 8.077 4 0 4V2c5.744 0 9.951-.574 14.85-2h6.334zM77.38 0C85.239 2.966 90.502 4 100 4V2c-6.842 0-11.386-.542-16.396-2h-6.225zM0 14c8.44 0 13.718-1.21 22.272-4.402l1.768-.661C33.64 5.347 39.647 4 50 4c10.271 0 15.362 1.222 24.629 4.928C84.112 12.722 89.438 14 100 14v-2c-10.271 0-15.362-1.222-24.629-4.928C65.888 3.278 60.562 2 50 2 39.374 2 33.145 3.397 23.34 7.063l-1.767.662C13.223 10.84 8.163 12 0 12v2z' fill='%23ffff33' fill-opacity='0.27' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
 .cust-svc-bg2,
 .cust-svc-bg {
-    background-color: #f7f7f7;
+    background-color: #f7f7f7 !important;
     background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox='0 0 100 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21.184 20c.357-.13.72-.264 1.088-.402l1.768-.661C33.64 15.347 39.647 14 50 14c10.271 0 15.362 1.222 24.629 4.928.955.383 1.869.74 2.75 1.072h6.225c-2.51-.73-5.139-1.691-8.233-2.928C65.888 13.278 60.562 12 50 12c-10.626 0-16.855 1.397-26.66 5.063l-1.767.662c-2.475.923-4.66 1.674-6.724 2.275h6.335zm0-20C13.258 2.892 8.077 4 0 4V2c5.744 0 9.951-.574 14.85-2h6.334zM77.38 0C85.239 2.966 90.502 4 100 4V2c-6.842 0-11.386-.542-16.396-2h-6.225zM0 14c8.44 0 13.718-1.21 22.272-4.402l1.768-.661C33.64 5.347 39.647 4 50 4c10.271 0 15.362 1.222 24.629 4.928C84.112 12.722 89.438 14 100 14v-2c-10.271 0-15.362-1.222-24.629-4.928C65.888 3.278 60.562 2 50 2 39.374 2 33.145 3.397 23.34 7.063l-1.767.662C13.223 10.84 8.163 12 0 12v2z' fill='%23ffff33' fill-opacity='0.27' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
 
@@ -310,6 +323,12 @@ img.shark-mask-pic {
 .cust-svc-bg2 {padding: 50px;}
 
 .header2 {
+    color: #f7f7f7;
+    margin-bottom: 18px;
+    margin-top: 3px;
+}
+
+.faq-sub-head {
     color: #f7f7f7;
     margin-bottom: 18px;
     margin-top: 3px;
@@ -674,7 +693,7 @@ ul.site-map li {padding-top: 5%;}
 .site-map {text-align: left;}
 
 .contact-p-pad {
-        margin-bottom: 0;
+    margin-bottom: 0;
     padding-top: 30px;
 }
 
@@ -1051,15 +1070,17 @@ ul.bullets h2:first-child {margin-top: 20px;}
 
 .bullets2 {margin-left: 10%;}
 
-ul.bullets2 h2 { text-align: justify;
+ul.bullets2 h2 {
+    text-align: justify;
     font-size: 1.45vw;
-    padding: 40px 70px 0px 70px;
+    padding: 40px 90px 0px 70px;
     margin-top: 35px;
-    margin-bottom: 50px;
-    line-height: 110%;
-    text-transform: capitalize;}
+    margin-bottom: 0;
+    line-height: 130%;
+    text-transform: capitalize;
+}
 
-ul.bullets2 h2:first-child {margin-top: 0px;}
+ul.bullets2 h2:first-child {margin-top: 20px;}
 
 .row {
     text-align: center;
@@ -1067,7 +1088,6 @@ ul.bullets2 h2:first-child {margin-top: 0px;}
     width: 100%;
 }
 
-.section-faq-addt-q .row
 .section-contact .row,
 .section-features .row,
 .everything-need .row {
@@ -1101,6 +1121,7 @@ section {
     padding-bottom: 50px;
 margin-top: 0;}
 
+.section-mech-specs,
 .ele-lockers-pic-pad {padding-top: 0;
     padding-bottom: 0;}
 
@@ -1182,6 +1203,8 @@ img.center-fin {
     background-size: 100% 100%;
 }
 
+.box-specs2 {margin-top: 0;}
+
 .box .read-flex-box {
     justify-content: flex-start;
     display: inline-block;}
@@ -1235,13 +1258,17 @@ img.center-fin {
 }
 
 .box-22 {
+    width: 44%;
+    margin: 1% auto;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: column;
     position: relative;
     border-radius: 20px;
     text-align: center;
-    padding: 6%;
+    padding: 2%;
     border: 3px solid #ff3a22;
-    -webkit-transition: background-color 0.3s, border 0.3s, color 0.3s;
-    transition: background-color 0.3s, border 0.3s, color 0.3s;
+    background-color: #f7f7f7 !important;
 }
 
 .box-6 {
@@ -1314,25 +1341,35 @@ font-size: 180%;
    }
 
 .about-header {color: #f7f7f7;
-    padding: 0 5% 0 5%;
+    padding: 0 5%;
     margin: 0 auto;
     line-height: 130%;
     font-size: 150%;
     }
 
 .advant-header-2 {color: #000080;
-    padding: 0 5% 0 5%;
+    padding: 0 5%;
     margin: 0 auto;
     line-height: 1.5;
     font-size: 180%;
     }
 
+.protech-copy {
+    color: #f7f7f7;
+    text-align: justify;
+    text-align-last: center;
+    line-height: 1.5;
+    width: 44%;
+    margin-left: 28%;
+    padding: 0 0 40px 0;
+}
+    
 .about-copy {
     text-align: justify;
     text-align-last: center;
     line-height: 1.5;
-    width: 50%;
-    margin-left: 25%;
+    width: 44%;
+    margin-left: 28%;
     padding: 0 0 40px 0;
 }
 
@@ -1340,8 +1377,8 @@ font-size: 180%;
     text-align: justify;
     text-align-last: center;
     line-height: 1.5;
-    width: 50%;
-    margin-left: 25%;
+    width: 44%;
+    margin-left: 28%;
     padding-bottom: 25px;
 }
 
@@ -1349,7 +1386,7 @@ font-size: 180%;
     text-align: justify;
     line-height: 1.5;
     width: 84%;
-    margin: 3% 0 0px 8%;
+    margin: 3% 0 0 8%;
 }
 
 .about-left-copy {
@@ -1448,15 +1485,14 @@ font-size: 180%;
 
 
 .case-study-copy {
+    font-size: 24px;
     word-spacing: 2px;
     text-align: justify;
-    margin: 15px 90px 85px 70px;
+    margin: 40px 90px 85px 70px;
     line-height: 1.5;
     text-transform: initial;
     font-weight: bold;
 }
-
-.case-study-copy:first-child {margin-top: 75px;}
 
 .case-bottom-box {padding-bottom: 55px;}
 
@@ -1780,7 +1816,7 @@ h1.other-faq {
 }
 
 h1.protech-text-head {
-    font-size: 300%;
+    font-size: 400%;
     text-align: center;
     margin-top: 75px;
     margin-bottom: 5px;
@@ -1985,6 +2021,11 @@ h5 {
     margin-bottom: 25px;
 }
 
+h6 {
+    text-align: center;
+    margin-top: 9px;
+}
+
 h5.about-copy {
     text-align: center;
     font-size: 115%;
@@ -2049,6 +2090,16 @@ h4 {
     width: 100px;
     margin: 0 auto;
     margin-top: 60px;
+}
+
+.faq-spacer:after {
+    display: block;
+    height: 2px;
+    background-color: #f7f7f7;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 1%;
 }
 
 .intro-spacer:after {
@@ -2403,11 +2454,10 @@ p.btn-border-trans2 {
 .btn-coin-stat:visited {
     display: inline-block;
     margin-right: 25px;
-    margin-top: 25px;
-    padding: 8px 38px;
+    padding: 8px 31.5px;
     font-size: 100%;
     font-weight: 300;
-    text-decoration: none;
+    text-decoration: none !important;
     border-radius: 200px;
     background-color: #ff3; 
     color: black;
@@ -2423,7 +2473,7 @@ p.btn-border-trans2 {
 .btn-coin:visited {
     display: inline-block;
     margin-left: 20px;
-    padding: 8px 22.3px;
+    padding: 8px 12.5px;
     font-size: 100%;
     font-weight: 300;
     text-decoration: none;
@@ -2660,7 +2710,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69));
     background-size: cover;
     background-position: left;
-    height: 50vh;
+    height: 0;
     background-attachment: fixed;
 }
 
@@ -2787,6 +2837,8 @@ header {
 /* Main Nav */
 /*------------------------------------*/
 
+
+.addt-qs-marg,
 nav {
     margin-bottom: 0;
 }
@@ -3066,6 +3118,15 @@ section .locations {
     margin: 0 auto;
 }
 
+.about-anni-banner {
+    color: #f7f7f7;
+    background: #0082c8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 3%;
+    margin: 0 auto;
+}
+
 .section-faq {
     color: #f7f7f7;
     background: #0707ac;  /* fallback for old browsers */
@@ -3078,9 +3139,9 @@ section .locations {
 .protech-update-banner {
     color: #f7f7f7;
     background: #ff3a22;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #e46958, #ff3a22, #ff3a22, #e46958);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #e46958, #ff3a22, #ff3a22, #e46958); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding: 0 7%;
+    background: -webkit-linear-gradient(to right, #ce4533, #ff3a22, #ff3a22, #ce4533);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ce4533, #ff3a22, #ff3a22, #ce4533); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 1% 7%;
 }
 
 .everywhere-you-go-advant {
@@ -3129,9 +3190,10 @@ section .locations {
     text-align-last: center;
     text-align: justify;
     line-height: 150%;
-    width: 44%;
+    width: 66%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0;
 }
 
 .bq-left {padding-left: 0;}
@@ -3325,13 +3387,20 @@ footer p {
 /* Animations */
 /*------------------------------------*/
 
+.js--back-in-up-1,
+.js--back-in-up-2,
+.js--zoom-in-1,
 .js--in-down-big-1,
 .js--fade-in-up-1,
 .js--fade-in-up-2,
 .js--fade-in-up-3,
+.js--fade-in-up-4,
+.js--fade-in-up-5,
+.js--fade-in-up-6,
 .js--fade-in-1,
 .js--fade-in-2,
 .js--fade-in-3,
+.js--fade-in-4,
 .js--fade-in-right-1,
 .js--fade-in-right-2,
 .js--fade-in-right-3,
@@ -3340,17 +3409,27 @@ footer p {
 .js--fade-in-right-6,
 .js--fade-in-left-1,
 .js--fade-in-left-2,
-.js--fade-in-left-3 {opacity: 0;}
+.js--fade-in-left-3,
+.js--fade-in-left-4,
+.js--fade-in-left-5,
+.js--fade-in-left-6,
+.js--fade-in-left-7 {opacity: 0;}
 
+.js--flip-in-x-1.animated,
+.js--back-in-up-1.animated,
+.js--back-in-up-2.animated,
+.js--zoom-in-1.animated,
 .js--in-down-big-1.animated,
 .js--fade-in-up-1.animated,
 .js--fade-in-up-2.animated,
 .js--fade-in-up-3.animated,
+.js--fade-in-up-4.animated,
+.js--fade-in-up-5.animated,
+.js--fade-in-up-6.animated,
 .js--fade-in-1.animated,
 .js--fade-in-2.animated,
-.js--fade-in-2.animated,
-.js--fast-in-right-1.animated,
-.js--fast-in-right-2.animated,
+.js--fade-in-3.animated,
+.js--fade-in-4.animated,
 .js--fade-in-right-1.animated,
 .js--fade-in-right-2.animated,
 .js--fade-in-right-3.animated,
@@ -3359,4 +3438,8 @@ footer p {
 .js--fade-in-right-6.animated,
 .js--fade-in-left-1.animated,
 .js--fade-in-left-2.animated,
-.js--fade-in-left-3.animated {opacity: 1;}
+.js--fade-in-left-3.animated,
+.js--fade-in-left-4.animated,
+.js--fade-in-left-5.animated,
+.js--fade-in-left-6.animated,
+.js--fade-in-left-7.animated {opacity: 1;}
