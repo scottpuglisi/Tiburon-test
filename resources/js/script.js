@@ -15,15 +15,15 @@ $('.js--scroll-to-locker').click(function () {
 
 
 $('.js--scroll-cs-1').click(function () {
-  $('html, body').animate({scrollTop: $('.js--section-cs-1').offset().top}, 1000);
+  $('html, body').animate({scrollTop: $('.js--cs-1').offset().top}, 900);
 });
 
-$('.js--scroll--cs-2').click(function () {
-  $('html, body').animate({scrollTop: $('.js--section-cs-2').offset().top}, 1500);
+$('.js--scroll-cs-2').click(function () {
+  $('html, body').animate({scrollTop: $('.js--cs-2').offset().top}, 1500);
 });
 
-$('.js--scroll--cs-3').click(function () {
-  $('html, body').animate({scrollTop: $('.js--section-cs-3').offset().top}, 2000);
+$('.js--scroll-cs-3').click(function () {
+  $('html, body').animate({scrollTop: $('.js--cs-3').offset().top}, 1600);
 });
 
 
