@@ -22,30 +22,36 @@
         <script src="https://kit.fontawesome.com/a9d33181e5.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://www.gstatic.com/charts/loader.js"></script>
+        
         <script>
       google.charts.load('current', {'packages':['bar']});
       google.charts.setOnLoadCallback(drawChart);
 
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['', 'Tiburon', 'Competition'],
+          ['', 'Tiburon', 'Competition #1'],
           ['2016', 529, 381],
           ['2017', 594, 281],
           ['2018', 614, 275]
         ]);
 
+        var formatter = new google.visualization.NumberFormat(
+      {negativeColor: 'red', negativeParens: true, pattern: '$###'});
+   formatter.format(data, 1);
+   formatter.format(data, 2);
+
         var options = {
           bars: 'vertical',
           legend: {position: 'none'},
-          vAxis: {format: 'currency'},
           height: 450,
-          colors: ['#1E90FF', '#9BACBE'],
+          colors: ['#1E90FF', '#abbac9'],
+          vAxis: {format: '$###'},
           chartArea: {
             backgroundColor: {
             fill: '#f7f7f7',
             fillOpacity: 1},
       },
- 
+
       backgroundColor: {
         fill: '#f7f7f7',
         fillOpacity: 1
@@ -56,8 +62,58 @@
   chart.draw(data, google.charts.Bar.convertOptions(options));
   window.addEventListener('resize', drawChart, false);
         }
-      
-        </script>
+
+
+google.charts.load('current', {packages: ['corechart', 'bar']});
+google.charts.setOnLoadCallback(drawStacked);
+
+function drawStacked() {
+      var data2 = google.visualization.arrayToDataTable([
+        ['', '', '' ],
+        ['2019', 46847, 0 ],
+        ['2018', 0, 26555 ],
+        ['2017', 0, 27588 ],
+        ['2016', 0, 24299 ],
+        ['2015', 0, 20688 ],
+      ]);
+
+      var formatter2 = new google.visualization.NumberFormat(
+      {negativeColor: 'red', negativeParens: true, pattern: '$##,###'});
+   formatter2.format(data2, 1);
+   formatter2.format(data2, 2);
+
+      var options2 = {
+        vAxis: {format: '$##,###'},
+        legend: {position: 'none'},
+        height: 450,
+        isStacked: true,
+        
+        series: {
+    0:{color:'#1e90ff'},
+    1:{color:'#abbac9'}
+        },
+
+        backgroundColor: {
+        fill: '#f7f7f7',
+        fillOpacity: 1
+      },
+      chartArea: {
+            backgroundColor: {
+            fill: '#f7f7f7',
+            fillOpacity: 1},
+      },
+    };
+
+    var chart2 = new google.charts.Bar(document.getElementById('chart_div2'));
+  chart2.draw(data2, google.charts.Bar.convertOptions(options2));
+  window.addEventListener('resize', drawStacked, false);
+    }
+    
+      </script>
+
+
+
+
         <title>Tiburon Lockers - Advantages</title>
     </head>
 
@@ -65,7 +121,7 @@
         <header class="header-advant">
             <nav class="top-sticky"> 
                 <div class="row">
-                    <a href="faq.html"><img src="resources/img/tib-side-logo.png" alt="Tiburon Lockers Logo" class="logo-black"></a>
+                    <a href="index.html"><img src="resources/img/tib-side-logo.png" alt="Tiburon Lockers Logo" class="logo-black"></a>
                     <a href="index.html"><img src="resources/img/tib-side-logo-wh.png" alt="Tiburon Lockers Logo" class="logo"></a>
                     <a class="mobile-nav-icon js--nav-icon"><i class="ion-md-reorder"></i></a>
                         <ul class="main-nav js--main-nav" id="nav-items">
@@ -150,116 +206,228 @@
     
                 <div class="hero-text-box-other">
                         <h1 class="other">Advantages</h1>
-                        <h2 class="header-subtext">Outclassing the competition</h2>
+                        <h2 class="header-subtext js--section-intro">Outclassing the competition</h2>
                     </div>
-                
             </header>
 
-            <h2 class="js--section-intro contact-spacer h2-advant-title" id="rev-share">Earn more with revenue share</h2>
+<section id="rev-share">
+    <div class="row">
+        <h2 class="h2-advant-title about-spacer">Tiburon Provides Custom Locker Solutions For 500+ Partnered Locations All Over the USA and Canada
+        </h2>
+        <div class="row about-pic-center">
+        
+            <div class="span-3-of-7 full-width animate__animated js--fade-in-left-4">
+                <img class="earn-more-pic" alt="Tiburon locker rentals earn more revenue" src="resources/img/locker-silo.png">
+            </div>
 
-            <div class="row">
-                <div class="col span-4-of-7 full-width">
-                    <p class="advant-left-copy">The sports industry is a multibillion-dollar industry and one of the largest generators of concessions based revenue in the world, yet no major franchise manages
-                        their own concessions at their facilities - they leave it to the professionals.
-                    <br><br>
-                    Having our locker service is no different. Sharing doesn't mean you're giving something away, or that the results will be any less. Tiburon has repeatedly demonstrated
-                that our locker systems will earn you the most revenue in any circumstance.
-                </div>
-                <div class="col span-3-of-7 full-width">
-                    <img class="earn-more-pic" alt="Tiburon locker rentals earn more revenue" src="resources/img/locker-silo.png">
-                </div>
+            <div class="span-1-of-7 full-width about-center-red">
+                <a class="btn-free-eval adv-intro-btn js--scroll-cs-1" href="advantages.html#case-study-1"><h3><p><ion-icon class= "arrow-btn" name="arrow-undo-outline"></ion-icon>Case Study #1:<br>Head to Head versus Competitors</p></h3></a>
+                <a class="btn-free-eval adv-intro-btn js--scroll-cs-2" href="advantages.html#case-study-2"><h3><p><ion-icon class= "arrow-btn" name="arrow-undo-outline"></ion-icon>Case Study #2:<br>Upgrading from Competitors</p></h3></a>
+                <a class="btn-free-eval adv-intro-btn js--scroll-cs-3" href="advantages.html#case-study-3"><h3><p><ion-icon class= "arrow-btn" name="arrow-undo-outline"></ion-icon>Case Study #3:<br>Versus Purchasing Your Own</p></h3></a>
+            </div>
+
+            <div class="span-3-of-7 full-width animate__animated js--fade-in-right-8">
+                <img class="earn-more-pic" alt="Tiburon Lockers fits indoors or outdoors" src="resources/img/advant-lockers.png">
+            </div>
+            
         </div>
-
+    </div>  
 </section>
 
-<br>
 
-    <section class="everywhere-you-go-advant" id="everywhere-you-go-advant">
-    <h3 class="advant-header">Tiburon Lockers<br>Vs.<br>Other Locker Companies</h3>
-    </section>
+<section class="everywhere-you-go-advant" id="case-study-1">
+        <h2 class="advant-header">Case Study #1</h2>
+    <h3 class="advant-hd-subtext">Tiburon Lockers Head to Head Against Another Leading Locker Company</h3>
+</section>
 
 
-    <section class="section-features">
-            <h3 class="case-study case-study-copy-red2"> At a resort with both Tiburon and another company's lockers installed at the same time:</h3>
-        <div class="row">
-            <div class="span-4-of-8">
-                <div class="case-pad">
-                    <ul>
-                        <li class="case-study-copy animate__animated js--fade-in-left-5">Tiburon Lockers earned more revenue per locker door versus the competition every year</li>
-                        <li class="case-study-copy animate__animated js--fade-in-left-6">Tiburon grew locker revenue every year, while the competition's revenue declined every year</li>
-                        <li class="case-study-copy animate__animated js--fade-in-left-7">Tiburon more than doubled the competition's revenue in each of the last two years</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="span-4-of-8 animate__animated js--fade-in-3">
-                    <div class="case-pad">
-                        <div class="chart">
-                            <div id="chart_div"></div>
-                        </div>
-                    <div class="row">
-                        <div class="col span-1-of-2">
-                            <p class="box-legend-tib">Tiburon</p>
-                        </div>
-                        <div class="col span-1-of-2">
-                            <p class="box-legend-comp">Competition</p>
-                        </div>
-                    <div class="row">
-                        <p class="chart-legend">
-            Average Profit, Yearly Per Door<br>2016-2018<br>Source: Information Provided By Competetitor's Reporting
+<section class="section-features">
+    <h3 class="case-study case-study-copy-red2">
+        At one of the only resorts to ever have both Tiburon Lockers and another leading company's lockers installed at the same time:
+    </h3>
+    <div class="row">
+        <div class="span-6-of-10">
+            <div class="case-pad">
+                <ul>
+                    <li class="case-study-copy animate__animated js--fade-in-left-5">
+                        Tiburon Lockers earned more revenue per locker door versus the competition every year:
+                        <p class="case-copy-yr">
+                            2016: Tiburon earned +39% more revenue
                         </p>
+                        <p class="case-copy-yr">
+                            2017: Tiburon earned +111% more revenue
+                        </p>
+                        <p class="case-copy-yr">
+                            2018: Tiburon earned +123% more revenue
+                        </p>
+                    </li>
+                    <li class="case-study-copy animate__animated js--fade-in-left-6">
+                        Tiburon grew locker revenue every year, while the competition's revenue declined every year</li>
+                    <li class="case-study-copy animate__animated js--fade-in-left-7">
+                        Tiburon more than doubled the competition's revenue in each of the last two years and paid out more even though the competition offered a higher percentage</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="span-4-of-10 animate__animated js--fade-in-3">
+            <div class="row">
+                <p class="chart-legend">
+    Average Yearly Profit Per Door: 2016-2018
+                </p>
+            </div>
+
+               
+
+            <div class="case-pad">
+                    <div class="chart">
+                        <div id="chart_div"></div>
                     </div>
+                <div class="row">
+                    <div class="col span-1-of-2">
+                        <p class="box-legend-tib">Tiburon</p>
+                    </div>
+                    <div class="col span-1-of-2">
+                        <p class="box-legend-comp">Competition #1</p>
                     </div>
                 </div>
-            </div> 
-        </div>
-        <h3 class="case-study case-study-copy-red2 animate__animated js--flip-in-x-1">Tiburon paid out more revenue, even though the competition offered a higher revenue share percentage</h3>
-    </section>
+                <div class="row">
+                    <p class="chart-legend-2">
+        Source: Information Provided By Competetitor's Reporting, shared by the venue
+                    </p>
+            </div>
+            </div>
+        </div> 
+    </div>
+    <h3 class="case-study case-study-copy-red2 animate__animated js--flip-in-x-1">
+        Tiburon is the clear winner - Our passion for impeccable service and focus on your business drives your locker revenue to its full potential</h3>
+</section>
 
-    
-<section class="everwhere-you-go-advant advant-yellow-bg">
-    <br>
-        <div class="slider-div-pad">
-            <div class="row animate__animated js--fade-in-up-1">
-                <div class="col span-1-of-8"></div>
-                    <div class="col span-3-of-8 slider-center">
-                        <div class="ba-slider">
-                            <img src="resources/img/tib-v-mech/tib-v-mech2.png" class="advant-pic-width">
-                            <div class="resize">
-                                <img src="resources/img/tib-v-mech/other-mech2.png" class="advant-pic-width">
-                            </div>
-                            <span class="handle handle-imprt">
-                                <p class="slider-text">
-                                    <i class="fas fas-l fa-chevron-left slider-arrow-l"></i>Slider<i class="fas fas-r fa-chevron-right slider-arrow-r"></i>
-                                </p>
-                            </span>
-                         </div>
-                    </div>
 
-                    <div class="col span-3-of-8 slider-center">
-                        <div class="ba-slider-1">
-                            <img src="resources/img/tib-v-mech/sbm-after.png" class="advant-pic-width">
-                            <div class="resize">
-                                <img src="resources/img/tib-v-mech/sbm-before.png" class="advant-pic-width">
-                            </div>
-                            <span class="handle handle-imprt">
+    <section class="everwhere-you-go-advant advant-yellow-bg">
+        <br>
+            <div class="slider-div-pad">
+                <div class="row animate__animated js--fade-in-up-1">
+                    <div class="col span-1-of-8"></div>
+                        <div class="col span-3-of-8 slider-center">
+                            <div class="ba-slider">
+                                <img src="resources/img/tib-v-mech/tib-v-mech2.png" class="advant-pic-width">
+                                <div class="resize">
+                                    <img src="resources/img/tib-v-mech/other-mech2.png" class="advant-pic-width">
+                                </div>
+                                <span class="handle handle-imprt">
                                     <p class="slider-text">
                                         <i class="fas fas-l fa-chevron-left slider-arrow-l"></i>Slider<i class="fas fas-r fa-chevron-right slider-arrow-r"></i>
                                     </p>
-                            </span>
+                                </span>
+                             </div>
                         </div>
-                    </div>
-                <div class="col span-1-of-8"></div>
+    
+                        <div class="col span-3-of-8 slider-center">
+                            <div class="ba-slider-1">
+                                <img src="resources/img/tib-v-mech/sbm-after.png" class="advant-pic-width">
+                                <div class="resize">
+                                    <img src="resources/img/tib-v-mech/sbm-before.png" class="advant-pic-width">
+                                </div>
+                                <span class="handle handle-imprt">
+                                        <p class="slider-text">
+                                            <i class="fas fas-l fa-chevron-left slider-arrow-l"></i>Slider<i class="fas fas-r fa-chevron-right slider-arrow-r"></i>
+                                        </p>
+                                </span>
+                            </div>
+                        </div>
+                    <div class="col span-1-of-8"></div>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <section class="everywhere-you-go-advant" id="case-study-2">
+        <h2 class="advant-header">Case Study #2-4</h2>
+    <h3 class="advant-hd-subtext">Tiburon Lockers Replacing Different Leading Locker Companies</h3>
+</section>
+
+<section class="section-features">
+    <div class="row">
+        
+        <div class="span-6-of-10">
+            <div class="case-pad">
+                
+                <h3 class="case-study-copy"> 
+In a four year period at a large ski resort, another leading locker company earned $24,783 per season on average, and never more than $28,000 in a season.
+                </h3>
+
+                <h3 class="case-study-copy"> 
+When Tiburon took over, their locker revenue soared to new heights:
+                </h3>
+
+                <h3 class="case-study case-study-copy-red2 animate__animated js--flip-in-x-2">
+In Tiburon Locker's first year we generated $46,847 - <em>a 189% increase over the previous company's yearly average</em> - nearly doubling what the competition's old lockers earned.
+                </h3>
             </div>
         </div>
+        
+        <div class="span-4-of-10 animate__animated js--fade-in-3">
+            <div class="row">
+                <p class="chart-legend">
+   Total Locker Revenue Per Year: 2015-2018
+                </p>
+            </div>
+            
+            <div class="case-pad">
+                <div class="chart">
+                    <div id="chart_div2">
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="col span-1-of-2">
+                        <p class="box-legend-tib">Tiburon</p>
+                    </div>
+                    <div class="col span-1-of-2">
+                        <p class="box-legend-comp">Competition #2</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <p class="chart-legend-2">
+  Source: Information Provided By Competetitor's Reporting, shared by the venue
+                </p>
+            </div>
+        </div> 
+    </div>
+    <div class="row">
+        <div class="col span-5-of-11 box-2"><br>
+            <i class="icon ion-md-swap icon-big"></i>
+                <h3>Replacing<br>Electronic<br>Lockers</h3>
+                    <p class="intro-copy justify">
+                    A resort that receives over seven million visitors annually had their own electronic lockers they purchased from another company.
+                    </p>
+                    <p class="intro-copy justify">
+                    A year later they replaced their off the shelf product with Tiburon Lockers; we grew the venue's locker revenue 78%.
+                    </p>
         </div>
-    <h3 class="case-study case-study-copy-red2">We achieve this by combining the most advanced technology with reliable lockers and service that is always available to you.
-    </h3>
+
+            <div class="col span-5-of-11 box-2 no-bot-mar-480"><br>
+                <i class="icon ion-md-trending-up icon-big"></i>
+                <h3>Upgrading<br>From<br>Mechanical</h3>
+                    <p class="intro-copy justify">
+                            A large water park that operated their own extensive key locker service added two small banks of our electronic lockers for comparison.
+                    </p>
+                    <p class="intro-copy justify">
+                        Our lockers constantly sold out, earning more than 6x per door and more overall revenue with less total lockers. 
+                        </p>
+            </div>
+        </div>
 </section>
 
 
-    <section class="everywhere-you-go-advant">
-        <h3 class="advant-header">Tiburon Lockers<br>Vs.<br>Owning lockers</h3>
-    </section>
+    
+
+<section class="everywhere-you-go-advant" id="case-studies-3">
+    <h2 class="advant-header">Case Studies #3-6</h2>
+<h3 class="advant-hd-subtext">Tiburon Lockers Vs. Owning Lockers</h3>
+</section>
 
 <div class="hero-triangle">
 
@@ -303,6 +471,8 @@ averaging over 550% more revenue per locker door.
             </div>
         </div>
     </div>
+</div>
+    
 </section>
 
 <section class="everwhere-you-go-advant advant-yellow-bg">
@@ -415,7 +585,7 @@ We believe in supporting you and have complete confidence in our locker's abilit
 It is our passion to help your business operate more efficiently and to allow your guests to safely storage their belongings so they can fully enjoy their time at your venue.
 <br><br><br>
 
-Current client and need assistance? Please <a class="blue-link" href="contact.html#customer-service-id">Contact Us</a> and let us know how we can help!
+Current client and need assistance? Please <a class="blue-link" href="contact.html#customer-service-id">contact us</a> and let us know how we can help!
         </div>
 </section>
 
