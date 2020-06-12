@@ -356,13 +356,13 @@ $('.js--fade-in-right-8').waypoint(function(direction)  {
 $('.js--fast-in-right-1').waypoint(function(direction)  {
   $('.js--fast-in-right-1').addClass('animate__lightSpeedInRight');
 }, {
-  offset: '98%'
+  offset: '90%'
 });
 
 $('.js--fast-in-right-2').waypoint(function(direction)  {
   $('.js--fast-in-right-2').addClass('animate__lightSpeedInRight');
 }, {
-  offset: '98%'
+  offset: '50%'
 });
 
 $('.js--flip-in-x-1').waypoint(function(direction)  {

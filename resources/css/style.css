@@ -268,6 +268,7 @@ ul.nav.nav-tabs > li a.active{
 }
 
 .text-box-constrict {
+    color: #ff3;
     font-size: 125%;
     font-weight: bold;
     margin: 0;
@@ -314,15 +315,8 @@ div .box-need-pic:hover,
     font-size: 22px;
 }
 
-.box-need .text-box-constrict:hover,
-.box-need .icon-need:hover {color: #ff3}
 
-
-.box-need:hover {
-    border: 3px solid #ff3;
-    color: #ff3;
-    
-}
+.box-need:hover {border: 3px solid #ff3;}
 
 .box-need2 {
     display: flex;
@@ -1767,10 +1761,10 @@ div.case-pad {padding: 1% 4% 1% 1%;}
 }
 
 .icon-need {
+    color: #ff3;
     padding: 10px 0 0 0 ;
     font-size: 200%;
     font-style: normal;
-    color: #f7f7f7;
     font-weight: 900;
     font-family: "Font Awesome 5 Pro";
 }
@@ -3540,6 +3534,8 @@ footer p {
 .js--fade-in-left-6,
 .js--fade-in-left-7 {opacity: 0;}
 
+.js--fast-in-right-1.animated,
+.js--fast-in-right-2.animated,
 .js--flip-in-x-1.animated,
 .js--back-in-up-1.animated,
 .js--back-in-up-2.animated,
@@ -3568,4 +3564,5 @@ footer p {
 .js--fade-in-left-4.animated,
 .js--fade-in-left-5.animated,
 .js--fade-in-left-6.animated,
-.js--fade-in-left-7.animated {opacity: 1 !important;}
+.js--fade-in-left-7.animated {opacity: 1;}
+
