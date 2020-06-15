@@ -100,9 +100,6 @@ h3.case-study {line-height: 1.25;}
 /* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
 
-    .new-feats-num,
-    .new-feats-head {font-size: 3.3vh;}
-
     .icon-small2 {font-size: 32px !important;}
 
     .case-study-copy {font-size: 20px;}
@@ -258,6 +255,11 @@ h3.case-study {line-height: 1.25;}
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 768px) {
 
+    .locker-icon {height: 8vw;}
+
+.section-lockers,
+.ele2-spacer:after {margin-top: 8%;}
+
     .nav-update-text,
     .nav-update,
     .nav-update-link {
@@ -265,7 +267,7 @@ h3.case-study {line-height: 1.25;}
         padding: 0 !important;
     }
 
-    .new-feats-par {padding-bottom: 6vh;}
+    .new-feats-par {padding-bottom: 5vh;}
 
     .full-width,
     .box-5 {width: 100%;}
@@ -685,7 +687,7 @@ h3 ul li:last-child {margin-bottom: 10px;}
         width: 60%;
     }
 
-    .new-feats-par2 {padding-bottom: 6vh;}
+    .new-feats-par2 {padding-bottom: 5vh;}
     
     .new-feat-div {width: 100%;}
 
@@ -716,6 +718,8 @@ h3 ul li:last-child {margin-bottom: 10px;}
 
 /* Small phones: from 480px to 610px */
 @media only screen and (max-width: 610px) {
+
+    .locker-specs-bg {margin-top: 8%;}
 
     .everywhere-you-go-advant {padding: 30px 2%;}
 
@@ -799,6 +803,7 @@ margin-bottom: 6%;
         margin-top: 6%;
     }
 
+    .section-lockers,
     .advant-spacer {margin-top: 6%;}
 
     h2.h2-ele-title {padding: 9% 5% 80px 5%;}
@@ -943,10 +948,20 @@ h2.h2-form {margin-top: 30px;}
 
 .contact-copy {font-size: 4.8vw;}
 
+.btn-coin:link,
+.btn-coin:visited {
+    padding: 6px 4%;
+    font-size: 5vw;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+
 }
 
 /* Small phones: from 300px to 480px */
 @media only screen and (max-width: 412px) {
+
+    .plastic-text {font-size: 5vw;}
 
     .cust-svc-bg2,
     .section-contact {padding: 15px 0 0 0;}
@@ -990,15 +1005,6 @@ h2.h2-form {margin-top: 30px;}
         white-space: nowrap;
         margin-top: 10px;
     }
-
-    .btn-coin:link,
-    .btn-coin:visited {
-        padding: 6px 5.6%;
-        font-size: 5vw;
-        white-space: nowrap;
-        margin-top: 10px;
-    }
-
 
     h1.other-lockers {margin-top: 50%;}
 

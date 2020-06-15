@@ -1,7 +1,15 @@
 /*------------------------------------*/
 /* Made By Scott Puglisi */
-
 /*------------------------------------*/
+
+.wh-text {color: #f7f7f7 !important;}
+
+#new-features {padding: 0;}
+
+.new-feat-pad {
+    margin: 5px;
+    padding: 5px;
+}
 
 .case-copy-yr {
     font-size: 20px;
@@ -98,31 +106,44 @@ nav .js--nav-update {padding: 0;}
     width: 100%;
 }
 
+.new-feat-div {
+    max-height: 1224px;
+    min-height: 650px;
+    position: relative;
+}
+
 .new-feats-num {
-    padding: 0 2.5%;
-    font-size: 4vh;
+    padding: 0 2%;
+    font-size:calc(12px + 3vh);
     color:#ff3a22;
     margin-top: 0;
     font-weight: bold;
 }
 
-.new-feat-div {height: 85vh;
-    position: relative;}
-
 .new-feats-h5 {
     margin-bottom: 5px;
-    font-size: 2vh;
+    font-size:calc(12px + 1vh);
 }
 
-.new-feats-par2 {font-size: 2vh;}
+.new-feats-par2 {
+    text-align-last: center;
+    font-size:calc(12px + 1vh);
+    text-align: justify;
+    width: 80%;
+    margin-left: 10%;
+}
 
 .new-feats-par {
+    text-align-last: center;
+    text-align: justify;
     padding-bottom: 9vh;
-    font-size: 2vh;
+    font-size: calc(12px + 1vh);
+    width: 80%;
+    margin-left: 10%;
 }
 
 .new-feats-head {
-    font-size: 4vh;
+    font-size:calc(12px + 3vh);
     color:#ff3a22;
     margin-top: 0;
     font-weight: bold;
@@ -140,6 +161,7 @@ nav .js--nav-update {padding: 0;}
 
 /* FAQ */
 
+.navy-text,
 .faq-bottom-text,
 .card-body {color: #000080 !important;}
 
@@ -237,6 +259,8 @@ ul.nav.nav-tabs > li a.active{
     margin-left: .5%;
     padding: 50px;
 }
+
+.protech-btn-imp {border: 4px solid #000080 !important;}
 
 .faq-btn-imp {font-size: 150% !IMPORTANT;
     margin-bottom: 20px !IMPORTANT;
@@ -367,6 +391,8 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
 .cust-svc-bg2 {padding: 50px;}
 
 .header2 {
+    width: 60%;
+    margin-left: 20%;
     color: #f7f7f7;
     margin-bottom: 18px;
     margin-top: 3px;
@@ -1155,7 +1181,7 @@ ul.bullets2 h2:first-child {margin-top: 20px;}
 
 section {padding: 30px 50px;}
 
-.section-lockers {padding-top: 20px;}
+.section-lockers { padding-top: 20px;}
 
 .section-contact {text-align: center;}
 
@@ -1319,7 +1345,7 @@ img.center-fin {
     border-radius: 20px;
     text-align: center;
     padding: 2%;
-    border: 3px solid #ff3a22;
+    border: 3px solid #000080;
     background-color: #f7f7f7 !important;
 }
 
@@ -1701,6 +1727,7 @@ h3.case-bold-1 { margin: 0 15.5%;}
 .chart-legend-2 {padding: 3% 4% 0 1%;}
 
 div.case-pad {padding: 1% 4% 1% 1%;}
+div.case-pad-2 {padding: 1% 8%;}
 
 /*------------------------------------*/
 /* Icons */
@@ -1732,6 +1759,13 @@ div.case-pad {padding: 1% 4% 1% 1%;}
 
 .icon-big {
     font-size: 200%;
+    display: block;
+    color: #ff3a22;
+    padding-top: 10px;
+}
+
+.icon-big-2 {
+    font-size: 250%;
     display: block;
     color: #ff3a22;
     padding-top: 10px;
@@ -2178,7 +2212,7 @@ h4 {
     margin-top: 60px;
 }
 
-.faq-spacer:after {
+.protech-spacer:after {
     display: block;
     height: 2px;
     background-color: #f7f7f7;
@@ -2568,7 +2602,7 @@ p.btn-border-trans2 {
 .btn-coin:visited {
     display: inline-block;
     margin-left: 20px;
-    padding: 8px 12.5px;
+    padding: 8px 16px;
     font-size: 100%;
     font-weight: 300;
     text-decoration: none;
@@ -2584,7 +2618,6 @@ p.btn-border-trans2 {
     background-color: #ff3;
     color: black;
     border: 3px solid #ff3;
-
     box-shadow: inset 0 0 14px 0 rgba(0, 0, 0, 0.92);
     transition: box-shadow 500ms;
     border:  3px solid rgba(0, 0, 0, 0.6);
@@ -2750,6 +2783,7 @@ input[type=submit]:active {
     background-image: url(../img/kiosk-feat.png);
     height: 85vh;
     max-height: 1224px;
+    min-height: 650px;
     background-attachment: inherit;
     background-size: contain;
     background-repeat: no-repeat;
