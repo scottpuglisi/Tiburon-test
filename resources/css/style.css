@@ -2,6 +2,8 @@
 /* Made By Scott Puglisi */
 /*------------------------------------*/
 
+.faq-section-nav {justify-content: space-around;}
+
 .wh-text {color: #f7f7f7 !important;}
 
 #new-features {padding: 0;}
@@ -56,6 +58,13 @@
 .faq-section {
     padding: 50px;
     background-color: #f7f7f7;
+}
+
+.faq-section-2 {
+    padding-bottom: 50px;
+    padding-top: 100px;
+    background-color: #f7f7f7;
+    color: #000080;
 }
 
 .sticky nav .js--nav-upadate,
@@ -190,17 +199,19 @@ a .faq-questions {
     color: #ff3a22 !important;
 }
 
+.nav-tabs {background-color: #000080;}
+
 ul.nav.nav-tabs > li{
     display: inline-block;
     line-height: 50px;
     height: 100%;
     text-transform:uppercase;
 }
+
 ul.nav.nav-tabs > li a{
     display:block;
     padding:15px;
-    color: #000080!important;
-    
+    color: #000080!important;    
 }
 ul.nav.nav-tabs > li a:hover, ul.nav.nav-tabs > li:hover{
     background:	#ff3a22;
@@ -208,9 +219,12 @@ ul.nav.nav-tabs > li a:hover, ul.nav.nav-tabs > li:hover{
     text-decoration: none!important;
 }
 ul.nav.nav-tabs > li a.active{
-    background:	#ff3a22;
+    background:	#000080;
     color:#fff!important;
     text-decoration: none!important;
+    width: 285px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .card-header {
     background-color: rgb(245,245,245,0.8);
@@ -1054,7 +1068,7 @@ html
     width: 100%;
     height: 100%;
     margin: 0;
-    padding: 00;
+    padding: 0;
     overflow-x: hidden;
     background-color: #F7F7F7;
     color: #000080;
@@ -1070,7 +1084,7 @@ body {
     font-weight: 200;
     line-height: 1.15 !important;
     background-color: #F7F7F7;
-    padding: 0 0 0 0;
+    padding: 0;
 }
 
 * {
@@ -1345,7 +1359,7 @@ img.center-fin {
     border-radius: 20px;
     text-align: center;
     padding: 2%;
-    border: 3px solid #000080;
+    border: 3px solid #00AEEF;
     background-color: #f7f7f7 !important;
 }
 
@@ -1503,6 +1517,7 @@ font-weight: bold;
     text-transform: uppercase;
 }
 
+.event-text li,
 .plastic-text2 li {
     padding-bottom: 15px;
     color: #ff3a22;
@@ -1530,6 +1545,17 @@ font-weight: bold;
 .plastic-text2 {
     padding-left: 7%;
     padding-right: 1%;
+    word-spacing: 2px;
+    text-align: justify;
+    margin: 0 2%;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #ff3a22;
+}
+
+.event-text {
+    padding-left: 15%;
+    padding-right: 15%;
     word-spacing: 2px;
     text-align: justify;
     margin: 0 2%;
@@ -2290,7 +2316,7 @@ h4 {
 }
 
 h2.contact-spacer-maps {
-    padding: 0 0 0 0;
+    padding: 0;
     display: none;
     height: 2px;
     background-color: #ff3a22;
@@ -2914,7 +2940,7 @@ header {
 }
 
 .header-subtext {
-    margin: 0 0 0 0;
+    margin: 0;
     color: #ff3;
     font-size: 120%;
     
@@ -3353,12 +3379,16 @@ section .locations {
     margin-bottom: 0;
 }
 
+.faq-0lr-pad {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
 .bq-left {padding-left: 0;}
 
 .bq-middle {padding: 6% 9%;}
 
 .bq-right {padding-right: 0;}
-
 
 blockquote {
     padding: 6%;

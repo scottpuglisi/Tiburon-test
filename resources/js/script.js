@@ -278,13 +278,13 @@ $('.js--fade-in-left-2').waypoint(function(direction)  {
 $('.js--fade-in-left-3').waypoint(function(direction)  {
   $('.js--fade-in-left-3').addClass('animate__fadeInLeft');
 }, {
-  offset: '90%'
+  offset: '99%'
 });
 
 $('.js--fade-in-left-4').waypoint(function(direction)  {
   $('.js--fade-in-left-4').addClass('animate__fadeInLeft');
 }, {
-  offset: '90%'
+  offset: '99%'
 });
 
 $('.js--fade-in-left-5').waypoint(function(direction)  {
@@ -356,7 +356,7 @@ $('.js--fade-in-right-8').waypoint(function(direction)  {
 $('.js--fast-in-right-1').waypoint(function(direction)  {
   $('.js--fast-in-right-1').addClass('animate__lightSpeedInRight');
 }, {
-  offset: '90%'
+  offset: '98%'
 });
 
 $('.js--fast-in-right-2').waypoint(function(direction)  {
