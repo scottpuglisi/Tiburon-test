@@ -13,6 +13,9 @@ $('.js--scroll-to-locker').click(function () {
   $('html, body').animate({scrollTop: $('.js--section-intro').offset().top}, 1000);
 });
 
+$('.js--scroll-to-specs').click(function () {
+  $('html, body').animate({scrollTop: $('#ele-specs').offset().top}, 1500);
+});
 
 $('.js--scroll-cs-1').click(function () {
   $('html, body').animate({scrollTop: $('.js--cs-1').offset().top}, 900);
@@ -25,6 +28,11 @@ $('.js--scroll-cs-2').click(function () {
 $('.js--scroll-cs-3').click(function () {
   $('html, body').animate({scrollTop: $('.js--cs-3').offset().top}, 1600);
 });
+
+$('.js--scroll-cs-4').click(function () {
+  $('html, body').animate({scrollTop: $('.js--cs-4').offset().top}, 1700);
+});
+
 
 
 /* Sticky Navigation */

@@ -491,8 +491,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
   bottom:0;
   width:4px;
   margin-left:-2px;
- 
-  background: rgba(0,0,0,.5);
+  background: #ff3a22;
   cursor: ew-resize;
 }
  
@@ -579,8 +578,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
   bottom:0;
   width:4px;
   margin-left:-2px;
- 
-  background: rgba(0,0,0,.5);
+  background:#ff3a22;
   cursor: ew-resize;
 }
  
@@ -648,8 +646,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
   bottom:0;
   width:4px;
   margin-left:-2px;
- 
-  background: rgba(0,0,0,.5);
+  background: #ff3a22;
   cursor: ew-resize;
 }
  
@@ -716,8 +713,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
   bottom:0;
   width:4px;
   margin-left:-2px;
- 
-  background: rgba(0,0,0,.5);
+  background: #ff3a22;
   cursor: ew-resize;
 }
  
@@ -1311,7 +1307,7 @@ img.center-fin {
     border-radius: 20px;
     text-align: center;
     padding: 1%;
-    border: 3px solid #00AEEF;
+    border: 3px solid #00aeef;
     margin-left: 20px;
     -webkit-transition: background-color 0.3s, border 0.3s, color 0.3s;
     transition: background-color 0.3s, border 0.3s, color 0.3s;
@@ -1326,6 +1322,18 @@ img.center-fin {
     border: 3px solid #00AEEF;
     -webkit-transition: background-color 0.3s, border 0.3s, color 0.3s;
     transition: background-color 0.3s, border 0.3s, color 0.3s;
+}
+
+.box-faq {
+    position: relative;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1%;
+    border: 3px solid #ff3a22;
+    -webkit-transition: background-color 0.3s, border 0.3s, color 0.3s;
+    transition: background-color 0.3s, border 0.3s, color 0.3s;
+    width: 100%;
 }
 
 .box-4 {width: 100%}
@@ -1359,7 +1367,7 @@ img.center-fin {
     border-radius: 20px;
     text-align: center;
     padding: 2%;
-    border: 3px solid #00AEEF;
+    border: 3px solid #000080;
     background-color: #f7f7f7 !important;
 }
 
@@ -1376,7 +1384,7 @@ img.center-fin {
 .box-3:hover,
 .box-6:hover,
 .box-5:hover {
-    background-color: rgb(240, 240, 240);
+    background-color: #d1f3ffb9;
     -webkit-transition: background-color 0.3s, border 0.3s, color 0.3s;
     transition: background-color 0.3s, border 0.3s, color 0.3s;
     }
@@ -2201,8 +2209,6 @@ h4 {
     margin-top: 60px;
 }
 
-.advant-spacer {margin-top: 70px;}
-
 .advant-spacer:after {
     display: block;
     height: 2px;
@@ -2214,8 +2220,10 @@ h4 {
 }
 
 .advant-spacer-2 {
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 0 15%;
+
 }
 
 .advant-spacer-2:after {
@@ -2561,7 +2569,7 @@ p.btn-border-trans2 {
 .btn-ele-lockers-stat:visited {
     display: inline-block;
     margin-right: 20px;
-    padding: 8px 14px;
+    padding: 8px 17.5px;
     font-size: 100%;
     font-weight: 300;
     text-decoration: none;
