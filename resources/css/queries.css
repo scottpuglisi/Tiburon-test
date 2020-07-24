@@ -1,4 +1,44 @@
 /* Small phones to small tablets: from 481px to 767px */
+@media only screen and (min-width: 2561px) {
+
+img.shark-mask-pic {margin-right: inherit;}
+
+.find-tib-text2 {
+    margin-top: 192px;
+    font-size: 44px;
+}
+
+.find-tib-text {
+    font-size: 44px;
+    margin-top: 172px;
+}
+
+.fa-sun,
+.fa-swimmer,
+.fa-umbrella-beach,
+.fa-snowboarding,
+.fa-skating,
+.fa-snowflake {font-size: 140px;}
+
+.fas-img {font-size: 385px;}
+
+header {background-attachment: inherit;}
+
+.body-width {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 2561px;
+}
+
+.sticky,
+.top-sticky {
+    max-width: 2561px;
+    position: revert;
+}
+
+}
+
+/* Small phones to small tablets: from 481px to 767px */
 @media only screen and (min-width: 1743px) {
 
     ul.bullets2 h2,
@@ -201,7 +241,7 @@ h3.case-study {line-height: 1.25;}
 }
 
 
-/* Small tablet to big tablet: from 768px to 1023px */
+/* Small tablet to big tablet: from 993px to 1023px */
 @media only screen and (max-width: 991px) {
     .container.gallery-container {padding: 60px 475px 60px 0;}
     
@@ -280,9 +320,7 @@ h3.case-study {line-height: 1.25;}
 .nav-update-link {
     width: 100%;
     padding: 0 !important;
-}
-
-.new-feats-par {padding-bottom: 5vh;}
+}   
 
 .full-width,
 .box-5 {width: 100%;}
@@ -1047,7 +1085,7 @@ h3.case-study,
 
 .btn-ele-lockers-stat:link,
 .btn-ele-lockers-stat:visited {
-    padding: 6px 6%;
+    padding: 6px 4.5%;
     font-size: 5vw;
     white-space: nowrap;
     margin-top: 10px;

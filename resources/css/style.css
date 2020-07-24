@@ -153,13 +153,14 @@ nav .js--nav-update {padding: 0;}
 .new-feats-par {
     text-align-last: center;
     text-align: justify;
-    padding-bottom: 9vh;
+    padding-bottom: 6vh;
     font-size: calc(12px + 1vh);
     width: 80%;
     margin-left: 10%;
 }
 
 .new-feats-head {
+    padding-bottom: 4vh;
     font-size:calc(12px + 3vh);
     color:#ff3a22;
     margin-top: 0;
