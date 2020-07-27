@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html lang="en">
     <head>
@@ -399,16 +399,26 @@ Get a value-added locker solution that exceeds the highest expectations from Tib
             </div>
 
             <div class="row">
-                <form method="post" action="form-handler.php" class="contact-form">
+                <form method="post" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" class="contact-form">
+                    <INPUT type="hidden" name="sfga" value="00DA0000000HPIC">
+                    <INPUT type="hidden" name="oid" value="00DA0000000HPIC">
+                    <INPUT type="hidden" name="retURL" value="http://www.tiburonlockers.com/thanks.html">
                     <div class="row form-question">
                         <div class="col span-1-of-3 form-question">
-                            <label for="name">Name*</label>
+                            <label for="name">First Name*</label>
                         </div>
                         <div class="col span-2-of-3">
-                            <input type="text" name="name" id="name" required>
+                            <input type="text" name="first_name" id="first_name" required>
                         </div>
                     </div>
-
+                    <div class="row form-question">
+                        <div class="col span-1-of-3 form-question">
+                            <label for="name">Last Name*</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="last_name" id="last_name" required>
+                        </div>
+                    </div>
                     <div class="row form-question">
                         <div class="col span-1-of-3 form-question">
                             <label for="email">Email*</label>
@@ -438,7 +448,7 @@ Get a value-added locker solution that exceeds the highest expectations from Tib
 
                     <div class="row form-question">
                         <div class="col span-1-of-3 form-question">
-                            <label  for="industry">Industry</label>
+                            <label for="industry">Industry</label>
                         </div>
                         <div class="col span-2-of-3">
                             <input type="text" name="industry" id="industry">
@@ -459,7 +469,7 @@ Get a value-added locker solution that exceeds the highest expectations from Tib
                             <label for="annual-visitors">How many annual visitors?</label>
                         </div>
                         <div class="col span-2-of-3">
-                            <input type="text" name="visitors" id="annual-visitors">
+                            <input type="text" id="00NA00000026wkB" name="00NA00000026wkB">
                         </div>
                     </div>
 
@@ -468,8 +478,8 @@ Get a value-added locker solution that exceeds the highest expectations from Tib
                             <label class="form-label">Do you currently have lockers?</label>
                         </div>
                         <div class="col span-2-of-3 yn-resize">
-                                <input type="radio" name="currentlockers" value="yes">Yes
-                                <input type="radio" name="currentlockers" value="no">No
+                            <input type="radio" name="currentlockers" value="yes">Yes
+                            <input type="radio" name="currentlockers" value="no">No
                         </div>
                     </div>
 
@@ -478,13 +488,13 @@ Get a value-added locker solution that exceeds the highest expectations from Tib
                             <label>Tell us more about your locker goals</label>
                         </div>
                         <div class="col span-2-of-3">
-                            <textarea name="comments"></textarea>
+                            <textarea name="description"></textarea>
                         </div>
                     </div>
-<br>
+                    <br>
                     <div class="row">
                         <div style="text-align: center"></div>
-                                <input type="submit" value="Get Lockers">
+                        <input type="submit" value="Get Lockers">
                     </div>
                 </form>
             </div>
