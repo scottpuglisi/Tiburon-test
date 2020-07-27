@@ -2,6 +2,8 @@
 /* Made By Scott Puglisi */
 /*------------------------------------*/
 
+i.fa-birthday-cake {font-size: 600%;}
+
 .advant-pic-left-fix {margin-left: 1% !important;}
 
 .faq-tab-head {
@@ -48,15 +50,15 @@
 .about-banner-header,
 .about-anni {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 2%;
 }
 
-.about-anni {padding: 0 25%}
+.about-anni {padding: 0 18%}
 
 .about-banner-header {
+    padding: 0 5%;
     font-size: 60px;
-    padding-bottom: 1%;
-    padding-top: 2%;
+    margin: 2%
 }
 
 .addt-q-icon {margin-bottom: 2%}
@@ -125,7 +127,6 @@ nav .js--nav-update {padding: 0;}
 
 .new-feat-div {
     max-height: 1224px;
-    min-height: 650px;
     position: relative;
 }
 
@@ -348,6 +349,7 @@ div .box-need-pic:hover,
 }
 
 .box-need {
+    margin-left: 1% !important;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -375,6 +377,7 @@ div .box-need-pic:hover,
 }
 
 .box-fin-size {
+    min-width: 150px;
     width: 9%;
 }
 
@@ -413,6 +416,14 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
 .main-header {margin-top: 155px;}
 
 .header2 {
+    width: 81%;
+    margin-left: 9%;
+    color: #f7f7f7;
+    margin-bottom: 18px;
+    margin-top: 3px;
+}
+
+.header2-pt {
     width: 81%;
     margin-left: 9%;
     color: #f7f7f7;
@@ -1294,7 +1305,7 @@ img.center-fin {
     text-align: center;
     padding: 3%;
     box-shadow: 6px 6px 5px rgba(168, 159, 159, 0.8);
-    background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55) ), url('img/specs-bg.png');
+    background: linear-gradient( rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60) ), url('img/specs-bg.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -2204,7 +2215,7 @@ h4 {
     margin: 3%;
 }
 
-.about-spacer {margin-top: 30px;}
+.about-spacer {margin-top: 15px;}
 
 .about-spacer:after {
     display: block;
@@ -2229,8 +2240,6 @@ h4 {
 .advant-spacer-2 {
     margin-bottom: 50px;
     margin-top: 50px;
-    padding: 0 15%;
-
 }
 
 .advant-spacer-2:after {
@@ -2764,25 +2773,14 @@ p.btn-border-trans2 {
     text-decoration: underline;
 }
 
-.adv-intro-btn:link,
-.adv-intro-btn:visited {
-    font-size: 16px;
-    width: 60%;
-    text-transform: uppercase;
-    margin: 20px auto;
-    display: inline-block;
-    font-weight: bolder;
-    text-decoration: none;
-    border-radius: 200px;
-    color: #000080;
-    border: 4px solid #ff3a22;
-    background-color: #f7f7f7;
-    -webkit-transition: background-color 0.3s, border 0.3s, color 0.3s;
-    transition: background-color 0.3s, border 0.3s, color 0.3s;
+.advant-intro-btn:link,
+.advant-intro-btn:visited {
+    font-size: 60%;
+    padding: 10px;
 }
 
-.adv-intro-btn:hover,
-.adv-intro-btn:active {
+.advant-intro-btn:hover,
+.advant-intro-btn:active {
     background-color: #000080;
     color: #f7f7f7;
     border: 4px solid #000080;
@@ -2818,8 +2816,6 @@ input[type=submit]:active {
 /* Header */
 /*------------------------------------*/
 
-
-
 .locker-specs-bg {
     background-image: url(../img/kiosk-feat.png);
     height: 85vh;
@@ -2832,8 +2828,8 @@ input[type=submit]:active {
 }
 
 .advant-banner-2 {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url(img/advant-banner-2.png);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/advant-banner-2.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/advant-banner-2.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/advant-banner-2.png);
     background-size: cover;
     background-position: center;
     height: 30%;
@@ -2842,8 +2838,8 @@ input[type=submit]:active {
 }
 
 .banner-cross {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url(img/locker-banner.png);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/locker-banner.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/locker-banner.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/locker-banner.png);
     background-size: cover;
     background-position: center;
     height: 30%;
@@ -2852,19 +2848,19 @@ input[type=submit]:active {
 }
 
 .locker-banner-2 {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url(img/locker-banner-2.png);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/locker-banner-2.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/locker-banner-2.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/locker-banner-2.png);
     background-size: cover;
     background-position: center;
-    height: 100%;
+    height: 90%;
     background-attachment: fixed;
-    padding: 450px 0;
+    padding: 350px 0;
 }
 
 
 .banner-advant-tech {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url(img/pl_banner.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/pl_banner.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.60))), url(img/pl_banner.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/pl_banner.jpg);
     background-size: auto;
     background-position: center;
     height: 30%;
@@ -2874,8 +2870,8 @@ input[type=submit]:active {
 }
 
 .contact-cross {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url(img/sb-kiosk-rail.png);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/sb-kiosk-rail.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/sb-kiosk-rail.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/sb-kiosk-rail.png);
     background-size: cover;
     background-position: center;
     height: 30%;
@@ -2884,18 +2880,18 @@ input[type=submit]:active {
 }
 
 .coin-banner {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url(img/coin-banner.png);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/coin-banner.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/coin-banner.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/coin-banner.png);
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
     height: 30%;
-    padding: 300px 0;
+    padding: 250px 0;
 }
 
 .contact-banner {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url(img/contact-banner.png);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.7)), url(img/contact-banner.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/contact-banner.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/contact-banner.png);
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
@@ -2904,8 +2900,8 @@ input[type=submit]:active {
 }
 
 .faq-banner {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url(img/faq-banner.png);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.7)), url(img/faq-banner.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/faq-banner.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/faq-banner.png);
     background-size: cover;
     background-position: top center;
     background-attachment: fixed;
@@ -2914,17 +2910,18 @@ input[type=submit]:active {
 }
 
 header {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url(img/hero.png);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69)), url(img/hero.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/hero.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/hero.png);
     background-size: cover;
     background-position: left;
     height: 100vh;
     background-attachment: fixed;
+    background-attachment: inherit;
 }
 
 .header-protech {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65)));
-    background-image: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69));
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60)));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60));
     background-size: cover;
     background-position: left;
     height: 0;
@@ -2932,16 +2929,16 @@ header {
 }
 
 .header-lockers {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url(img/coin-header.png);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(img/coin-header.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/coin-header.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/coin-header.png);
     background-size: cover;
     background-position: left;
     background-attachment: inherit;
     height: 80vh;
 }
 .header-ele-lockers {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url(img/pp-headon-header.png);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(img/pp-headon-header.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/pp-headon-header.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/pp-headon-header.png);
     background-size: cover;
     background-position: center; 
     background-attachment: inherit;
@@ -2949,8 +2946,8 @@ header {
 }
 
 .header-advant {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url(img/lockers-header.png);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(img/lockers-header.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/lockers-header.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/lockers-header.png);
     background-size: cover;
     background-position: left;
     background-attachment: inherit;
@@ -2958,8 +2955,8 @@ header {
 }
 
 .header-contact {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url(img/contact-hero.png);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(img/contact-header.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/contact-hero.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/contact-header.png);
     background-size: cover;
     background-position: bottom;
     background-attachment: inherit;
@@ -2967,8 +2964,8 @@ header {
 }
 
 .header-about {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url(img/about-header.png);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(img/about-header.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/about-header.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/about-header.png);
     background-size: cover;
     background-position: left;
     background-attachment: inherit;
@@ -3319,8 +3316,8 @@ section .locations {
 .faq-header {
     padding: 5px 5%;
     margin: 0 auto;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url(img/faq-hero.png);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(img/faq-header.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/faq-hero.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/faq-header.png);
     background-size: cover;
     background-position: bottom;
     background-attachment: inherit;

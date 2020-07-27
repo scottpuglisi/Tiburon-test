@@ -1,6 +1,20 @@
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (min-width: 2561px) {
 
+.mapouter-large {
+    height: 500px;
+    width: 742px;}
+
+i.fa-birthday-cake {font-size: 800%;}
+
+.about-anni {padding: 0 25%}
+
+.advant-intro-btn:link,
+.advant-intro-btn:visited {
+    padding: 20px;
+    font-size: 18px;
+}
+
 img.shark-mask-pic {margin-right: inherit;}
 
 .find-tib-text2 {
@@ -28,6 +42,7 @@ header {background-attachment: inherit;}
     margin-left: auto;
     margin-right: auto;
     max-width: 2561px;
+    box-shadow: 9px 0 9px 0 rgba(168, 159, 159, 0.8), -9px 0 9px 0 rgba(168, 159, 159, 0.8);
 }
 
 .sticky {
@@ -80,8 +95,10 @@ ul.bullets2 h2 {
 
 ul.bullets h2:first-child {margin-top: 30px;}
 
-.header2 {font-size: 3.5vw;}
+.header2-pt {font-size: 4vw;}
+.header2 {font-size: 3.3vw;}
 
+h1.other,
 .other-lockers,
 .main-header {font-size: 5.9vw;}
     }
@@ -89,13 +106,25 @@ ul.bullets h2:first-child {margin-top: 30px;}
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (min-width: 1201px) {
 
+h1.protech-text-head,
 .main-header {font-size: 92px;}
-.header2 {font-size: 45px;}
+
+.header2-pt {font-size: 60px;}
+.header2 {font-size: 42px;}
 
 }
 
 /* Big tablet to 1200px (Widths smaller than the 1140px row) */
 @media only screen and (max-width: 1200px) {
+    
+.about-anni {font-size: 125%;}
+
+.about-banner-header {
+    font-size: 48px;
+    padding: 0;
+}
+
+i.fa-birthday-cake {font-size: 400%;}
 
 .resize-link-underline {width: 60px;}
 
@@ -301,21 +330,63 @@ h3 ul {  margin: 10px 50px 10px 50px;}
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (min-width: 769px) {
    .main-nav { display: block !important; }
+
+.advant-intro-btn:link,
+.advant-intro-btn:visited {
+    margin-left: 10%;
+    width: 80%;
+}
 }
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 768px) {
 
+.protech-text-head {font-size: 10vw;}
+
+.contact-banner {padding: 200px 0;}
+
+.about-banner-header {
+    font-size: 42px;
+    padding: 1% 0;
+}
+
+.about-anni {
+    margin-bottom: 3%;
+    font-size: 115%;
+    padding: 0 5%;
+}
+
+.case-study-copy-red2 {padding: 2% 5%;}
+
+.section-faq {
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+img.locker-pic2 {margin-top: 25px;}
+
+.banner-advant-tech {padding: 100px 0;}
+
+.box-need {margin-left: 0 !important;}
+
+.header-ele-lockers {height: 85vh;}
+
 .advant-pic-left-fix {margin-left: 0 !important;}
 
 .advant-mob-space {padding: 8px 0;}
 
+.btn-coin-stat:link,
+.btn-coin-stat:visited,
+.btn-ele-lockers-stat:link,
+.btn-ele-lockers-stat:visited,
+.btn-coin:link,
+.btn-coin:visited,
 .btn-more:link,
 .btn-more:visited,
 .btn-get-lockers:link,
 .btn-get-lockers:visited {
-    padding-bottom: 4px;
-    padding-top: 4px;
+    padding-bottom: 2px;
+    padding-top: 2px;
 }
 
 .locker-icon {height: 8vw;}
@@ -360,7 +431,7 @@ padding-bottom: 35px;
 
 .no-bot-pad-768 {padding-bottom: 0 !important;}
 
-.contact-spacer-ele-header:after {margin-top: 8%;}
+.contact-spacer-ele-header:after {margin-top: 17%;}
 
 h2.h2-ele-title {
     margin-top: 1px;
@@ -376,6 +447,7 @@ h2.h2-ele2-title {
 
 .no-bot-mar {margin-bottom: 0 !important;}
 
+.header2-pt,
 .header2 {
 margin-bottom: 2px;
 margin-top: 5px;
@@ -557,7 +629,7 @@ h1.other {
     padding-left: 5%;
 }
 
-h1.other-lockers {margin-top: 20%;}
+h1.other-lockers {margin-top: 18%;}
 
 h2 {font-size: 5.5vw;
     padding-right: 5%;
@@ -571,7 +643,10 @@ h2 {font-size: 5.5vw;
     margin: 10px 0 5px 0;
 }
 
-p.intro {    width: 80%;
+.protech-copy,
+.intro-advant,
+p.intro {
+    width: 80%;
     margin-left: 10%;
 }
 
@@ -756,21 +831,21 @@ iframe {
 #contact-corp { order: 1; }
 #contact-cnd { order: 3; }
 
-    .footer-width {
-        margin-left: 20%;
-        width: 60%;
-    }
+.footer-width {
+    margin-left: 20%;
+    width: 60%;
+}
 
-    .new-feats-par2 {padding-bottom: 5vh;}
-    
-    .new-feat-div {width: 100%;}
+.new-feats-par2 {padding-bottom: 5vh;}
 
-    .box-need {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding: 5px;
-        font-size: 4vw;
-    }
+.new-feat-div {width: 100%;}
+
+.box-need {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 4vw;
+}
 
 .testimonial-divider {
     border-top: 1px solid #ff3a22;
@@ -779,39 +854,55 @@ iframe {
     border-right: none;
     }
 
-    .everything-top-mar {
-    margin-top: 25px;
-    margin-bottom: 45px;
+.everything-top-mar {
+margin-top: 25px;
+margin-bottom: 45px;
 }
-    .everything-bot-mar {
-    margin-top: 45px;
+.everything-bot-mar {
+margin-top: 45px;
+margin-bottom: 25px;
+}
+
+.advant-spacer-2 {
     margin-bottom: 25px;
-    }
+    margin-top: 15px;
+}
+
+.advant-spacer-2:after {margin-top: 50px;}
 
 }
 
 /* Small phones: from 480px to 610px */
 @media only screen and (max-width: 610px) {
 
-    .locker-specs-bg {margin-top: 8%;}
+.row-pad-0 {padding: 0 !important;}   
 
-    .everywhere-you-go-advant {padding: 30px 2%;}
+.card > .card-header a::before {margin-right: 5px;}
 
-    h3.case-study,
-    .advant-header {font-size: 5.5vw;}
+.advant-spacer-2 {
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
 
-    .coin-banner,
-    .contact-banner,
-    .banner-cross,
-    .advant-banner-2,
-    .contact-cross,
-    .banner-advant-tech {padding: 75px 0;}
+.locker-specs-bg {margin-top: 8%;}
 
-    p.lockers-intro-alt {padding-bottom: 35px;}
+.everywhere-you-go-advant {padding: 30px 2%;}
 
-    h2.h3-lockers-intro-alt {font-size: 4vw;}
+h3.case-study,
+.advant-header {font-size: 5.5vw;}
 
-    .slider-text {top: 46.8%;}
+.coin-banner,
+.contact-banner,
+.banner-cross,
+.advant-banner-2,
+.contact-cross,
+.banner-advant-tech {padding: 75px 0;}
+
+p.lockers-intro-alt {padding-bottom: 35px;}
+
+h2.h3-lockers-intro-alt {font-size: 4vw;}
+
+.slider-text {top: 46.8%;}
 
 .dropdown-content-advant-sticky a {max-width: 45%;}
 .dropdown-content-ele-sticky a {max-width: 42%;}
@@ -838,145 +929,156 @@ margin-bottom: 6%;
 /* Small phones: from 300px to 480px */
 @media only screen and (max-width: 480px) {
 
-    .partner-margin {margin-top: 12%;}
+img.shark-mask-pic {max-width: 75%;}
 
-    .about-copy {padding: 0 0 15px 0;}
+h1.protech-text-head {font-size: 200%;}
 
-    .about-spacer {margin: 0 0 9% 0;}
+.container {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
 
-    .about-spacer:after {margin-top: 7%;}
+.partner-margin {margin-top: 12%;}
 
-    h3.case-bold-1 {margin: 0 5%;}
+.about-copy {padding: 0 0 15px 0;}
 
-    .no-bot-mar-480 {margin-bottom: 0 !important;}
+.about-spacer {margin: 0 0 9% 0;}
 
-    h2.h2-advant-title {padding: 40px 5%;}
-    .contact-spacer:after {margin-top: 40px;}
+.about-spacer:after {margin-top: 7%;}
 
-    .slider-div-pad {
-        padding-top: 25px;
-        padding-bottom: 25px;
-    }
+h3.case-bold-1 {margin: 0 5%;}
 
-    .contact-spacer4:after,
-    .intro-spacer:after,
-    .contact-spacer2:after,
-    .about-spacer:after,
-    .contact-spacer-ele-header:after,
-    .contact-spacer:after,
-    .h2-form:after {width: 80%;}
+.no-bot-mar-480 {margin-bottom: 0 !important;}
 
-    .advant-header {font-size: 7.5vw;}
+h2.h2-advant-title {padding: 40px 5%;}
+.contact-spacer:after {margin-top: 40px;}
 
-    .case-study-copy:first-child {margin-top: 5px;}
+.slider-div-pad {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 
-    .case-study-copy:last-child {margin-bottom: 25px;}
+.contact-spacer4:after,
+.intro-spacer:after,
+.contact-spacer2:after,
+.about-spacer:after,
+.contact-spacer-ele-header:after,
+.contact-spacer:after,
+.h2-form:after {width: 80%;}
 
-    .advant-spacer::after,
-    h2.ele2-spacer:after {
-        width: 80%;
-        margin-top: 6%;
-    }
+.about-banner-header  {font-size: 36px;}
 
-    .section-lockers,
-    .advant-spacer {margin-top: 6%;}
+.advant-header {font-size: 7.5vw;}
 
-    h2.h2-ele-title {padding: 9% 5% 80px 5%;}
+.case-study-copy:first-child {margin-top: 5px;}
 
-    h2.h2-ele2-title {padding: 7% 5% 13% 5%;}
+.case-study-copy:last-child {margin-bottom: 25px;}
 
-    .faq-pad {padding: 40px 15px;}
+.advant-spacer::after,
+h2.ele2-spacer:after {
+    width: 80%;
+    margin-top: 6%;
+}
 
-    div .btn-patent:link,
-    div .btn-patent:visited {
-        max-width: 100%;
-        font-size: 6vw;
-        padding-left: 12vw;
-        padding-right: 12vw;
-    }
+.section-lockers,
+.advant-spacer {margin-top: 6%;}
 
-    div .btn-faq:link,
-    div .btn-faq:visited {
-        max-width: 100%;
-        font-size: 6vw;
-        padding-left: 16vw;
-        padding-right: 16.3vw;
-    }
+h2.h2-ele-title {padding: 18% 5% 90px 5%;}
 
-    div .btn-ele-sizes:link,
-    div .btn-ele-sizes:visited {
-        max-width: 100%;
-        font-size: 6vw;
-        padding-left: 6vw;
-        padding-right: 6vw;
-    }
+h2.h2-ele2-title {padding: 7% 5% 13% 5%;}
 
-    .slider-text {top: 46.25%;}
+.faq-pad {padding: 40px 15px;}
 
-    .ele-bot-up-large {font-size: 6.2vw;}
+div .btn-patent:link,
+div .btn-patent:visited {
+    max-width: 100%;
+    font-size: 6vw;
+    padding-left: 12vw;
+    padding-right: 12vw;
+}
 
-    .icon-advant-big {
-        font-size: 12vw;
-        padding: 0;
-        transform: rotate(90deg);
-    }
+div .btn-faq:link,
+div .btn-faq:visited {
+    max-width: 100%;
+    font-size: 6vw;
+    padding-left: 16vw;
+    padding-right: 16.3vw;
+}
+
+div .btn-ele-sizes:link,
+div .btn-ele-sizes:visited {
+    max-width: 100%;
+    font-size: 6vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
+}
+
+.slider-text {top: 46.25%;}
+
+.ele-bot-up-large {font-size: 6.2vw;}
+
+.icon-advant-big {
+    font-size: 12vw;
+    padding: 0;
+    transform: rotate(90deg);
+}
+
+.dropdown-content-advant-sticky a {max-width: 75%;}
+.dropdown-content-ele-sticky a {max-width: 72%;}
+
+.title-long-logo {
+    margin: 10px 25% -5px 25%;}
+
+p.intro {font-size: 5vw;}
+
+.btn-read:link,
+.btn-read:visited {padding: 6px 20px;}
+
+.btn-more:link,
+.btn-more:visited{
+    padding: 4px 4.3vw;
+    font-size: 5.5vw;
+    white-space: nowrap;
+}
+
+.btn-stat:link,
+.btn-stat:visited,
+.btn-coin-stat:link,
+.btn-coin-stat:visited,
+.btn-read:link,
+.btn-read:visited {padding: 4px 7.7vw;
+    font-size: 5vw;
+    white-space: nowrap;}
+
+.btn-get-lockers:link,
+.btn-get-lockers:visited {padding: 4px 7.7vw;
+    font-size: 5.5vw;
+    white-space: nowrap;}
+
+.btn-ele-lockers-hov:link,
+.btn-ele-lockers-hov:visited {
+    padding: 6px 5.5vw;
+    font-size: 5vw;
+    white-space: nowrap;}
     
-    .dropdown-content-advant-sticky a {max-width: 75%;}
-    .dropdown-content-ele-sticky a {max-width: 72%;}
+h1 {font-size: 9vw;}
+h2 {font-size: 8vw;}
+h3 {font-size: 7vw;}
+h4 {font-size: 2.2vw;}
+h1.other {font-size: 10vw;}
+.header-subtext {font-size: 4vw;}
 
-    .title-long-logo {
-        margin: 10px 25% -5px 25%;}
+.ele-bottom-uppercase {font-size: 6.2vw;}
 
-    p.intro {font-size: 5vw;}
+h2 li  {font-weight: bold;}
 
-    .btn-read:link,
-    .btn-read:visited {padding: 6px 20px;}
+section { padding: 25px 0; }
+.contact-form { width: 90%; }
 
-    .btn-more:link,
-    .btn-more:visited{
-        padding: 4px 4.3vw;
-        font-size: 5.5vw;
-        white-space: nowrap;
-    }
-
-    .btn-stat:link,
-    .btn-stat:visited,
-    .btn-coin-stat:link,
-    .btn-coin-stat:visited,
-    .btn-read:link,
-    .btn-read:visited {padding: 6px 7.7vw;
-        font-size: 5vw;
-        white-space: nowrap;}
-
-    .btn-get-lockers:link,
-    .btn-get-lockers:visited {padding: 4px 7.7vw;
-        font-size: 5.5vw;
-        white-space: nowrap;}
-
-    .btn-ele-lockers-hov:link,
-    .btn-ele-lockers-hov:visited {
-        padding: 6px 5.5vw;
-        font-size: 5vw;
-        white-space: nowrap;}
-        
-    h1 {font-size: 9vw;}
-    h2 {font-size: 8vw;}
-    h3 {font-size: 7vw;}
-    h4 {font-size: 2.2vw;}
-    h1.other {font-size: 10vw;}
-    .header-subtext {font-size: 4vw;}
-
-    .ele-bottom-uppercase {font-size: 6.2vw;}
-
-    h2 li  {font-weight: bold;}
-
-    section { padding: 25px 0; }
-    .contact-form { width: 90%; }
-
-    .long-logo {
-        max-width: 86%;
-        margin: 0 7%;
-    }
+.long-logo {
+    max-width: 86%;
+    margin: 0 7%;
+}
 
 input[type=submit], 
 input[type=submit]:hover, 
@@ -999,6 +1101,7 @@ input[type=submit]:active {
 
 .faq-pad {padding: 4px;}
 
+ul.bullets2 h2,
 ul.bullets h2 {
     margin-left: 0;
     padding-left: 1%;
@@ -1030,6 +1133,8 @@ h2.h2-form {margin-top: 30px;}
     white-space: nowrap;
     margin-top: 10px;
 }
+
+.header2-pt {font-size: 6vw;}
 
 }
 
@@ -1090,12 +1195,18 @@ h3.case-bold-1 {margin: 0 5%;}
     font-size: 5vw;
 }
 
+i.fa-birthday-cake {font-size: 200%;}
+
+.about-banner-header {font-size: 7vw;}
+.about-anni {font-size: 4vw;}
+.anni-mention {font-size: 3.7vw;}
+
 h3.case-study,
 .advant-header {font-size: 7vw;}
 
 .btn-ele-lockers-stat:link,
 .btn-ele-lockers-stat:visited {
-    padding: 6px 4.5%;
+    padding: 4px 4.5%;
     font-size: 5vw;
     white-space: nowrap;
     margin-top: 10px;
@@ -1137,6 +1248,7 @@ h2.h2-title {
     margin: 0;}
 
 h3.h3-lockers-alt {font-size: 7vw;}
+
 
 blockquote,
 cite,
@@ -1204,6 +1316,13 @@ margin-left: .5%;
 
 /* TINY: from 0px to 269px */
 @media only screen and (max-width: 215px) {
+
+.box-fin-size {
+    min-width: 50px;
+    width: 80%;
+}
+
+.protech-text-head {font-size: 16vw;}
 
 .faq-click-head {font-size: 9vw;}
 
