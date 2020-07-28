@@ -1446,6 +1446,7 @@ strong {
 /*------------------------------------*/
 
 .advant-header {
+margin-top: 20px;
 color: #f7f7f7;
 margin: 0 auto;
 line-height: 1.5;
@@ -2851,7 +2852,7 @@ input[type=submit]:active {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    padding: 350px 0;
+    padding: 30vh 0;
 }
 
 

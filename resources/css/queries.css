@@ -356,7 +356,7 @@ h3 ul {  margin: 10px 50px 10px 50px;}
     padding: 0 5%;
 }
 
-.case-study-copy-red2 {padding: 2% 5%;}
+.case-study-copy-red2 {padding: 5%;}
 
 .section-faq {
     padding-bottom: 25px;
@@ -1060,7 +1060,9 @@ p.intro {font-size: 5vw;}
     padding: 6px 5.5vw;
     font-size: 5vw;
     white-space: nowrap;}
-    
+
+.advant-btn-resize {font-size: 5vw;}
+
 h1 {font-size: 9vw;}
 h2 {font-size: 8vw;}
 h3 {font-size: 7vw;}
@@ -1126,6 +1128,8 @@ h2.h2-form {margin-top: 30px;}
 
 .contact-copy {font-size: 4.8vw;}
 
+.btn-ele-lockers-stat:link,
+.btn-ele-lockers-stat:visited,
 .btn-coin:link,
 .btn-coin:visited {
     padding: 6px 4%;
@@ -1186,12 +1190,12 @@ h2 {margin: 9% 0 6% 0;}
 .banner-cross,
 .advant-banner-2,
 .contact-cross,
-.banner-advant-tech {padding: 20% 0;}
+.banner-advant-tech {padding: 11vh 0;}
 
 h3.case-bold-1 {margin: 0 5%;}
 
 .case-study-copy {
-    margin: 5%;
+    margin: 9%;
     font-size: 5vw;
 }
 
