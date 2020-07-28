@@ -2928,7 +2928,7 @@ header {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/coin-header.png);
     background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/coin-header.png);
     background-size: cover;
-    background-position: right  ;
+    background-position: right;
     background-attachment: inherit;
     height: 80vh;
 }
