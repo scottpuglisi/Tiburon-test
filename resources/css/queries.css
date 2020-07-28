@@ -341,6 +341,10 @@ h3 ul {  margin: 10px 50px 10px 50px;}
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 768px) {
 
+.contact-banner,
+.faq-banner,
+.coin-banner,
+.contact-cross,
 .advant-banner-2,
 .banner-cross,
 .locker-banner-2 {background-attachment: inherit;}
@@ -1166,7 +1170,7 @@ h2.h2-form {margin-top: 30px;}
     margin: 2% 0;
 }
 
-div.box-faq {margin: 3% 12% !important;}
+div.box-faq {margin: 3% 20% !important;}
 
 .plastic-text {font-size: 5vw;}
 

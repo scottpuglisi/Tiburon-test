@@ -2903,7 +2903,6 @@ input[type=submit]:active {
     background-size: cover;
     background-position: top center;
     background-attachment: fixed;
-    height: 30%;
     padding: 300px 0;
 }
 
