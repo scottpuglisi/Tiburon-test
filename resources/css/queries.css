@@ -117,7 +117,7 @@ h1.protech-text-head,
 /* Big tablet to 1200px (Widths smaller than the 1140px row) */
 @media only screen and (max-width: 1200px) {
     
-.about-anni {font-size: 125%;}
+.about-anni {font-size: 110%;}
 
 .about-banner-header {
     font-size: 48px;
@@ -316,6 +316,8 @@ nav:link,
 h1 {font-size: 260%}
 
 .box-2 {margin: 0 0 30px 0;}
+.box-2-add {margin-top: 30px;}
+
 
 h3 ul {  margin: 10px 50px 10px 50px;}
 
@@ -333,13 +335,18 @@ h3 ul {  margin: 10px 50px 10px 50px;}
 
 .advant-intro-btn:link,
 .advant-intro-btn:visited {
-    margin-left: 10%;
-    width: 80%;
+    margin-left: 12%;
+    width: 74%;
 }
 }
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 768px) {
+
+.contact-banner-mar {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 .contact-banner,
 .faq-banner,
@@ -355,13 +362,12 @@ h3 ul {  margin: 10px 50px 10px 50px;}
 
 .about-banner-header {
     font-size: 42px;
-    padding: 1% 0;
+    padding: 4% 0;
 }
 
 .about-anni {
-    margin-bottom: 3%;
-    font-size: 115%;
-    padding: 0 5%;
+    margin-bottom: 6%;
+    font-size: 100%;
 }
 
 .case-study-copy-red2 {padding: 5%;}
@@ -887,11 +893,6 @@ margin-bottom: 25px;
 
 .card > .card-header a::before {margin-right: 5px;}
 
-.advant-spacer-2 {
-    margin-bottom: 25px;
-    margin-top: 15px;
-}
-
 .locker-specs-bg {margin-top: 8%;}
 
 .everywhere-you-go-advant {padding: 30px 2%;}
@@ -937,6 +938,18 @@ margin-bottom: 6%;
 /* Small phones: from 300px to 480px */
 @media only screen and (max-width: 480px) {
 
+
+.advant-mob-pad {
+    padding-top: 2%;
+    margin-bottom: 6%;
+}
+
+.intro-advant {padding-top: 0;}
+.advant-spacer-2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 img.shark-mask-pic {max-width: 75%;}
 
 h1.protech-text-head {font-size: 200%;}
@@ -950,7 +963,7 @@ h1.protech-text-head {font-size: 200%;}
 
 .about-copy {padding: 0 0 15px 0;}
 
-.about-spacer {margin: 0 0 9% 0;}
+.about-spacer {margin: 6% 0 6% 0;}
 
 .about-spacer:after {margin-top: 7%;}
 
@@ -958,7 +971,7 @@ h3.case-bold-1 {margin: 0 5%;}
 
 .no-bot-mar-480 {margin-bottom: 0 !important;}
 
-h2.h2-advant-title {padding: 40px 5%;}
+h2.h2-advant-title {padding: 50px 5%;}
 .contact-spacer:after {margin-top: 40px;}
 
 .slider-div-pad {
@@ -1153,6 +1166,9 @@ h2.h2-form {margin-top: 30px;}
 /* Small phones: from 300px to 480px */
 @media only screen and (max-width: 412px) {
 
+.advant-intro-btn:link,
+.advant-intro-btn:visited {margin: 20px auto;}
+
 .faq-tab-head {font-size: 7vw;}
 
 .faq-copy {
@@ -1285,7 +1301,7 @@ label,
     padding-left: 0 !important;
 }
 
-div.box-faq {margin: 3% 5% !important;}
+div.box-faq {margin: 3% 10% !important;}
 
 .yn-resize {font-size: 5vw !important;}
 
