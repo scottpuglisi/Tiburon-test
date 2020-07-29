@@ -2,6 +2,8 @@
 /* Made By Scott Puglisi */
 /*------------------------------------*/
 
+.float-center {float: center;}
+
 i.fa-birthday-cake {font-size: 600%;}
 
 .advant-pic-left-fix {margin-left: 1% !important;}
@@ -786,7 +788,9 @@ ul.site-map li {padding-top: 5%;}
 
 .indent {margin-left: 40px;}
 
-.site-map {text-align: left;}
+.site-map {
+    text-align: left;
+}
 
 .contact-p-pad {
     margin-bottom: 0;
@@ -1980,7 +1984,6 @@ h1.other {
 }
 
 h1.other-faq {
-    font-size: 300%;
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
@@ -2251,11 +2254,13 @@ h4 {
     margin-top: 60px;
 }
 
+.about-spacer-2,
 .advant-spacer-2 {
     margin-bottom: 50px;
     margin-top: 50px;
 }
 
+.about-spacer-2:after,
 .advant-spacer-2:after {
     display: block;
     height: 2px;
@@ -3333,7 +3338,7 @@ section .locations {
     }
     
 .faq-header {
-    padding: 5px 5%;
+    padding: 5px 0%;
     margin: 0 auto;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/faq-hero.png);
     background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/faq-header.png);
