@@ -1,0 +1,19 @@
+Options -Indexes
+ErrorDocument 403 /customerrors/403.php
+ErrorDocument 404 /customerrors/404.php
+
+Options +FollowSymLinks
+DirectoryIndex index.html
+
+RewriteRule ^/$    index.html [L]
+RewriteEngine On
+RewriteBase /
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
+RewriteRule ^index\.html$ http://www.tiburonlockers.com/ [R=301,L]
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)$ / [L,QSA]
+</IfModule>
