@@ -488,7 +488,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
 }
  
 .ba-slider img {
-    width: 100%;
+    width: auto !important;
     display:block;
     max-width: 600px;
 }
@@ -501,7 +501,6 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
     width: 50%;
     overflow: hidden;
 }
-
 
 .ba-slider .handle { /* Thin line seperator */
   position:absolute; 
@@ -575,11 +574,11 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
 }
  
 .ba-slider-1 img {
-    width: 100%;
+    width: auto !important;
     display: block;
     max-width: 600px;
 }
- 
+
 .ba-slider-1 .resize {
     position: absolute;
     top:0;
@@ -588,8 +587,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
     width: 50%;
     overflow: hidden;
 }
-
-
+ 
 .ba-slider-1 .handle { /* Thin line seperator */
   position:absolute; 
   left:50%;
@@ -643,7 +641,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
 }
  
 .ba-slider-2 img {
-    width: 100%;
+    width: auto !important;
     display:block;
     max-width: 600px;
 }
@@ -710,7 +708,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
 }
  
 .ba-slider-3 img {
-    width: 100%;
+    width: auto !important;
     display:block;
     max-width: 600px;
 }
@@ -886,21 +884,24 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     border-radius: 20px;
 }
 
-    .newlocker-pad   {padding: 15px 12% 15px 12%;}
+.newlocker-pad   {padding: 15px 12% 15px 12%;}
 
-    .advant-pic-width {max-width: 100%;
-        border: #ff3a22 3px solid;
-        border-radius: 20px;}
+.advant-pic-width {
+    width: 600px;
+    max-width: 100%;
+    border: #ff3a22 3px solid;
+    border-radius: 20px;
+}
 
-  .dropdown-ele {
-    float: left;
-    overflow: hidden;
-  }
+.dropdown-ele {
+float: left;
+overflow: hidden;
+}
 
-  .dropdown-advant {
-    float: left;
-    overflow: hidden;
-  }
+.dropdown-advant {
+float: left;
+overflow: hidden;
+}
 
 .ele-link-space {margin-bottom: 15px;}
 
@@ -3681,4 +3682,3 @@ footer p {
 .js--fade-in-left-5.animated,
 .js--fade-in-left-6.animated,
 .js--fade-in-left-7.animated {opacity: 1;}
-

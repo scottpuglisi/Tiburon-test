@@ -33,7 +33,9 @@ $('.js--scroll-cs-4').click(function () {
   $('html, body').animate({scrollTop: $('.js--cs-4').offset().top}, 1700);
 });
 
-
+$('.js--scroll-cs-5').click(function () {
+  $('html, body').animate({scrollTop: $('.js--cs-5').offset().top}, 1800);
+});
 
 /* Sticky Navigation */
     $('.js--section-intro').waypoint(function(direction) {
