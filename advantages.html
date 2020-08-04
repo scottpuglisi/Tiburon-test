@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -23,43 +22,43 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://www.gstatic.com/charts/loader.js"></script>
         <script>
-      google.charts.load('current', {'packages':['bar']});
-      google.charts.setOnLoadCallback(drawChart);
+    google.charts.load('current', {'packages':['bar']});
+    google.charts.setOnLoadCallback(drawChart);
 
-      function drawChart() {
+    function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['', 'Tiburon', 'Competitor #1'],
-          ['Year 1', 529, 381],
-          ['Year 2', 594, 281],
-          ['Year 3', 614, 275]
+        ['', 'Tiburon', 'Competitor #1'],
+        ['Year 1', 529, 381],
+        ['Year 2', 594, 281],
+        ['Year 3', 614, 275]
         ]);
 
         var formatter = new google.visualization.NumberFormat(
-      {negativeColor: 'red', negativeParens: true, pattern: '$###'});
-   formatter.format(data, 1);
-   formatter.format(data, 2);
+    {negativeColor: 'red', negativeParens: true, pattern: '$###'});
+formatter.format(data, 1);
+formatter.format(data, 2);
 
         var options = {
-          bars: 'vertical',
-          legend: {position: 'none'},
-          height: 450,
-          colors: ['#00AEEF', '#abbac9'],
-          vAxis: {format: '$###'},
-          chartArea: {
+        bars: 'vertical',
+        legend: {position: 'none'},
+        height: 450,
+        colors: ['#00AEEF', '#abbac9'],
+        vAxis: {format: '$###'},
+        chartArea: {
             backgroundColor: {
             fill: '#f7f7f7',
             fillOpacity: 1},
-      },
+    },
 
-      backgroundColor: {
+    backgroundColor: {
         fill: '#f7f7f7',
         fillOpacity: 1
-      },
+    },
         };
 
         var chart = new google.charts.Bar(document.getElementById('chart_div'));
-  chart.draw(data, google.charts.Bar.convertOptions(options));
-  window.addEventListener('resize', drawChart, false);
+chart.draw(data, google.charts.Bar.convertOptions(options));
+window.addEventListener('resize', drawChart, false);
         }
 
 
@@ -67,21 +66,21 @@ google.charts.load('current', {packages: ['corechart', 'bar']});
 google.charts.setOnLoadCallback(drawStacked);
 
 function drawStacked() {
-      var data2 = google.visualization.arrayToDataTable([
+    var data2 = google.visualization.arrayToDataTable([
         ['', '', '' ],
         ['2019', 46847, 0 ],
         ['2018', 0, 26555 ],
         ['2017', 0, 27588 ],
         ['2016', 0, 24299 ],
         ['2015', 0, 20688 ],
-      ]);
+    ]);
 
-      var formatter2 = new google.visualization.NumberFormat(
-      {negativeColor: 'red', negativeParens: true, pattern: '$##,###'});
-   formatter2.format(data2, 1);
-   formatter2.format(data2, 2);
+    var formatter2 = new google.visualization.NumberFormat(
+    {negativeColor: 'red', negativeParens: true, pattern: '$##,###'});
+formatter2.format(data2, 1);
+formatter2.format(data2, 2);
 
-      var options2 = {
+    var options2 = {
         vAxis: {format: '$##,###'},
         legend: {position: 'none'},
         height: 450,
@@ -95,19 +94,19 @@ function drawStacked() {
         backgroundColor: {
         fill: '#f7f7f7',
         fillOpacity: 1
-      },
-      chartArea: {
+    },
+    chartArea: {
             backgroundColor: {
             fill: '#f7f7f7',
             fillOpacity: 1},
-      },
+    },
     };
 
     var chart2 = new google.charts.Bar(document.getElementById('chart_div2'));
-  chart2.draw(data2, google.charts.Bar.convertOptions(options2));
-  window.addEventListener('resize', drawStacked, false);
+chart2.draw(data2, google.charts.Bar.convertOptions(options2));
+window.addEventListener('resize', drawStacked, false);
     }
-      </script>
+    </script>
     <link href="vendors/css/lightbox.css" rel="stylesheet"/>
 
 <title>Tiburon Lockers - Advantages</title>
@@ -218,48 +217,46 @@ How does Tiburon stack up against other major locker providers?
 <br><br>
 Read our case studies to find out how Tiburon Lockers is the most profitable locker compared to any other means available.
         </p>
-
     </div>
 
     <div class="row about-pic-center">
         <div class="col span-1-of-7"></div>
         <div class="col span-5-of-7 full-width about-center-red">
             <div class="row">
-                <a class="col span-1-of-1 btn-free-eval advant-intro-btn js--scroll-cs-1" href="#"><h3 class="advant-btn-resize"><p><ion-icon class="arrow-btn" name="arrow-undo-outline"></ion-icon>Case Study #1:<br>Head to Head versus the Competition</p></h3></a>
-                <a class="col span-1-of-1 btn-free-eval advant-intro-btn js--scroll-cs-2" href="#"><h3 class="advant-btn-resize"><p><ion-icon class="arrow-btn" name="arrow-undo-outline"></ion-icon>Case Studies #2-4:<br>Upgrading from a Competitor's Locker</p></h3></a>
-                <a class="col span-1-of-1 btn-free-eval advant-intro-btn js--scroll-cs-3" href="#"><h3 class="advant-btn-resize"><p><ion-icon class="arrow-btn" name="arrow-undo-outline"></ion-icon>Case Studies #5-7:<br>Versus Purchasing Your Own Lockers</p></h3></a>
-                <a class="col span-1-of-1 btn-free-eval advant-intro-btn js--scroll-cs-4" href="#"><h3 class="advant-btn-resize"><p><ion-icon class="arrow-btn" name="arrow-undo-outline"></ion-icon>Read More:<br>New & unmatched locker technologies</p></h3></a>
-                <a class="col span-1-of-1 btn-free-eval advant-intro-btn js--scroll-cs-5" href="#"><h3 class="advant-btn-resize"><p><ion-icon class="arrow-btn" name="arrow-undo-outline"></ion-icon>Read More:<br>Tiburon Locker's top-rated service</p></h3></a>
+                <a class="col span-1-of-1 btn-free-eval advant-intro-btn js--scroll-cs-1" href="#"><h3 class="advant-btn-resize"><ion-icon class="arrow-btn" name="arrow-undo-outline"></ion-icon>Case Study #1:<br>Head to Head versus the Competition</h3></a>
+                <a class="col span-1-of-1 btn-free-eval advant-intro-btn js--scroll-cs-2" href="#"><h3 class="advant-btn-resize"><ion-icon class="arrow-btn" name="arrow-undo-outline"></ion-icon>Case Studies #2-4:<br>Upgrading from a Competitor's Locker</h3></a>
+                <a class="col span-1-of-1 btn-free-eval advant-intro-btn js--scroll-cs-3" href="#"><h3 class="advant-btn-resize"><ion-icon class="arrow-btn" name="arrow-undo-outline"></ion-icon>Case Studies #5-7:<br>Versus Purchasing Your Own Lockers</h3></a>
+                <a class="col span-1-of-1 btn-free-eval advant-intro-btn js--scroll-cs-4" href="#"><h3 class="advant-btn-resize"><ion-icon class="arrow-btn" name="arrow-undo-outline"></ion-icon>Read More:<br>New & unmatched locker technologies</h3></a>
+                <a class="col span-1-of-1 btn-free-eval advant-intro-btn js--scroll-cs-5" href="#"><h3 class="advant-btn-resize"><ion-icon class="arrow-btn" name="arrow-undo-outline"></ion-icon>Read More:<br>Tiburon Locker's top-rated service</h3></a>
             </div>
         </div>
         <div class="col span-1-of-7"></div>
     </div>
 
     <div class="row">
-            <div class="col advant-pic-left-fix span-1-of-4 full-width animate__animated js--fade-in-up-4 advant-mob-space">
-                <a data-lightbox="Tiburon Locker Advantages" href="resources/img/advant-lockers-3.png">
-                    <img class="earn-more-pic" alt="Tiburon Lockers fits indoors or outdoors" src="resources/img/advant-lockers-3.png">
-                </a>
-            </div>
-
-            <div class="col span-1-of-4 full-width animate__animated js--fade-in-up-4 advant-mob-space">
-                <a data-lightbox="Tiburon Locker Advantages" href="resources/img/advant-lockers-4.png">
-                    <img class="earn-more-pic" alt="Tiburon Lockers fits indoors or outdoors" src="resources/img/advant-lockers-4.png">
-                </a>
-            </div>
-
-            <div class="col span-1-of-4 full-width animate__animated js--fade-in-up-4 advant-mob-space">
-                <a data-lightbox="Tiburon Locker Advantages" href="resources/img/locker-silo.png">
-                    <img class="earn-more-pic" alt="Tiburon locker rentals earn more revenue" src="resources/img/locker-silo.png">
-                </a>
-            </div>
-
-            <div class="col span-1-of-4 full-width animate__animated js--fade-in-up-4 advant-mob-space">
-                <a data-lightbox="Tiburon Locker Advantages" href="resources/img/advant-lockers-2.png">
-                    <img class="earn-more-pic" alt="Tiburon Lockers fits indoors or outdoors" src="resources/img/advant-lockers-2.png">
-                </a>
-            </div>            
+        <div class="col advant-pic-left-fix span-1-of-4 full-width animate__animated js--fade-in-up-4 advant-mob-space">
+            <a data-lightbox="Tiburon Locker Advantages" href="resources/img/advant-lockers-3.jpg">
+                <img class="earn-more-pic" alt="Tiburon Lockers fits indoors or outdoors" src="resources/img/advant-lockers-3.jpg">
+            </a>
         </div>
+
+        <div class="col span-1-of-4 full-width animate__animated js--fade-in-up-4 advant-mob-space">
+            <a data-lightbox="Tiburon Locker Advantages" href="resources/img/advant-lockers-4.jpg">
+                <img class="earn-more-pic" alt="Tiburon Lockers fits indoors or outdoors" src="resources/img/advant-lockers-4.jpg">
+            </a>
+        </div>
+
+        <div class="col span-1-of-4 full-width animate__animated js--fade-in-up-4 advant-mob-space">
+            <a data-lightbox="Tiburon Locker Advantages" href="resources/img/locker-silo.jpg">
+                <img class="earn-more-pic" alt="Tiburon locker rentals earn more revenue" src="resources/img/locker-silo.jpg">
+            </a>
+        </div>
+
+        <div class="col span-1-of-4 full-width animate__animated js--fade-in-up-4 advant-mob-space">
+            <a data-lightbox="Tiburon Locker Advantages" href="resources/img/advant-lockers-2.jpg">
+                <img class="earn-more-pic" alt="Tiburon Lockers fits indoors or outdoors" src="resources/img/advant-lockers-2.jpg">
+            </a>
+        </div>            
     </div>
 </section>
 
@@ -327,43 +324,48 @@ Read our case studies to find out how Tiburon Lockers is the most profitable loc
         Tiburon is the clear winner - Our passion for impeccable service and focus on your business drives your locker revenue to its full potential</h3>
 </section>
 
-    <section class="everwhere-you-go-advant advant-yellow-bg">
-        <br>
-            <div class="slider-div-pad">
-                <div class="row animate__animated js--fade-in-up-1">
-                    <div class="col span-1-of-8"></div>
-                        <div class="col span-3-of-8 slider-center">
-                            <div class="ba-slider">
-                                <img src="resources/img/tib-v-mech/tib-v-mech2.png" class="advant-pic-width">
-                                <div class="resize">
-                                    <img data-src="resources/img/tib-v-mech/other-mech2.png" class="advant-pic-width">
-                                </div>
-                                <span class="handle handle-imprt">
-                                    <p class="slider-text">
-                                        <i class="fas fas-l fa-chevron-left slider-arrow-l"></i>Slider<i class="fas fas-r fa-chevron-right slider-arrow-r"></i>
-                                    </p>
-                                </span>
-                             </div>
-                        </div>
-    
-                        <div class="col span-3-of-8 slider-center">
-                            <div class="ba-slider-1">
-                                <img src="resources/img/tib-v-mech/sbm-after.png" class="advant-pic-width">
-                                <div class="resize">
-                                    <img data-src="resources/img/tib-v-mech/sbm-before.png" class="advant-pic-width">
-                                </div>
-                                <span class="handle handle-imprt">
-                                        <p class="slider-text">
-                                            <i class="fas fas-l fa-chevron-left slider-arrow-l"></i>Slider<i class="fas fas-r fa-chevron-right slider-arrow-r"></i>
-                                        </p>
-                                </span>
-                            </div>
-                        </div>
-                    <div class="col span-1-of-8"></div>
+<section class="everwhere-you-go-advant advant-yellow-bg">
+<br>
+    <div class="slider-div-pad">
+        <div class="row animate__animated js--fade-in-up-1">
+            
+            <div class="col span-1-of-8">
+            </div>
+
+            <div class="col span-3-of-8 slider-center">
+                <div class="ba-slider">
+                    <img src="resources/img/tib-v-mech/tib-v-mech2.jpg" class="advant-pic-width" alt="Tiburon Lockers upgrades your lockers from any other">
+                    <div class="resize">
+                        <img src="resources/img/tib-v-mech/other-mech2.jpg" class="advant-pic-width" alt="Tiburon Lockers give you the highest quality lockers">
+                    </div>
+                    <span class="handle handle-imprt">
+                        <span class="slider-text">
+                            <i class="fas fas-l fa-chevron-left slider-arrow-l"></i>Slider<i class="fas fas-r fa-chevron-right slider-arrow-r"></i>
+                        </span>
+                    </span>
                 </div>
             </div>
+
+            <div class="col span-3-of-8 slider-center">
+                <div class="ba-slider-1">
+                    <img src="resources/img/tib-v-mech/sbm-after.jpg" class="advant-pic-width" alt="Earn more with Tiburon Lockers">
+                    <div class="resize">
+                        <img src="resources/img/tib-v-mech/sbm-before.jpg" class="advant-pic-width" alt="Tiburon Lockers earns the most revenue">
+                    </div>
+                    <span class="handle handle-imprt">
+                        <span class="slider-text">
+                            <i class="fas fas-l fa-chevron-left slider-arrow-l"></i>Slider<i class="fas fas-r fa-chevron-right slider-arrow-r"></i>
+                        </span>
+                    </span>
+                </div>
             </div>
-    </section>
+
+            <div class="col span-1-of-8">
+            </div>
+
+        </div>
+    </div>
+</section>
 
     <section class="everywhere-you-go-advant js--cs-2" id="case-study-2">
         <h2 class="advant-header">Case Studies #2-4</h2>
@@ -400,7 +402,7 @@ Read our case studies to find out how Tiburon Lockers is the most profitable loc
         <div class="span-4-of-10 animate__animated js--fade-in-3">
             <div class="row">
                 <p class="chart-legend">
-   Total Locker Revenue Per Year: 2015-2018
+Total Locker Revenue Per Year: 2015-2018
                 </p>
             </div>
 
@@ -432,7 +434,7 @@ Read our case studies to find out how Tiburon Lockers is the most profitable loc
 
     <div class="row">
         <div class="col span-5-of-11 box-2"><br>
-            <img src="resources/img/circle-fin.png" class="box-fin-size">
+            <img src="resources/img/circle-fin.png" class="box-fin-size" alt="Tiburon Lockers earns the most revenue">
                 <h3>Case Study #3</h3>
                     <p class="intro-copy justify">
                         Last season, Tiburon Lockers replaced a different national locker competitor at a ski resort.
@@ -446,7 +448,7 @@ Read our case studies to find out how Tiburon Lockers is the most profitable loc
         </div>
 
             <div class="col span-5-of-11 box-2 no-bot-mar-480"><br>
-                <img src="resources/img/circle-fin.png" class="box-fin-size">
+                <img src="resources/img/circle-fin.png" class="box-fin-size" alt="Tiburon lockers is proven to earn more revenue versus competitors">
                 <h3>Case Study #4</h3>
                 <p class="intro-copy justify">
             At a water park that was frustrated with the lack of service from another leading competitor
@@ -469,50 +471,46 @@ Read our case studies to find out how Tiburon Lockers is the most profitable loc
 <h3 class="advant-hd-subtext">Tiburon Lockers Versus Owning Lockers</h3>
 </section>
 
-<div class="hero-triangle">
-
-<section class="section-features animate__animated js--fade-in-up-4">
+<section class="hero-triangle section-features animate__animated js--fade-in-up-4">
     <div class="row">
+        
         <div class="col span-4-of-7 box-2"><br>
             <i class="icon ion-md-trophy icon-big-2"></i>
-                <h3>Case Study #5<br>Tiburon Beats Purchasing</h3>
-                    <p class="intro-copy justify">
+            <h3>Case Study #5<br>Tiburon Beats Purchasing</h3>
+            <p class="intro-copy justify">
 Unhappy with their purchase of lockers, a park decided to 
 partner with Tiburon for electronic lockers.
-                    </p>
-                    <p class="intro-copy justify">
+            </p>
+            <p class="intro-copy justify">
 With only 7.5% of the total locker doors, Tiburon generated more than 50% of the total locker revenue,
 averaging over 550% more revenue per locker door.
-                    </p>
+            </p>
         </div>
     </div>
 
     <div class="row">
         <div class="col span-5-of-11 box-2"><br>
             <i class="icon ion-md-swap icon-big-2"></i>
-                <h3>Case Study #6<br>Replacing Electronic Lockers</h3>
-                    <p class="intro-copy justify">
-                    A resort that receives over seven million visitors annually had their own electronic lockers they purchased from another company.
-                    </p>
-                    <p class="intro-copy justify">
-                    A year later they replaced their off the shelf product with Tiburon Lockers; we grew the venue's locker revenue 78%.
-                    </p>
+            <h3>Case Study #6<br>Replacing Electronic Lockers</h3>
+            <p class="intro-copy justify">
+A resort that receives over seven million visitors annually had their own electronic lockers they purchased from another company.
+            </p>
+            <p class="intro-copy justify">
+            A year later they replaced their off the shelf product with Tiburon Lockers; we grew the venue's locker revenue 78%.
+            </p>
         </div>
 
-            <div class="col span-5-of-11 box-2 no-bot-mar-480"><br>
-                <i class="icon ion-md-trending-up icon-big-2"></i>
-                <h3>Case Study #7<br>Upgrading From Mechanical</h3>
-                    <p class="intro-copy justify">
-                            A large water park that operated their own extensive key locker service added two small banks of our electronic lockers for comparison.
-                    </p>
-                    <p class="intro-copy justify">
-                        Our lockers constantly sold out, earning more than 6x per door and more overall revenue with less total lockers. 
-                        </p>
-            </div>
+        <div class="col span-5-of-11 box-2 no-bot-mar-480"><br>
+            <i class="icon ion-md-trending-up icon-big-2"></i>
+            <h3>Case Study #7<br>Upgrading From Mechanical</h3>
+            <p class="intro-copy justify">
+A large water park that operated their own extensive key locker service added two small banks of our electronic lockers for comparison.
+            </p>
+            <p class="intro-copy justify">
+Our lockers constantly sold out, earning more than 6x per door and more overall revenue with less total lockers. 
+            </p>
         </div>
-    </div>
-</div>
-    
+    </div>   
 </section>
 
 <section class="everwhere-you-go-advant advant-yellow-bg">
@@ -524,28 +522,28 @@ averaging over 550% more revenue per locker door.
                 <div class="col span-1-of-8"></div>
                     <div class="col span-3-of-8 slider-center">
                         <div class="ba-slider-2">
-                            <img src="resources/img/tib-v-mech/tib-v-mech.png" class="advant-pic-width">
+                            <img src="resources/img/tib-v-mech/tib-v-mech.jpg" class="advant-pic-width" alt="Tiburon upgrades lockers">
                             <div class="resize">
-                                <img src="resources/img/tib-v-mech/other-mech.png" class="advant-pic-width">
+                                <img src="resources/img/tib-v-mech/other-mech.jpg" class="advant-pic-width" alt="Upgrade to Tiburon Lockers">
                             </div>
                             <span class="handle handle-imprt">
-                                <p class="slider-text">
+                                <span class="slider-text">
                                     <i class="fas fas-l fa-chevron-left slider-arrow-l"></i>Slider<i class="fas fas-r fa-chevron-right slider-arrow-r"></i>
-                                </p>
+                                </span>
                             </span>
                         </div>
                 </div>
 
                 <div class="col span-3-of-8 slider-center no-bot-pad-768">
                     <div class="ba-slider-3">
-                        <img src="resources/img/tib-v-mech/tib-air-after.png" class="advant-pic-width">
+                        <img src="resources/img/tib-v-mech/tib-air-after.jpg" class="advant-pic-width" alt="Tiburon Lockers gives you the lockers you need">
                         <div class="resize">
-                            <img src="resources/img/tib-v-mech/tib-air-before.png" class="advant-pic-width">
+                            <img src="resources/img/tib-v-mech/tib-air-before.jpg" class="advant-pic-width" alt="Tiburon Lockers is the most relaible locker">
                         </div>
                         <span class="handle handle-imprt">
-                            <p class="slider-text">
+                            <span class="slider-text">
                                 <i class="fas fas-l fa-chevron-left slider-arrow-l"></i>Slider<i class="fas fas-r fa-chevron-right slider-arrow-r"></i>
-                            </p>
+                            </span>
                         </span>
                     </div>
                 </div>
@@ -607,7 +605,7 @@ All locker systems stay safe and secure by receiving continuous and automatic so
 <div class="row protech-update-banner">
     <div class="row span-1-of-1 icon-row">
         <i class="fas fas-health fa-virus-slash"></i>
-        <h1 class="advant-header">All New Pro-tech Lockers
+        <h1 class="advant-header">All New Pro-tech Lockers</h1>
         <h2>New improvements and modifications to Tiburon's lockers and kiosk defend against germs, bacteria, and viruses</h2>
         <a class="btn-read-wh" href="protech-lockers.html"><p><ion-icon class= "arrow-btn" name="arrow-undo-outline"></ion-icon>Read More</p></a>
     </div>
@@ -615,7 +613,7 @@ All locker systems stay safe and secure by receiving continuous and automatic so
 
 <section class="section-features banner-cross">
         <h3 class="banner-pad case-bold-1 title-pad">Tiburon Lockers is an industry leader in locker innovation, continuously integrating new technology
-             to create the perfect locker system</h3>
+            to create the perfect locker system</h3>
 </section> 
 
 <section class="row js--cs-5" id="service">
@@ -656,7 +654,7 @@ You'll always have our full and continued support, and we're always available to
         <div class="col span-1-of-3 box-2"><br>
                 <i class=" fa-fw fa-tools icon-advant-tech"></i>
                 <h3>Maintenance</h3>
-                     <p class="intro-copy">
+                    <p class="intro-copy">
 Always provided, no extra costs. We take pride in taking care of our equipment and providing what you need to keep going. 
                     </p>
         </div>
@@ -699,7 +697,7 @@ You and your guests deserve the highest quality lockers that exceed all standard
     <br><br><br>
     <div class="row">
         <div class="span-2-of-3">
-            <a class="btn-free-eval" href="index.html#form"><h3><p><ion-icon class= "arrow-btn" name="arrow-undo-outline"></ion-icon>Fill out our free locker evaluation</p></h3></a>
+            <a class="btn-free-eval" href="index.html#form"><h3><ion-icon class= "arrow-btn" name="arrow-undo-outline"></ion-icon>Fill out our free locker evaluation</h3></a>
         </div>
     </div>
     <br><br><br>
@@ -739,17 +737,17 @@ You and your guests deserve the highest quality lockers that exceed all standard
 </footer>
 <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
-<script type="text/javascript" src="https://cdn.jotfor.ms/before-after/before-after.min.js"></script>
+<script src="https://cdn.jotfor.ms/before-after/before-after.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
 <script src="vendors/js/jquery.waypoints.min.js"></script>
 <script src="resources/js/script.js"></script>
-<script type="text/javascript">
+<script>
     $('.ba-slider').beforeAfter();
     $('.ba-slider-1').beforeAfter();
     $('.ba-slider-2').beforeAfter();
     $('.ba-slider-3').beforeAfter();
-        </script>
+</script>
 <script src="vendors/js/lightbox.js"></script>
 <script>
     function init() {

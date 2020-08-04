@@ -188,206 +188,206 @@ for (i = 0; i < coll.length; i++) {
 
 /* Animation */
 
-$('.js--fade-in-1').waypoint(function(direction)  {
+$('.js--fade-in-1').waypoint(function() {
   $('.js--fade-in-1').addClass('animate__fadeIn');
 }, {
   offset: '70%'
 });
 
-$('.js--fade-in-2').waypoint(function(direction)  {
+$('.js--fade-in-2').waypoint(function() {
   $('.js--fade-in-2').addClass('animate__fadeIn');
 }, {
   offset: '92%'
 });
 
-$('.js--fade-in-3').waypoint(function(direction)  {
+$('.js--fade-in-3').waypoint(function() {
   $('.js--fade-in-3').addClass('animate__fadeIn');
 }, {
   offset: '92%'
 });
 
-$('.js--fade-in-4').waypoint(function(direction)  {
+$('.js--fade-in-4').waypoint(function() {
   $('.js--fade-in-4').addClass('animate__fadeIn');
 }, {
   offset: '92%'
 });
 
-$('.js--zoom-in-1').waypoint(function(direction)  {
+$('.js--zoom-in-1').waypoint(function() {
   $('.js--zoom-in-1').addClass('animate__zoomIn');
 }, {
   offset: '99%'
 });
 
-$('.js--back-in-up-1').waypoint(function(direction)  {
+$('.js--back-in-up-1').waypoint(function() {
   $('.js--back-in-up-1').addClass('animate__backInUp');
 }, {
   offset: '99%'
 });
 
-$('.js--back-in-up-2').waypoint(function(direction)  {
+$('.js--back-in-up-2').waypoint(function() {
   $('.js--back-in-up-2').addClass('animate__backInUp');
 }, {
   offset: '99%'
 });
 
-$('.js--fade-in-up-1').waypoint(function(direction)  {
+$('.js--fade-in-up-1').waypoint(function() {
   $('.js--fade-in-up-1').addClass('animate__fadeInUp');
 }, {
   offset: '88%'
 });
 
-$('.js--fade-in-up-2').waypoint(function(direction)  {
+$('.js--fade-in-up-2').waypoint(function() {
   $('.js--fade-in-up-2').addClass('animate__fadeInUp');
 }, {
   offset: '80%'
 });
 
-$('.js--fade-in-up-3').waypoint(function(direction)  {
+$('.js--fade-in-up-3').waypoint(function() {
   $('.js--fade-in-up-3').addClass('animate__fadeInUp');
 }, {
   offset: '75%'
 });
 
-$('.js--fade-in-up-4').waypoint(function(direction)  {
+$('.js--fade-in-up-4').waypoint(function() {
   $('.js--fade-in-up-4').addClass('animate__fadeInUp');
 }, {
   offset: '88%'
 });
 
-$('.js--fade-in-up-5').waypoint(function(direction)  {
+$('.js--fade-in-up-5').waypoint(function() {
   $('.js--fade-in-up-5').addClass('animate__fadeInUp');
 }, {
   offset: '88%'
 });
 
-$('.js--fade-in-up-6').waypoint(function(direction)  {
+$('.js--fade-in-up-6').waypoint(function() {
   $('.js--fade-in-up-6').addClass('animate__fadeInUp');
 }, {
   offset: '88%'
 });
 
 
-$('.js--in-down-big-1').waypoint(function(direction)  {
+$('.js--in-down-big-1').waypoint(function() {
   $('.js--in-down-big-1').addClass('animate__fadeInDownBig');
 }, {
   offset: '105%'
 });
 
-$('.js--fade-in-left-1').waypoint(function(direction)  {
+$('.js--fade-in-left-1').waypoint(function() {
   $('.js--fade-in-left-1').addClass('animate__fadeInLeft');
 }, {
   offset: '92%'
 });
 
-$('.js--fade-in-left-2').waypoint(function(direction)  {
+$('.js--fade-in-left-2').waypoint(function() {
   $('.js--fade-in-left-2').addClass('animate__fadeInLeft');
 }, {
   offset: '85%'
 });
 
-$('.js--fade-in-left-3').waypoint(function(direction)  {
+$('.js--fade-in-left-3').waypoint(function() {
   $('.js--fade-in-left-3').addClass('animate__fadeInLeft');
 }, {
   offset: '99%'
 });
 
-$('.js--fade-in-left-4').waypoint(function(direction)  {
+$('.js--fade-in-left-4').waypoint(function() {
   $('.js--fade-in-left-4').addClass('animate__fadeInLeft');
 }, {
   offset: '99%'
 });
 
-$('.js--fade-in-left-5').waypoint(function(direction)  {
+$('.js--fade-in-left-5').waypoint(function() {
   $('.js--fade-in-left-5').addClass('animate__fadeInLeft');
 }, {
   offset: '90%'
 });
 
-$('.js--fade-in-left-6').waypoint(function(direction)  {
+$('.js--fade-in-left-6').waypoint(function() {
   $('.js--fade-in-left-6').addClass('animate__fadeInLeft');
 }, {
   offset: '89%'
 });
 
-$('.js--fade-in-left-7').waypoint(function(direction)  {
+$('.js--fade-in-left-7').waypoint(function() {
   $('.js--fade-in-left-7').addClass('animate__fadeInLeft');
 }, {
   offset: '88%'
 });
 
-$('.js--fade-in-right-1').waypoint(function(direction)  {
+$('.js--fade-in-right-1').waypoint(function() {
   $('.js--fade-in-right-1').addClass('animate__fadeInRight');
 }, {
   offset: '92%'
 });
 
-$('.js--fade-in-right-2').waypoint(function(direction)  {
+$('.js--fade-in-right-2').waypoint(function() {
   $('.js--fade-in-right-2').addClass('animate__fadeInRight');
 }, {
   offset: '92%'
 });
 
-$('.js--fade-in-right-3').waypoint(function(direction)  {
+$('.js--fade-in-right-3').waypoint(function() {
   $('.js--fade-in-right-3').addClass('animate__fadeInRight');
 }, {
   offset: '85%'
 });
 
-$('.js--fade-in-right-4').waypoint(function(direction)  {
+$('.js--fade-in-right-4').waypoint(function() {
   $('.js--fade-in-right-4').addClass('animate__fadeInRight');
 }, {
   offset: '90%'
 });
 
-$('.js--fade-in-right-5').waypoint(function(direction)  {
+$('.js--fade-in-right-5').waypoint(function() {
   $('.js--fade-in-right-5').addClass('animate__fadeInRight');
 }, {
   offset: '89%'
 });
 
-$('.js--fade-in-right-6').waypoint(function(direction)  {
+$('.js--fade-in-right-6').waypoint(function() {
   $('.js--fade-in-right-6').addClass('animate__fadeInRight');
 }, {
   offset: '88%'
 });
 
-$('.js--fade-in-right-7').waypoint(function(direction)  {
+$('.js--fade-in-right-7').waypoint(function() {
   $('.js--fade-in-right-7').addClass('animate__fadeInRight');
 }, {
   offset: '92%'
 });
 
-$('.js--fade-in-right-8').waypoint(function(direction)  {
+$('.js--fade-in-right-8').waypoint(function() {
   $('.js--fade-in-right-8').addClass('animate__fadeInRight');
 }, {
   offset: '92%'
 });
 
-$('.js--fast-in-right-1').waypoint(function(direction)  {
+$('.js--fast-in-right-1').waypoint(function() {
   $('.js--fast-in-right-1').addClass('animate__lightSpeedInRight');
 }, {
   offset: '98%'
 });
 
-$('.js--fast-in-right-2').waypoint(function(direction)  {
+$('.js--fast-in-right-2').waypoint(function() {
   $('.js--fast-in-right-2').addClass('animate__lightSpeedInRight');
 }, {
   offset: '65%'
 });
 
-$('.js--flip-in-x-1').waypoint(function(direction)  {
+$('.js--flip-in-x-1').waypoint(function() {
   $('.js--flip-in-x-1').addClass('animate__flipInX');
 }, {
   offset: '105%'
 });
 
-$('.js--flip-in-x-2').waypoint(function(direction)  {
+$('.js--flip-in-x-2').waypoint(function() {
   $('.js--flip-in-x-2').addClass('animate__flipInX');
 }, {
   offset: '105%'
 });
 
-$('.js--bouncein-1').waypoint(function(direction)  {
+$('.js--bouncein-1').waypoint(function() {
   $('.js--bouncein-1').addClass('animate__tada');
 }, {
   offset: '95%'

@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /_mm/
+Disallow: /_notes/
+Disallow: /_baks/
+Disallow: /MMWIP/
+Disallow: /customers/
+Disallow: /dev/
+Disallow: /downloads/
+Disallow: /accounts/
+
+User-agent: googlebot
+Disallow: *.csi
