@@ -410,7 +410,10 @@ h3 ul {  margin: 10px 50px 10px 50px;}
 
 img.locker-pic2 {margin-top: 25px;}
 
-.banner-advant-tech {padding: 100px 0;}
+.banner-advant-tech {
+    padding: 100px 0;
+    background-size: cover;
+}
 
 .box-need {margin-left: 0 !important;}
 
