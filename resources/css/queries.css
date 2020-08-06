@@ -1,6 +1,8 @@
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (min-width: 2561px) {
 
+.about-spacer {margin-top: 25px;}
+
 .everywhere-you-go-3 {padding: 0}
 
 .mapouter-large {
@@ -228,6 +230,7 @@ ul.bullets h2:first-child {margin-top: 20px;}
 
 .contact-spacer4:after {margin-top: 41px;}
 
+.intro-advant,
 .privacy-copy2,
 .privacy-copy,
 .about-copy {width: 70%;
@@ -309,6 +312,8 @@ div.icon-row {padding: 1%;}
 /* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 865px) {
 
+.case-pad-top {padding-top: 80px;}
+
 .contact-copy {font-size: 16px;}
 
 .nav-update-text {font-size: 14px;}
@@ -336,6 +341,7 @@ h1 {font-size: 260%}
 
 .box-2 {margin: 0 0 30px 0;}
 .box-2-add {margin-top: 30px;}
+.cs-box-2-add {padding-top: 30px;}
 
 
 h3 ul {  margin: 10px 50px 10px 50px;}
@@ -364,6 +370,8 @@ h3 ul {  margin: 10px 50px 10px 50px;}
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 768px) {
+
+.faq-mob-pad {margin-bottom: 30px;}
 
 .site-map {font-size: 14px;}
 
@@ -597,6 +605,7 @@ margin-bottom: 8px;
 .study-red2-t-pad {padding: 50px 0 0 0;}
 .study-red2-b-pad {padding: 0 0 40px 0;}
 
+.intro-advant,
 .advant-copy,
 .advant-intro-copy {
     width: 90%;
@@ -689,6 +698,7 @@ h2 {font-size: 5.5vw;
     margin: 10px 0 5px 0;
 }
 
+.about-copy,
 .protech-copy,
 .intro-advant,
 p.intro {
@@ -979,7 +989,10 @@ margin-bottom: 6%;
 
 .site-map {font-size: 12px;}
 
-.privacy-copy2, .privacy-copy, .about-copy {
+.intro-advant,
+.privacy-copy2,
+.privacy-copy,
+.about-copy {
     width: 90%;
     margin-left: 5%;
 }
@@ -1011,7 +1024,11 @@ margin-bottom: 6%;
 .ba-slider-2 img,
 .ba-slider-3 img {max-width: 350px;}
 
-.faq-mob-pad {padding: 5%;}
+.faq-mob-pad {
+    padding: 5%;
+    font-size: 8vw;
+}
+
 .advant-mob-pad {padding: 12% 5%;}
 
 .intro-advant {padding-top: 0;}
@@ -1074,6 +1091,8 @@ h2.ele2-spacer:after {
 .section-lockers,
 .advant-spacer {margin-top: 6%;}
 
+.advant-spacer {margin-bottom: 5%;}
+
 h2.h2-ele-title {padding: 18% 5% 90px 5%;}
 
 h2.h2-ele2-title {padding: 7% 5% 13% 5%;}
@@ -1118,6 +1137,8 @@ div .btn-ele-sizes:visited {
 .title-long-logo {
     margin: 10px 25% -5px 25%;}
 
+.about-copy,
+.intro-advant,
 p.intro {font-size: 5vw;}
 
 .btn-read:link,
@@ -1229,10 +1250,19 @@ h2.h2-form {margin-top: 30px;}
 
 .header2-pt {font-size: 6vw;}
 
+.case-pad-top {padding-top: 50px;}
+
 }
 
 /* Small phones: from 300px to 480px */
 @media only screen and (max-width: 412px) {
+
+.faq-mob-pad {margin-bottom: 0;}
+
+.faq-section-2 {
+    padding-bottom: 0;
+    padding-top: 40px;
+}
 
 .contact-spacer3:before {margin-bottom: 30px;}
 

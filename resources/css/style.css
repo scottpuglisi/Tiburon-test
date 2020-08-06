@@ -2,6 +2,8 @@
 /* Made By Scott Puglisi */
 /*------------------------------------*/
 
+.faq-mob-pad {margin-bottom: 60px;}
+
 i.fa-birthday-cake {font-size: 600%;}
 
 .advant-pic-left-fix {margin-left: 1% !important;}
@@ -1221,6 +1223,8 @@ section {padding: 30px 50px;}
     padding-bottom: 50px;
 }
 
+.case-pad-top {padding-top: 50px;}
+
 .section-features2 {
     text-align: center;
     padding: 50px 50px 30px 50px;
@@ -1312,7 +1316,7 @@ img.center-fin {
     background-size: 100% 100%;
 }
 
-.box-specs2 {margin-top: 0;}
+.box-specs2 {margin-top: 0 !important;}
 
 .box .read-flex-box {
     justify-content: flex-start;
@@ -1669,8 +1673,8 @@ p.intro {
     text-align-last: center;
     text-align: justify;
     line-height: 1.5;
-    width: 45%;
-    margin-left: 27.5%;
+    width: 44%;
+    margin-left: 28%;
     margin-bottom: 30px;
     padding-top: 15px;
 }
@@ -1844,6 +1848,15 @@ div.case-pad-2 {padding: 1% 8%;}
     color: #ff3a22;
     font-weight: 900;
     margin-bottom: 25px;
+}
+
+.icon-advant-tech-3 {
+    margin: -7px 0 0 0;
+    font-size: 225%;
+    font-style: normal;
+    color: #ff3a22;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Pro";
 }
 
 .icon-advant-tech-2 {
@@ -2237,7 +2250,7 @@ h4 {
     margin: 3%;
 }
 
-.about-spacer {margin-top: 15px;}
+.about-spacer {margin-top: 20px;}
 
 .about-spacer:after {
     display: block;
