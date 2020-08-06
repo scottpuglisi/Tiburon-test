@@ -1,6 +1,8 @@
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (min-width: 2561px) {
 
+.everywhere-you-go-3 {padding: 0}
+
 .mapouter-large {
     height: 500px;
     width: 742px;}
