@@ -453,7 +453,6 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
     color: #ff1e00;
     position: absolute;
     z-index: 100;
-    margin-left: -100px;
     background: -webkit-linear-gradient(#c64e3d, #f43d27);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -464,7 +463,6 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
     display: initial !important;
     position: absolute;
     z-index: 100;
-    margin-left: -22px;
     background: -webkit-linear-gradient(#c64e3d, #f43d27);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
