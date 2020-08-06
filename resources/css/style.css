@@ -786,6 +786,7 @@ ul.site-map li {padding-top: 5%;}
 .indent {margin-left: 40px;}
 
 .site-map {
+    line-height: 1.5;
     text-align: left;
 }
 
