@@ -19,7 +19,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <script src="https://kit.fontawesome.com/a9d33181e5.js"></script>
+    
     <title>Tiburon Lockers - Home</title>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 </head>
 <body class="body-width">
     <header>
@@ -388,7 +390,11 @@ Our dependable locker systems are proven to drive your locker revenue to its pea
     <h3 class="banner-pad case-bold-1">
 Get a value-added locker solution that exceeds the highest expectations from Tiburon Lockers</h3>
 </section>
-
+<script type="text/javascript">
+       function recaptcha_callback() {
+       $('#formsubmit').removeAttr('disabled');
+        };                                  
+ </script>
 <section id="form" class="js--section-form">
     <div class="row section-form">
         <h2 class="h2-form">Get Your Free Locker Evaluation</h2>
@@ -396,6 +402,7 @@ Get a value-added locker solution that exceeds the highest expectations from Tib
 
     <div class="row">
         <form method="post" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" class="contact-form">
+            <input type=hidden name='captcha_settings' value='{"keyname":"tiburon","fallback":"true","orgId":"00DA0000000HPIC","ts":""}'>
             <INPUT type="hidden" name="oid" value="00DA0000000HPIC">
             <INPUT type="hidden" name="retURL" value="http://www.tiburonlockers.com/thanks.html">
             <div class="row form-question">
@@ -486,13 +493,23 @@ Get a value-added locker solution that exceeds the highest expectations from Tib
                     <textarea id="00NF0000008OXbH" name="00NF0000008OXbH"></textarea>
                 </div>
             </div>
-            <br>
-            <!-- <input type="hidden" name="debug" value=1>  -->                            
-            <!-- <input type="hidden" name="debugEmail" value="kjallad@tiburonlockers.com"> -->
+     
                 <div class="row">
-                    <div style="text-align: center"></div>
-                    <input type="submit" value="Get Lockers">
+
+                    <div class="col span-2-of-3">
+                        <div class="g-recaptcha"  data-sitekey="6LcS4L4ZAAAAAEDXjcWktS9qb2AuhCO58MY1Tm8l" data-callback="recaptcha_callback" ></div>
+                       
+                    </div>
+                    <div class="col span-1-of-3">
+                        <input id="formsubmit" type="submit" value="Get Lockers"> 
+                    </div>
+                  
                 </div>
+  
+                <div class="row">
+                
+                </div>
+  
             </form>
         </div>
     </section>
