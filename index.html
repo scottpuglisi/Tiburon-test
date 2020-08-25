@@ -399,6 +399,7 @@ Get a value-added locker solution that exceeds the highest expectations from Tib
             
             <INPUT type="hidden" name="oid" value="00DA0000000HPIC">
             <INPUT type="hidden" name="retURL" value="http://www.tiburonlockers.com/thanks.html">
+            <INPUT type="hidden" name="lead_source" name="lead_source" value="webtolead" >
 
             <div class="row form-question">
                 <div class="col span-1-of-3 form-question">
@@ -503,6 +504,7 @@ Get a value-added locker solution that exceeds the highest expectations from Tib
         </div>
     </section>
 <br><br><br>
+
 <footer>
     <div class="row">
         <div class="col span-2-of-3">
@@ -543,5 +545,13 @@ Get a value-added locker solution that exceeds the highest expectations from Tib
 <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
 <script src="vendors/js/jquery.waypoints.min.js"></script>
 <script src="resources/js/script.js"></script>
+
+<script>
+var tf = document.getElementById('webtolead');
+tf.onsubmit = function(){
+    document.getElementById('description').value = document.getElementById('description').value + '--+-+';
+    tf.submit();
+};
+</script>
 </body>
 </html>
