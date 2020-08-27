@@ -1406,19 +1406,15 @@ label,
 /* Small phones: from 300px to 480px */
 @media only screen and (max-width: 333px) {
 
-.new-feats-par,
-.new-feats-par2 {
-    font-size: 1.5vh;
-    display: initial;
-}
+.new-feats-num {font-size: 3vh;}
 
-.new-feats-num {font-size: 2vh;}
-
+.new-feats-par2,
 .new-feats-par {
 padding-bottom: 2vh;
 font-size: 1.5vh;
 width: 100%;
 margin-left: 0;
+line-height: 1.75;
 }
 
 .locker-specs-bg {height: auto;}
