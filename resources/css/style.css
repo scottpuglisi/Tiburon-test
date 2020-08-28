@@ -1318,18 +1318,6 @@ img.center-fin {
     height: auto;
 }
 
-.box-specs {
-    position: relative;
-    border-radius: 20px;
-    color: #F7F7F7;
-    text-align: center;
-    padding: 3%;
-    box-shadow: 6px 6px 5px rgba(168, 159, 159, 0.8);
-    background: linear-gradient( rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60) ), url('img/specs-bg.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
 .box-specs2 {margin-top: 0 !important;}
 
 .box .read-flex-box {
@@ -2878,8 +2866,8 @@ input[type=submit]:active {
 /* Header */
 /*------------------------------------*/
 
-.locker-specs-bg {
-    background-image: url(../img/kiosk-feat.png);
+.no-webp .locker-specs-bg {
+    background: url(img/kiosk-feat.png);
     height: 85vh;
     max-height: 1224px;
     min-height: 650px;
@@ -2889,37 +2877,84 @@ input[type=submit]:active {
     background-position: center top;
 }
 
+.webp .locker-specs-bg {
+    background: url(img-webp/kiosk-feat.webp);
+    height: 85vh;
+    max-height: 1224px;
+    min-height: 650px;
+    background-attachment: inherit;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.webp .box-specs {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img-webp/specs-bg.webp);}
+.no-webp .box-specs {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/specs-bg.png);}
+.no-webp .box-specs {background-image: linear-gradient( rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60) ), url(img/specs-bg.png);}
+.webp .box-specs {background-image: linear-gradient( rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60) ), url(img-webp/specs-bg.webp);}
+.box-specs {
+    position: relative;
+    border-radius: 20px;
+    color: #F7F7F7;
+    text-align: center;
+    padding: 3%;
+    box-shadow: 6px 6px 5px rgba(168, 159, 159, 0.8);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.webp .faq-header {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img-webp/faq-header.webp);}
+.no-webp .faq-header {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/faq-header.png);}
+.webp .faq-header {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img-webp/faq-header.webp);}
+.no-webp .faq-header {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/faq-header.png);}
+.faq-header {
+    padding: 5px 0%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: inherit;
+    height: 50vh;
+}
+
+.webp .advant-banner-2 {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img-webp/advant-banner-2.webp);}
+.no-webp .advant-banner-2 {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/advant-banner-2.jpg);}
+.webp .advant-banner-2 {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img-webp/advant-banner-2.webp);}
+.no-webp .advant-banner-2 {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/advant-banner-2.jpg);}
 .advant-banner-2 {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/advant-banner-2.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/advant-banner-2.jpg);
     background-size: cover;
     background-position: top center;
     background-attachment: fixed;
     padding: 200px 0;
 }
 
+.webp .banner-cross {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img-webp/locker-banner.webp);}
+.no-webp .banner-cross {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/locker-banner.jpg);}
+.webp .banner-cross {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img-webp/locker-banner.webp);}
+.no-webp .banner-cross {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/locker-banner.jpg);}
 .banner-cross {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/locker-banner.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/locker-banner.jpg);
     background-size: cover;
     background-position: top center;
     background-attachment: fixed;
     padding: 200px 0;
 }
 
+.webp .locker-banner-2 {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img-webp/locker-banner-2.webp);}
+.no-webp .locker-banner-2 {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/locker-banner-2.jpg);}
+.webp .locker-banner-2 {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img-webp/locker-banner-2.webp);}
+.no-webp .locker-banner-2 {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/locker-banner-2.jpg);}
 .locker-banner-2 {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.45)), to(rgba(0, 0, 0, 0.45))), url(img/locker-banner-2.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(img/locker-banner-2.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     padding: 30vh 0;
 }
 
-
+.webp .banner-advant-tech {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img-webp/pl_banner.webp);}
+.no-webp .banner-advant-tech {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/pl_banner.jpg);}
+.webp .banner-advant-tech {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img-webp/pl_banner.webp);}
+.no-webp .banner-advant-tech {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/pl_banner.jpg);}
 .banner-advant-tech {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.60))), url(img/pl_banner.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/pl_banner.jpg);
     background-position: center;
     height: 30%;
     max-width: 100%;
@@ -2927,9 +2962,11 @@ input[type=submit]:active {
     padding: 50px 0;
 }
 
+.webp .contact-cross {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img-webp/sb-kiosk-rail.webp);}
+.no-webp .contact-cross {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/sb-kiosk-rail.jpg);}
+.webp .contact-cross {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img-webp/sb-kiosk-rail.webp);}
+.no-webp .contact-cross {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/sb-kiosk-rail.jpg);}
 .contact-cross {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/sb-kiosk-rail.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/sb-kiosk-rail.jpg);
     background-size: cover;
     background-position: center;
     height: 30%;
@@ -2937,9 +2974,11 @@ input[type=submit]:active {
     padding: 200px 0;
 }
 
+.webp .coin-banner {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img-webp/coin-banner.webp);}
+.no-webp .coin-banner {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/coin-banner.jpg);}
+.webp .coin-banner {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img-webp/coin-banner.webp);}
+.no-webp .coin-banner {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/coin-banner.jpg);}
 .coin-banner {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/coin-banner.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/coin-banner.jpg);
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
@@ -2947,9 +2986,11 @@ input[type=submit]:active {
     padding: 250px 0;
 }
 
+.webp .contact-banner {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img-webp/contact-banner.webp);}
+.no-webp .contact-banner {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/contact-banner.jpg);}
+.webp .contact-banner {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img-webp/contact-banner.webp);}
+.no-webp .contact-banner {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/contact-banner.jpg);}
 .contact-banner {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/contact-banner.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/contact-banner.jpg);
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
@@ -2957,27 +2998,33 @@ input[type=submit]:active {
     padding: 300px 0;
 }
 
+.webp .faq-bannerh {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img-webp/faq-banner.webp);}
+.no-webp .faq-banner {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/faq-banner.jpg);}
+.webp .faq-banner {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img-webp/faq-banner.webp);}
+.no-webp .faq-banner {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/faq-banner.jpg);}
 .faq-banner {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/faq-banner.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/faq-banner.jpg);
     background-size: cover;
     background-position: top center;
     background-attachment: fixed;
     padding: 300px 0;
 }
 
+.webp .protech-banner {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img-webp/locker-banner-3.webp);}
+.no-webp .protech-banner {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/locker-banner-3.jpg);}
+.webp .protech-banner {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img-webp/locker-banner-3.webp);}
+.no-webp .protech-banner {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/locker-banner-3.jpg);}
 .protech-banner {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.50)), to(rgba(0, 0, 0, 0.50))), url(img/locker-banner-3.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(img/locker-banner-3.jpg);
     background-size: cover;
     background-position: top center;
     background-attachment: fixed;
     padding: 300px 0;
 }
 
+.webp header {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img-webp/hero.webp);}
+.no-webp header {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/hero.jpg);}
+.webp header {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img-webp/hero.webp);}
+.no-webp header {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/hero.jpg);}
 header {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/hero.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/hero.jpg);
     background-size: cover;
     background-position: left;
     height: 100vh;
@@ -2993,44 +3040,55 @@ header {
     background-attachment: fixed;
 }
 
+.webp .header-lockers {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img-webp/coin-header.webp);}
+.no-webp .header-lockers {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/coin-header.jpg);}
+.webp .header-lockers {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img-webp/coin-header.webp);}
+.no-webp .header-lockers {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/coin-header.jpg);}
 .header-lockers {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/coin-header.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/coin-header.jpg);
     background-size: cover;
     background-position: right;
     background-attachment: inherit;
     height: 80vh;
 }
+
+.webp .header-ele-lockers {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img-webp/pp-headon-header.webp);}
+.no-webp .header-ele-lockers {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/pp-headon-header.jpg);}
+.webp .header-ele-lockers {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img-webp/pp-headon-header.webp);}
+.no-webp .header-ele-lockers {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/pp-headon-header.jpg);}
 .header-ele-lockers {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/pp-headon-header.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/pp-headon-header.jpg);
     background-size: cover;
     background-position: center; 
     background-attachment: inherit;
     height: 80vh;
 }
 
+.webp .header-advant {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img-webp/lockers-header.webp);}
+.no-webp .header-advant {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/lockers-header.jpg);}
+.webp .header-advant {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img-webp/lockers-header.webp);}
+.no-webp .header-advant {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/lockers-header.jpg);}
 .header-advant {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/lockers-header.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/lockers-header.jpg);
     background-size: cover;
     background-position: left;
     background-attachment: inherit;
     height: 50vh;
 }
 
+.webp .header-contact {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img-webp/contact-header.webp);}
+.no-webp .header-contact {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/contact-header.jpg);}
+.webp .header-contact {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img-webp/contact-header.webp);}
+.no-webp .header-contact {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/contact-header.jpg);}
 .header-contact {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/contact-hero.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/contact-header.jpg);
     background-size: cover;
     background-position: bottom;
     background-attachment: inherit;
     height: 50vh;
 }
 
+.webp .header-about {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img-webp/about-header.webp);}
+.no-webp .header-about {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/about-header.jpg);}
+.webp .header-about {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img-webp/about-header.webp);}
+.no-webp .header-about {background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/about-header.jpg);}
 .header-about {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/about-header.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/about-header.jpg);
     background-size: cover;
     background-position: left;
     background-attachment: inherit;
@@ -3041,7 +3099,6 @@ header {
     margin: 0;
     color: #ff3;
     font-size: 120%;
-    
 }
 
 .footer-contact {
@@ -3377,16 +3434,6 @@ section .locations {
     background: -webkit-linear-gradient(to right, #0072ff, #000080);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #0072ff, #000080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
-    
-.faq-header {
-    padding: 5px 0%;
-    margin: 0 auto;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/faq-hero.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/faq-header.jpg);
-    background-size: cover;
-    background-position: bottom;
-    background-attachment: inherit;
-    height: 50vh;    }
 
 .everything-need {
     color: #f7f7f7;

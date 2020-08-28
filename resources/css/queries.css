@@ -1006,9 +1006,6 @@ margin-bottom: 6%;
     margin-top: 0;
 }
 
-.about-spacer-2:after,
-.advant-spacer-2:after {margin-top: 20px;}
-
 .slider-text {font-size: 14px;}
 
 .ba-slider .handle:after,
@@ -1406,6 +1403,8 @@ label,
 /* Small phones: from 300px to 480px */
 @media only screen and (max-width: 333px) {
 
+.intro-advant {margin-bottom: 30px;}
+
 .new-feats-num {font-size: 3vh;}
 
 .new-feats-par2,
@@ -1502,6 +1501,9 @@ margin-left: .5%;
 
 /* TINY: from 0px to 269px */
 @media only screen and (max-width: 215px) {
+
+.about-spacer-2:after,
+.advant-spacer-2:after {margin-top: 30px;}
 
 .slider-text {top: 40.3%;}
 

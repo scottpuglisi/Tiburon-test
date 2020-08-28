@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <script src="https://kit.fontawesome.com/a9d33181e5.js"></script>
+    <title>Tiburon Lockers</title>
 </head>
 <body class="body-width">
     <header>
@@ -697,7 +698,17 @@ Get a value-added locker solution that exceeds the highest expectations from Tib
 <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
 <script src="vendors/js/jquery.waypoints.min.js"></script>
 <script src="resources/js/script.js"></script>
-
+<script src="/vendors/js/modernizr-custom.js"></script>
+<script>
+    Modernizr.on('webp', function (result) {
+      if (result) {
+    // Has WebP support
+}
+  else {
+    // No WebP support
+  }
+    });
+</script>
 <script>
 var tf = document.getElementById('webtolead');
 tf.onsubmit = function(){
