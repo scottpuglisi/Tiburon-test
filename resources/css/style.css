@@ -2,10 +2,9 @@
 /* Made By Scott Puglisi */
 /*------------------------------------*/
 
-.captch-space {
+form .g-recaptcha {
     display: flex;
-    justify-content: space-between;
-    position: relative;
+    justify-content: center;
     padding-bottom: 2%;
 }
 
@@ -2911,7 +2910,6 @@ input[type=submit]:active {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 
 .webp .faq-header {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img-webp/faq-header.webp);}
 .no-webp .faq-header {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.60)), to(rgba(0, 0, 0, 0.60))), url(img/faq-header.png);}
