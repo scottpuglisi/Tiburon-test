@@ -2,13 +2,21 @@
 /* Made By Scott Puglisi */
 /*------------------------------------*/
 
-#captcha-id {
+.captcha-center {
     display: flex;
     justify-content: center;
     padding-bottom: 2%;
 }
 
-form iframe {width: 100%;}
+form iframe {
+    width: 304px;
+    height: 78px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+}
 
 .blue-eval-btn-imp {border: 4px solid #000080 !important;}
 
