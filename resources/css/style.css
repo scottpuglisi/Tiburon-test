@@ -2,6 +2,12 @@
 /* Made By Scott Puglisi */
 /*------------------------------------*/
 
+form iframe {width: 100%;}
+
+.center-captch  {
+    padding-left:-25px
+}
+
 .blue-eval-btn-imp {border: 4px solid #000080 !important;}
 
 .faq-mob-pad {margin-bottom: 60px;}
