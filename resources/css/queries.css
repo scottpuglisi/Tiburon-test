@@ -1,6 +1,10 @@
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (min-width: 2561px) {
 
+.cjd-support {
+    font-size: 46px !important;
+}
+
 .about-spacer {margin-top: 25px;}
 
 .everywhere-you-go-3 {padding: 0}
@@ -125,6 +129,11 @@ h1.protech-text-head,
 
 /* Big tablet to 1200px (Widths smaller than the 1140px row) */
 @media only screen and (max-width: 1200px) {
+
+.cjd-support {
+    font-size: 24px;
+    padding: 1.5rem;
+}
     
 .slider-text {top: 45.5%;}
 
@@ -194,6 +203,13 @@ h3.case-study {line-height: 1.25;}
 
 /* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
+
+.cjd-btn:link,
+.cjd-btn:visited,
+.cjd-btn:hover,
+.cjd-btn:active {
+    width: 60%;
+}
 
 .slider-text {
     top: 41.5%;
@@ -372,6 +388,13 @@ h3 ul {  margin: 10px 50px 10px 50px;}
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 768px) {
+
+.cjd-btn:link,
+.cjd-btn:visited,
+.cjd-btn:hover,
+.cjd-btn:active {
+    width: 90%;
+}
 
 .faq-mob-pad {margin-bottom: 30px;}
 
@@ -1258,6 +1281,14 @@ h2.h2-form {margin-top: 30px;}
 /* Small phones: from 300px to 480px */
 @media only screen and (max-width: 412px) {
 
+.cjd-support {
+    font-size: 18px;
+}
+
+.cjd-support, .cjd-banner {
+    padding: .5rem;
+}    
+
 .faq-mob-pad {margin-bottom: 0;}
 
 .faq-section-2 {
@@ -1402,6 +1433,10 @@ label,
 
 /* Small phones: from 300px to 480px */
 @media only screen and (max-width: 333px) {
+
+.cjd-tib-logo {
+    min-width: 100px;
+}
 
 .intro-advant {margin-bottom: 30px;}
 
