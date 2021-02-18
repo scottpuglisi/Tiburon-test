@@ -60,17 +60,20 @@
       <loc>http://www.tiburonlockers.com/about.html</loc>
       <changefreq>monthly</changefreq>
       <lastmod>2020-07-31</lastmod>
+      <changefreq>monthly</changefreq>
    </url>
 
    <url>
       <loc>http://www.tiburonlockers.com/faq.html</loc>
       <changefreq>monthly</changefreq>
       <lastmod>2020-07-31</lastmod>
+      <changefreq>monthly</changefreq>
    </url>
 
    <url>
       <loc>http://www.tiburonlockers.com/contact.html</loc>
       <lastmod>2020-07-31</lastmod>
+      <changefreq>monthly</changefreq>
    </url>
 
    <url>
@@ -82,26 +85,31 @@
    <url>
       <loc>http://www.tiburonlockers.com/company-news.html</loc>
       <lastmod>2020-07-31</lastmod>
+      <changefreq>monthly</changefreq> 
    </url>
 
     <url>
       <loc>http://www.tiburonlockers.com/careers.html</loc>
       <lastmod>2020-07-31</lastmod>
+      <changefreq>monthly</changefreq>
    </url>
 
     <url>
       <loc>http://www.tiburonlockers.com/patents.html</loc>
       <lastmod>2020-07-31</lastmod>
+      <changefreq>monthly</changefreq>
    </url>
 
     <url>
       <loc>http://www.tiburonlockers.com/privacy.html</loc>
       <lastmod>2020-07-31</lastmod>
+      <changefreq>monthly</changefreq>
    </url>
 
    <url>
       <loc>http://www.tiburonlockers.com/site-map.html</loc>
       <lastmod>2020-07-31</lastmod>
+      <changefreq>monthly</changefreq>
    </url>
 
 </urlset>
