@@ -2,6 +2,16 @@
 /* Made By Scott Puglisi */
 /*------------------------------------*/
 
+/* Safari 6.1+ */
+div#contact-1   {-webkit-order: 2;}
+div#contact-2 {-webkit-order: 1;}
+div#contact-3  {-webkit-order: 3;}
+
+/* Standard syntax */
+div#contact-1   {order: 2;}
+div#contact-2 {order: 1;}
+div#contact-3  {order: 3;}
+
 .cjd-text {
     width: 85%;
     word-spacing: 2px;
@@ -152,11 +162,12 @@ nav .js--nav-update {padding: 0;}
     color: #f7f7f7;
     display: flex;
     width: 100%;
+    padding: 1.5% 0;
 }
 
 .nav-update-text-2 {
     background-color: black;
-    height: 60px;
+    height: 55px;
     border-bottom: 3px solid #ff3a22;
     border-top: 3px solid #ff3a22;
     margin: 0 auto;
@@ -434,12 +445,6 @@ img.shark-mask-pic {
     padding-top: 90px;
     max-width: 40%;
     height: auto;
-}
-
-.arrow-btn {
-    transform: rotate(180deg);
-    font-size: 80%;
-    padding-left: 3px;
 }
 
 .underline {text-decoration: none;}
@@ -1402,6 +1407,7 @@ img.center-fin {
 
 .box-faq:hover,
 .box-faq:visited {
+    cursor: pointer;
     background-color: #d1f3ffb9;
     -webkit-transition: background-color 0.3s, border 0.3s, color 0.3s;
     transition: background-color 0.3s, border 0.3s, color 0.3s;
@@ -1409,6 +1415,8 @@ img.center-fin {
 
 .box-faq:visited .faq-click-head,
 .box-faq:hover .faq-click-head {text-decoration: underline;}
+
+.faq-click-head {padding-top: .5rem;}
 
 .box-4 {width: 100%}
 
@@ -1870,25 +1878,24 @@ div.case-pad-2 {padding: 1% 8%;}
 
 .icon-small2 {font-size: 37px !important; }
 
-.icon-big-wh {
-    padding: 0;
-    color: #f7f7f7 !important;
-    font-size: 200%;
-    display: block;
-}
-
 .icon-big {
-    font-size: 200%;
+    font-size: 220%;
     display: block;
     color: #ff3a22;
     padding-top: 10px;
 }
 
 .icon-big-2 {
-    font-size: 250%;
+    font-size: 255%;
     display: block;
     color: #ff3a22;
     padding-top: 10px;
+}
+
+.icon-big,
+.icon-big-2 {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .icon-flag {
@@ -1928,8 +1935,21 @@ div.case-pad-2 {padding: 1% 8%;}
 }
 
 .i-advant-tech-rs {
-    padding-bottom: 1px;
-    font-size: 190%;
+    font-size: 200%;
+}
+
+.arrow-btn {
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+}
+
+.icon-arrow-btn {
+    padding: 2px 5px 0 0;
+    font-size: 120%;
+    font-style: normal;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Pro";
+    display: inline-block;
 }
 
 .icon-need {
@@ -1942,12 +1962,12 @@ div.case-pad-2 {padding: 1% 8%;}
 }
 
 .icon-contact {
-    margin-top: 190px;
-    font-size: 200%;
+    font-size: 125% !important;
     font-style: normal;
     color: #ff3a22;
     font-weight: 900;
     font-family: "Font Awesome 5 Pro";
+    padding: 10px 0 !important;
 }
 
 .icon-advant-big {
@@ -2634,8 +2654,8 @@ h2.contact-spacer-maps {
 
 p.btn-border-trans {
     z-index: 9999;
-    margin-top: 4px;
-    margin-bottom: 3px;
+    margin-top: 2px;
+    margin-bottom: 1px;
     padding: 3px;
     border-bottom: 3px solid rgba(255, 255, 51, 0);
 }
@@ -3260,7 +3280,6 @@ nav {
     border-bottom: 3px solid rgba(0, 0, 0, 0);
     -webkit-transition: border-bottom .3s;
     transition: border-bottom .3s;
-    padding-bottom: 6px;
 }
 
 .main-nav li a:hover,
@@ -3313,6 +3332,7 @@ nav {
     z-index: 9999;
 }
 
+.fas .fa-times,
 .mobile-nav-icon i.ion-md-close {
     font-size: 165%;
     color: #F7F7F7;
@@ -3772,6 +3792,7 @@ footer p {
     margin-top: 15px;
   }
 
+.chart-line-faq {font-size: 186% !important;}
 
 /*------------------------------------*/
 /* Animations */

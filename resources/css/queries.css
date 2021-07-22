@@ -578,10 +578,9 @@ h2.h2-ele-subtext {font-size: 3.5vw;}
 .dropbtn-ele-sticky {padding: 0 0 25px 0;}
 .dropbtn-advant-sticky {padding: 0 0 25px 0;}
 
-.logo {
-    height: 45px;
-    margin: 5px 0;
-}
+.logo {margin-left: 0;}
+
+.logo-padding {padding-left: 7px;}
 
 .top-sticky .main-nav {background-color:#040404;
     float: left;
@@ -909,9 +908,11 @@ iframe {
     width: 80vw;
 }
 
-#contact-md {order: 2;}
-#contact-corp {order: 1;}
-#contact-cnd {order: 3;}
+#contact-md, #contact-2 {order: 2;}
+#contact-corp, #contact-1 {order: 1;}
+#contact-cnd, #contact- {order: 3;}
+
+.contact-order {display: flex; flex-direction: column;}
 
 .footer-width {
     margin-left: 20%;
@@ -1508,10 +1509,11 @@ h2.h2-ele2-title {padding: 6% 5% 18% 5%;}
 
 p.lockers-intro-alt:last-child {padding-bottom: 20px;}
 
+.fas .fa-times,
 .mobile-nav-icon i.ion-md-close,
 .mobile-nav-icon i {
 font-size: 140%;
-padding: 12px 5px;
+padding: 7px 7px 5px 5px;
 }
 
 .long-logo {
@@ -1527,14 +1529,14 @@ padding: 12px 5px;
 
 .logo,
 .logo-black {
-height: 25px;
+height: 35px;
 margin-top: 12px;
 margin-left: .5%;
 }
 
 }
 
-/* TINY: from 0px to 269px */
+/* TINY: from 0px to 215px */
 @media only screen and (max-width: 215px) {
 
 .about-spacer-2:after,
@@ -1605,12 +1607,16 @@ h2.h2-ele2-title {padding-bottom: 35px;}
 
 .icon-advant-tech {font-size: 17vw;}
 
+.fas .fa-times,
+.fas .fa-bars,
 .mobile-nav-icon i.ion-md-close,
-.mobile-nav-icon i {font-size: 105%;}
+.mobile-nav-icon i {
+    font-size: 70%;
+    padding: 12px 5px;
+}
 
 .logo,
-.logo-black {height: 15px;;
-}
+.logo-black {height: 25px;}
 
 .testimonial-resize {height: 30px;}
 

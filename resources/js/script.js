@@ -152,15 +152,15 @@ $('.js--nav-icon').click(function() {
   var update = $('.js--nav-update');
 
   nav.slideToggle(200);
-  if (icon.hasClass('ion-md-reorder')) {
-      icon.addClass('ion-md-close');
-      icon.removeClass('ion-md-reorder');
+  if (icon.hasClass('fa-bars')) {
+      icon.addClass('fa-times');
+      icon.removeClass('fa-bars');
   } else {
-      icon.addClass('ion-md-reorder');
-      icon.removeClass('ion-md-close');
+      icon.addClass('fa-bars');
+      icon.removeClass('fa-times');
   }
 
-  if (icon.hasClass('ion-md-reorder')) {
+  if (icon.hasClass('fa-bars')) {
       update.addClass('nav-update-text');
       update.removeClass('nav-update-text-2');
   } else {
