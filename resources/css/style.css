@@ -525,19 +525,19 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
     left: 1px;
 }
 
-.ba-slider {
+.ba-slider-4 {
     position: relative;
     float: right;
     overflow: hidden;
 }
  
-.ba-slider img {
+.ba-slider-4 img {
     width: auto !important;
     display:block;
     max-width: 600px;
 }
  
-.ba-slider .resize {
+.ba-slider-4 .resize {
     position: absolute;
     top:0;
     left: 0;
@@ -546,7 +546,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
     overflow: hidden;
 }
 
-.ba-slider .handle { /* Thin line seperator */
+.ba-slider-4 .handle { /* Thin line seperator */
   position:absolute; 
   left:50%;
   top:0;
@@ -557,7 +557,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
   cursor: ew-resize;
 }
  
-.ba-slider .handle:after {  /* Big orange knob  */
+.ba-slider-4 .handle:after {  /* Big orange knob  */
     position: absolute;
     top: 50%;
     width: 64px;
@@ -581,7 +581,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
       inset 0 60px 50px -30px #ffd466; /* lighten(@orange, 20%)*/ 
 }
 
-.ba-slider .handle.ba-draggable:after {
+.ba-slider-4 .handle.ba-draggable:after {
     width: 56px;
     height: 56px;
     margin: -28px 0 0 -28px;
@@ -3251,6 +3251,8 @@ header {
     margin: 0 30%; 
 }
 
+.logo-padding {padding-bottom: 5px;}
+
 /*------------------------------------*/
 /* Main Nav */
 /*------------------------------------*/
@@ -3725,7 +3727,7 @@ iframe {
 
 
 footer {
-    background-color: #333;
+    background-color: #444547;
     padding: 20px;
 }
 

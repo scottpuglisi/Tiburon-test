@@ -91,7 +91,7 @@ ul.bullets h2 {font-size: 34px;}
 /* Big tablet to 1200px (Widths smaller than the 1140px row) */
 @media only screen and (max-width: 1500px) {
 
-.ba-slider img,
+.ba-slider-4 img,
 .ba-slider-1 img,
 .ba-slider-2 img,
 .ba-slider-3 img {max-width: 500px;}
@@ -137,7 +137,7 @@ h1.protech-text-head,
     
 .slider-text {top: 45.5%;}
 
-.ba-slider img,
+.ba-slider-4 img,
 .ba-slider-1 img,
 .ba-slider-2 img,
 .ba-slider-3 img {max-width: 400px;}
@@ -199,6 +199,8 @@ h3.case-study {line-height: 1.25;}
 
 .susp-link-top {font-size: 1.5vw;}
 
+.nav-update-text {height: 70px;}
+
 }
 
 /* Small tablet to big tablet: from 768px to 1023px */
@@ -216,7 +218,7 @@ h3.case-study {line-height: 1.25;}
     left: 1px;
 }
 
-.ba-slider img,
+.ba-slider-4 img,
 .ba-slider-1 img,
 .ba-slider-2 img,
 .ba-slider-3 img {max-width: 300px;}
@@ -402,7 +404,7 @@ h3 ul {  margin: 10px 50px 10px 50px;}
 
 .slider-text {top: 47.5%;}
 
-.ba-slider img,
+.ba-slider-4 img,
 .ba-slider-1 img,
 .ba-slider-2 img,
 .ba-slider-3 img {max-width: 500px;}
@@ -960,7 +962,7 @@ margin-bottom: 25px;
 
 .slider-text {top: 46.5%;}
 
-.ba-slider img,
+.ba-slider-4 img,
 .ba-slider-1 img,
 .ba-slider-2 img,
 .ba-slider-3 img {max-width: 400px;}
@@ -1032,7 +1034,7 @@ margin-bottom: 6%;
 
 .slider-text {font-size: 14px;}
 
-.ba-slider .handle:after,
+.ba-slider-4 .handle:after,
 .ba-slider-1 .handle:after,
 .ba-slider-2 .handle:after,
 .ba-slider-3 .handle:after {  /* Big orange knob  */
@@ -1044,7 +1046,7 @@ margin-bottom: 6%;
 
 .slider-text {top: 43.5%;}
 
-.ba-slider img,
+.ba-slider-4 img,
 .ba-slider-1 img,
 .ba-slider-2 img,
 .ba-slider-3 img {max-width: 350px;}
@@ -1301,7 +1303,7 @@ h2.h2-form {margin-top: 30px;}
 
 .slider-text {top: 42.3%;}
 
-.ba-slider img,
+.ba-slider-4 img,
 .ba-slider-1 img,
 .ba-slider-2 img,
 .ba-slider-3 img {max-width: 250px;}
@@ -1435,6 +1437,8 @@ label,
 /* Small phones: from 300px to 480px */
 @media only screen and (max-width: 333px) {
 
+
+
 .cjd-tib-logo {
     min-width: 100px;
 }
@@ -1464,7 +1468,7 @@ ul.site-map li {padding-top: 8%;}
 
 .slider-text {top: 41.3%;}
 
-.ba-slider img,
+.ba-slider-4 img,
 .ba-slider-1 img,
 .ba-slider-2 img,
 .ba-slider-3 img {max-width: 200px;}
@@ -1544,7 +1548,7 @@ margin-left: .5%;
 
 .slider-text {top: 40.3%;}
 
-.ba-slider img,
+.ba-slider-4 img,
 .ba-slider-1 img,
 .ba-slider-2 img,
 .ba-slider-3 img {max-width: 100px;}
