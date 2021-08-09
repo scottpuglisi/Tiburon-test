@@ -1295,7 +1295,7 @@ margin-top: 0;}
 .ele-lockers-pic-pad {padding-top: 0;
     padding-bottom: 0;}
 
-.contact-spacing { padding: 0;}
+.contact-spacing {padding: 0 3% !important;}
 
 img.center-pic-intro {
     display: block;
@@ -3239,7 +3239,7 @@ header {
     width: auto;
     float: left;
     margin-left: 9px;
-    margin-top: 9px;
+    margin-top: 14px;
 }
 
 .title-long-logo {max-width: 50%;
@@ -3251,12 +3251,9 @@ header {
     margin: 0 30%; 
 }
 
-.logo-padding {padding-bottom: 5px;}
-
 /*------------------------------------*/
 /* Main Nav */
 /*------------------------------------*/
-
 
 .addt-qs-marg,
 nav {
@@ -3725,6 +3722,7 @@ iframe {
 /* Footer */
 /*------------------------------------*/
 
+.footer-0-marg {margin-bottom: 0;}
 
 footer {
     background-color: #444547;
